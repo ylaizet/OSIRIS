@@ -2,4 +2,4 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Alteration in specimen | AlterationType | AlterationType | O15 | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/ConceptualDomain/OSIRIS--AlterationType#OSIRIS:AlterationType) |  | General type of the detected genetic alteration (high level type) |
+| Alteration in specimen | AlterationType | AlterationType | O15 | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/ConceptualDomain/OSIRIS--AlterationType.md#OSIRIS:AlterationType) |  | General type of the detected genetic alteration (high level type) |
