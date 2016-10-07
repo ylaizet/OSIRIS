@@ -3,7 +3,8 @@
   ![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
   
 # Mdr
-## [Home](https://github.com/ylaizet/OSIRIS/blob/master/DataElementConcept/Home.md)
+DataElementConcept [Home](https://github.com/ylaizet/OSIRIS/blob/master/DataElementConcept/Home.md) page
+ConceptualDomain [Home](https://github.com/ylaizet/OSIRIS/blob/master/ConceptualDomain/Home.md) page
 
 ## Content
 The content of the docs may be found at [docs/](docs/)
