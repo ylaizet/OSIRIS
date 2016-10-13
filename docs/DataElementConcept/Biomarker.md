@@ -1,5 +1,6 @@
-# Molécule Administrée
+# Biomarker
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Molécule Administrée | Code molécule | Code molécule | C36 | [ATC 5e niveau](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ATC 5e niveau.md#ATC 5e niveau) |  |  |
+| Biomarker | BiomarkerCode | Code du marqueur | C39 |  | Nom du marqueur |  |
+| Biomarker | BiomarkerStatus | Statut du marqueur | C40 |  | Statut de marqueur |  |

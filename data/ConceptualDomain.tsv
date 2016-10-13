@@ -1,0 +1,250 @@
+ObjectClass	ObjectProperty	DataElementConcept	DefDataElementConcept	ValueMeaning	LabelValueMeaning	Referentiel	url	ConceptualDomain	TypeConceptualDomain	FormatConceptualDomain	IdDataElementConcept	
+Specimen	Laboratory	Laboratory	Identifier of the laboratory / center that identified the specimen						nonEnumerated	String	O1	comments
+Specimen	PatientId	PatientId	Identifier of the patient that links to the clinical data (depends on the center)						nonEnumerated	String	O2	
+Specimen	SpecimenId	SpecimenId	Genetic sample or derived product identifier						nonEnumerated	String	O3	
+Technology	TechnicalProtocol MolecularType | Domain	TechnicalProtocol MolecularType | Domain							Enumerated	String	O4	
+Technology	TechnologyType	TechnologyType	Technology used for the experiment						Enumerated	String	O5	
+Technology	TechnicalProtocol	TechnicalProtocol	Protocol used for the experiment						Enumerated	String	O6	
+Technology	PlatformName	PlatformName	Technological platform name (provider followed by the platform name)						Enumerated	String	O7	
+Technology	PlatformAccession	PlatformAccession	GEO Identifier of the platform						Enumerated	String	O8	
+Technology	DateOfExperiment	DateOfExperiment	Date when the experiment was performed						nonEnumerated	Date	O9	
+Panel	PanelName	PanelName	Name of the panel targeted by the experimental analysis (provider + name)						Enumerated	String	O10	
+Analysis	AnalyticPipelineCode	AnalyticPipelineCode	Identifier of the pipeline used into the analysis (unique in the center)						nonEnumerated	String	O11	
+Experiment on specimen	AlgorithmicCellularity	AlgorithmicCellularity	Calculated percentage of tumor cells in sample						nonEnumerated	Integer	O12	
+Experiment on specimen	AlgorithmicPloïdy	AlgorithmicPloïdy	Calculated number of sets of chromosomes in a cell of the sample						Enumerated	String	O13	
+Experiment on specimen/CpyNb Quality filter	NumberOfBreakPoints	NumberOfBreakPoints	Calculated number of break points in genomic profile						nonEnumerated	Integer	O14	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Gene expression	Gene expression	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Protein expression	Protein expression	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Fusion	Fusion	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Copy number variation	Copy number variation	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Genetic variant	Genetic variant	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Structural alteration	Structural alteration	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Transcription factor	Transcription factor	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Histone marks	Histone marks	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Transcript isoform	Transcript isoform	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)	Viral insertion site	Viral insertion site	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15	
+Alteration	ValidationType	ValidationType	Type of validation of the detected alteration	Experimental	Experimental	OSIRIS			Enumerated	String	O16	
+Alteration	ValidationType	ValidationType	Type of validation of the detected alteration	By biologist	By biologist	OSIRIS			Enumerated	String	O16	
+Alteration	ValidationType	ValidationType	Type of validation of the detected alteration	In silico	In silico	OSIRIS			Enumerated	String	O16	
+Validation	ValidationMethod	ValidationMethod	Validation method depending on the type of validation			OSIRIS			nonEnumerated	String	O17	
+Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration	Not Validated	Not Validated	OSIRIS			Enumerated	String	O18	
+Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration	Validated	Validated	OSIRIS			Enumerated	String	O18	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21254-0	chr1	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21255-7	chr2	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21256-5	chr3	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21257-3	chr4	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21258-1	chr5	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21259-9	chr6	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21260-7	chr7	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21261-5	chr8	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21262-3	chr9	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21263-1	chr10	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21264-9	chr11	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21265-6	chr12	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21266-4	chr13	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21267-2	chr14	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21268-0	chr15	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21269-8	chr16	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21270-6	chr17	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21271-4	chr18	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21272-2	chr19	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21273-0	chr20	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21274-8	chr21	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21275-5	chr22	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21276-3	chrX	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	LA21277-1	chrY	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	MT	MT	OSIRIS			Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	viral	viral	OSIRIS			Enumerated	String	O19	
+Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding	bacterial	bacterial	OSIRIS			Enumerated	String	O19	
+Alteration	GenomicStart	GenomicStart	Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based			FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstart.html	FHIR:extension-geneticsgenomicstart	nonEnumerated	Integer	O20	
+Alteration	GenomicStop	GenomicStop	Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based			FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	FHIR:extension-geneticsgenomicstop	nonEnumerated	Integer	O21	Pb 0/1 based
+Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference	GRCh37	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsgenomebuild	Enumerated	String	O22	pb custom enum vs FHIR
+Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference	GRCh38	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsgenomebuild	Enumerated	String	O22	
+Alteration	Cytoband	Cytoband	Cytogenetic location			OSIRIS	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz		nonEnumerated	String	O23	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	gene	gene	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	miRNA	miRNA	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	piRNA	piRNA	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	mRNA	mRNA	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	ncRNA	ncRNA	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...	ORF	ORF	OSIRIS			Enumerated	String	O24	
+Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity	HGNC	HGNC	OSIRIS			Enumerated	String	O25	
+Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity	miRDB	miRDB	OSIRIS			Enumerated	String	O25	
+Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity	Entrez	Entrez	OSIRIS			Enumerated	String	O25	
+Genome entity	GenomeEntityId	GenomeEntityId	Identifier of the genome entity in the genome entity database			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html	extension-observation-geneticsgene	nonEnumerated	String	O26	FHIR defini les deux: symbol et id dans le meme item
+Genome entity	GeneSymbol	GeneSymbol	Hugo gene symbol			LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O27	liste existe mais fait on explicitement la liste? Vianney que vas tu faire pour tes grosses listes de valeurs? label in loinc: Gene studied OK lien HUGO
+Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough	LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	LOINC:81289-1	Enumerated	String	O28	prendre ou laisser OSIRIS?
+Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough	readthrough	readthrough	OSIRIS			Enumerated	String	O28	
+Fusion	FusionTranscript	FusionTranscript	Have been found from a fusion transcript ?			OSIRIS			nonEnumerated	Boolean	O29	
+Fusion	FusionTranscriptReference	FusionTranscriptReference	Accession number of observed fusion			OSIRIS			nonEnumerated	String	O30	Reprendre element meme si c'est pour une fusion? OUI
+Fusion	FusionGeneSymbol5prime	FusionGeneSymbol5prime	Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end			LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O31	
+Fusion	FusionRegionName5prime	FusionRegionName5prime	Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	extension-observation-geneticsdnaregionname	nonEnumerated	String	O32	
+Fusion	FusionTranscriptReferenceSequenceId5prime	FusionTranscriptReferenceSequenceId5prime	Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html	FHIR:extension-observation-geneticstranscriptreferencesequenceid	nonEnumerated	String	O33	
+Fusion	FusionStrand5prime	FusionStrand5prime	Strand of the 5 prime fusion partner			OSIRIS			nonEnumerated	String	O34	+/- ?
+Fusion	FusionPoint5prime	FusionPoint5prime	Position of the fusion point on the 5 prime partner						nonEnumerated	String	O35	
+Fusion	FusionGeneSymbol3prime	FusionGeneSymbol3prime	Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end			LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O36	
+Fusion	FusionRegionName3prime	FusionRegionName3prime	Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	extension-observation-geneticsdnaregionname	nonEnumerated	String	O37	
+Fusion	FusionTranscriptReferenceSequenceId3prime	FusionTranscriptReferenceSequenceId3prime	Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html	FHIR:extension-observation-geneticstranscriptreferencesequenceid	nonEnumerated	String	O38	
+Fusion	FusionStrand3prime	FusionStrand3prime	Strand of the 3 prime fusion partner			OSIRIS			nonEnumerated	String	O39	+/- ?
+Fusion	FusionPoint3prime	FusionPoint3prime	Position of the fusion point on the 3 prime partner						nonEnumerated	Integer	O40	
+Fusion	FusionInFrame	FusionInFrame	Specify whether the fusion is in frame			OSIRIS			nonEnumerated	Boolean	O41	
+Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion	ChimerDb	ChimerDb	OSIRIS			Enumerated	String	O42	
+Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion	Oncofuse	Oncofuse	OSIRIS			Enumerated	String	O42	
+Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion	Mittelman DB	Mittelman DB	OSIRIS			Enumerated	String	O42	
+Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	Annotation of the fusion			OSIRIS			nonEnumerated	String	O43	
+Fusion/QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	Number of reads pairs spanning the fusion			OSIRIS			nonEnumerated	Integer	O44	
+Fusion/QualityFilter	FusionNbSpanningReads	FusionNbSpanningReads	Number of reads spanning the fusion			OSIRIS			nonEnumerated	Integer	O45	
+Segment copy number	SegmentIntensity	SegmentIntensity	Intensity of the measured signal			OSIRIS			nonEnumerated	Float	O47	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Amplification	Amplification	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Gain	Gain	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Normal	Normal	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Heretozygous deletion	Heretozygous deletion	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Homozygous deletion	Homozygous deletion	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Copy neutral	Copy neutral	OSIRIS			Enumerated	String	O49	
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status	Isodisomy	Isodisomy	OSIRIS			Enumerated	String	O49	
+Segment copy number	CopyNumber	CopyNumber	Estimated DNA copy number			OSIRIS			nonEnumerated	Integer	O50	
+Segment LOH	LossOfHeterozygosity	LossOfHeterozygosity	Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information			OSIRIS			nonEnumerated	Boolean	O51	
+Reference variant	ReferenceAllele	ReferenceAllele	Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion.			FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele	FHIR:Sequence.referenceAllele	nonEnumerated	String	O53	
+Reference variant	AlternativeAllele	AlternativeAllele	Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion.			FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele	FHIR:Sequence.observedAllele	nonEnumerated	String	O54	
+Reference variant	DNASequenceVariationType	DNASequenceVariationType	Codified type of the DNA sequence variation	LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	LOINC:48019-4	codelist	String	O55	
+Reference variant	DNASequenceVariationType	DNASequenceVariationType	Codified type of the DNA sequence variation	LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	LOINC:48019-4	codelist	String	O55	
+Reference variant	DNASequenceVariationType	DNASequenceVariationType	Codified type of the DNA sequence variation	LA6687-3	Insertion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	LOINC:48019-4	codelist	String	O55	
+Reference variant	DNASequenceVariationType	DNASequenceVariationType	Codified type of the DNA sequence variation	LA6689-9	Inversion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	LOINC:48019-4	codelist	String	O55	
+Reference variant	DNASequenceVariationType	DNASequenceVariationType	Codified type of the DNA sequence variation	LA6690-7	Substitution	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	LOINC:48019-4	codelist	String	O55	
+Reference variant	VariationDatabase	VariationDatabase	Name of the variation database						Enumerated	String	O56	
+Reference variant	VariationId	VariationId	Identifier for variant in the variation database			OSIRIS			nonEnumerated	String	O57	
+Reference variant	PfamDomain	PfamDomain	Pfams domains related to alteration position			OSIRIS			nonEnumerated	String	O58	
+Reference variant	PfamId	PfamId	Identifier of Pfams domains related to alteration position			OSIRIS			nonEnumerated	String	O59	
+Reference variant	PopulationFrequencyDatabase	PopulationFrequencyDatabase	Name of the Population Frequency Database	1000 genomes		OSIRIS			Enumerated	String	O60	
+Reference variant	PopulationFrequencyDatabase	PopulationFrequencyDatabase	Name of the Population Frequency Database	ESP		OSIRIS			Enumerated	String	O60	
+Reference variant	PopulationFrequency	PopulationFrequency	Frequency of the alteration of the population			OSIRIS			nonEnumerated	Float	O61	
+Reference variant	MutationPredictionAlgorithm	MutationPredictionAlgorithm	Algorithm to predict the variation effect over the protein	SIFT	SIFT	OSIRIS			Enumerated	String	O63	
+Reference variant	MutationPredictionAlgorithm	MutationPredictionAlgorithm	Algorithm to predict the variation effect over the protein	POLYPHEN2_HDIV	POLYPHEN2_HDIV	OSIRIS			Enumerated	String	O63	
+Reference variant	MutationPredictionValue	MutationPredictionValue	Prediction of the variation effect over the protein						codelist	String	O64	
+Reference variant	MutationPredictionScore	MutationPredictionScore	Level of confidence of the prediction of the variation effect over the protein						nonEnumerated	Float	O65	
+Reference variant	DNARegionName	DNARegionName	Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3')			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	FHIR:extension-observation-geneticsdnaregionname	nonEnumerated	String	O66	
+Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	Name of the protein reference database	RefSeq	RefSeq	OSIRIS			Enumerated	String	O67	
+Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	Name of the protein reference database	SwissProt	SwissProt	OSIRIS			Enumerated	String	O67	
+Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	Name of the protein reference database	UniProt	UniProt	OSIRIS			Enumerated	String	O67	
+Protein	ProteinReferenceSequenceId	ProteinReferenceSequenceId	Reference identifier of the protein transcript			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html	FHIR:extension-observation-geneticsproteinreferencesequenceid	nonEnumerated	String	O68	
+Exonic variant	TranscriptReferenceDatabase	TranscriptReferenceDatabase	Name of the sequence reference database	RefSeq	RefSeq	OSIRIS			Enumerated	String	O69	
+Exonic variant	TranscriptReferenceDatabase	TranscriptReferenceDatabase	Name of the sequence reference database	Ensembl	Ensembl	OSIRIS			Enumerated	String	O69	
+Exonic variant	TranscriptReferenceSequenceId	TranscriptReferenceSequenceId	Reference identifier of the transcript			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html	FHIR:extension-observation-geneticstranscriptreferencesequenceid	nonEnumerated	String	O70	
+Exonic variant	DNASequenceVariation	DNASequenceVariation	HGVS nomenclature on the chosen transcript			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html	FHIR:extension-observation-geneticsdnasequencevariation	nonEnumerated	String	O71	
+Exonic variant	AminoAcidChange	AminoAcidChange	HGVS nomenclature on the chosen protein transcript			FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html	FHIR:extension-observation-geneticsaminoacidchange	nonEnumerated	String	O72	
+Exonic variant	GenomicSequenceVariation	GenomicSequenceVariation	HGVS nomenclature on the given GenomeReferenceSequenceId.			OSIRIS			nonEnumerated	String	O73	
+Exonic variant	RNASequenceVariation	RNASequenceVariation	HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.			OSIRIS			nonEnumerated	String	O74	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Deletion	LA6692-3	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Duplication	LA6686-5	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Frameshift	LA6694-9	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Initiating Methionine	LA6695-6	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Insertion	LA6687-3	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Insertion and Deletion	LA9659-9	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Missense	LA6698-0	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Nonsense	LA6699-8	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Silent	LA6700-4	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	Stop Codon Mutation	LA6701-2	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75	
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level	In frame	OSIRIS				Enumerated	String	O75	certaines valeurs à vérifier pour concordance entre loinc et OSIRIS
+Variant in specimen	PositionCoverage	PositionCoverage	Total coverage at the variant position observed in the specimen			OSIRIS			nonEnumerated	Integer	O76	
+Variant in specimen	VariantCoverage	VariantCoverage	Coverage of the alternative allele at the variant position observed in the specimen			OSIRIS			nonEnumerated	Integer	O77	
+Variant in specimen	StrandBias	StrandBias	Indication of the existence of strand bias at the variant position			OSIRIS			nonEnumerated	Boolean	O78	
+Variant in specimen	GenomicSourceClass	GenomicSourceClass	Genomic class of the variant (eg: germline, somatic, and prenatal)	Germline	Germline	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	LA6683-2	Enumerated	String	O79	
+Variant in specimen	GenomicSourceClass	GenomicSourceClass	Genomic class of the variant (eg: germline, somatic, and prenatal)	Somatic	Somatic	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	LA6684-0	Enumerated	String	O79	
+Variant in specimen	GenomicSourceClass	GenomicSourceClass	Genomic class of the variant (eg: germline, somatic, and prenatal)	Prenatal	Prenatal	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	LA10429-1	Enumerated	String	O79	
+Variant in specimen	GenomicSourceClass	GenomicSourceClass	Genomic class of the variant (eg: germline, somatic, and prenatal)	Unknown genomic origin	Unknown genomic origin	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	LA18197-6	Enumerated	String	O79	
+Variant in specimen	AllelicState	AllelicState	Level of allelic occurrence of a DNA Sequence Variation	Heteroplasmic	Heteroplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	LA6703-8	Enumerated	String	O80	
+Variant in specimen	AllelicState	AllelicState	Level of allelic occurrence of a DNA Sequence Variation	Homoplasmic	Homoplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	LA6704-6	Enumerated	String	O80	
+Variant in specimen	AllelicState	AllelicState	Level of allelic occurrence of a DNA Sequence Variation	Homozygous	Homozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	LA6705-3	Enumerated	String	O80	
+Variant in specimen	AllelicState	AllelicState	Level of allelic occurrence of a DNA Sequence Variation	Heterozygous	Heterozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	LA6706-1	Enumerated	String	O80	
+Variant in specimen	AllelicState	AllelicState	Level of allelic occurrence of a DNA Sequence Variation	Hemizygous	Hemizygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	LA6707-9	Enumerated	String	O80	
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	Pathogenic	Pathogenic	ACMG			Enumerated	String	O81	
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	Likely pathogenic	Likely pathogenic	ACMG			Enumerated	String	O81	
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	Benign	Benign	ACMG			Enumerated	String	O81	
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	Likely benign	Likely benign	ACMG			Enumerated	String	O81	
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	Uncertain significance	Uncertain significance	ACMG			Enumerated	String	O81	
+Variant in specimen	ClinicalTumorBoardConclusion	ClinicalTumorBoardConclusion	Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board	Actionable	Actionable	OSIRIS			Enumerated	String	O82	
+Variant in specimen	ClinicalTumorBoardConclusion	ClinicalTumorBoardConclusion	Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board	Non actionable	Non actionable	OSIRIS			Enumerated	String	O82	
+Variant in specimen	ProposedForOrientation	ProposedForOrientation	Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?			OSIRIS			nonEnumerated	Boolean	O83	
+Gene expression	ExpressionDataType	ExpressionDataType	Type of the expression value corresponding to the level of data processing	RawExpression	RawExpression	OSIRIS			Enumerated	String	O84	
+Gene expression	ExpressionDataType	ExpressionDataType	Type of the expression value corresponding to the level of data processing	NormalizedExpression	NormalizedExpression	OSIRIS			Enumerated	String	O84	
+Gene expression	ExpressionValue	ExpressionValue	Numerical value for expression			OSIRIS			nonEnumerated	Float	O85	
+Gene expression	ExpressionPvalue	ExpressionPvalue	p-value of the dataset comparison through a statistical method			OSIRIS			nonEnumerated	Float	O86	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	no correction	no correction	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	bonferroni	bonferroni	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	holm	holm	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	hochberg	hochberg	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	hommel	hommel	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	BY	BY	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	BH	BH	OSIRIS			Enumerated	String	O87	
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	fdr	fdr	OSIRIS			Enumerated	String	O87	
+												
+												
+Patient	Id du patient	Id du patient	Identifiant du patient dans le centre transmetteur de l'information						nonEnumerated	String	C1	
+Patient	Sexe	Sexe	Sexe du patient	M	Male	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	v3 Code System AdministrativeGender	Enumerated	String	C2	
+Patient	Sexe	Sexe	Sexe du patient	F	Female	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	v3 Code System AdministrativeGender	Enumerated	String	C2	
+Patient	Sexe	Sexe	Sexe du patient	UN	Undifferentiated	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	v3 Code System AdministrativeGender	Enumerated	String	C2	
+Patient	Date de naissance	Date de naissance	Date de naissance du patient							Date	C3	
+Patient	Date de décès	Date de décès	Date de décès du patient						nonEnumerated	Date	C4	
+Patient	Id du Centre	Id du Centre	Identifiant du centre transmetteur de l'information						nonEnumerated	String	C5	
+Patient	Cause du décès	Cause du décès	Descriptif de la cause de décès du patient	UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	UMLS:C0007465	Enumerated	String	C6	
+Patient	Cause du décès	Cause du décès	Descriptif de la cause de décès du patient	UMLS:C1707251	Other cancer	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	UMLS:C0007465	Enumerated	String	C6	
+Patient	Cause du décès	Cause du décès	Descriptif de la cause de décès du patient	UMLS:C3262234	Other cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	UMLS:C0007465	Enumerated	String	C6	
+Patient	Cause du décès	Cause du décès	Descriptif de la cause de décès du patient	UMLS:C0679861	Complications of treatment	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	UMLS:C0007465	Enumerated	String	C6	
+Patient	Cause du décès	Cause du décès	Descriptif de la cause de décès du patient	UMLS:C0027651	Neoplasm	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	UMLS:C0007465	Enumerated	String	C6	
+Patient	Date de dernières nouvelles	Date de dernières nouvelles	Date de dernières nouvelles du patient (= date de dernière venue du patient si aucune autre information disponible)						nonEnumerated	Date	C7	
+Patient	Etat aux dernières nouvelles	Etat aux dernières nouvelles	Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé)	UMLS:C2584946	Alive (finding)	UMLS			Enumerated	String	C8	
+Patient	Etat aux dernières nouvelles	Etat aux dernières nouvelles	Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé)	ULMS:C1546956	Patient Outcome - Died	UMLS			Enumerated	String	C8	
+Pathologie associée	Code	Code	Code international de la pathologie associée (hors autre cancer).			ICD-10	http://apps.who.int/classifications/icd10/browse/2016/en	ICD-10	Enumerated	String	C9	
+Pathologie associée	Date	Date	Date du diagnostic de la pathologie associée						nonEnumerated	Date	C10	
+Pathologie associée	Date de fin	Date de fin	Date de fin de la pathologie associée (si elle existe et est connue).						nonEnumerated	Date	C11	
+Antécédent carcinologique personnel ou familial	Date de diagnostic	Date de diagnostic	Date de diagnostic de l'antécédent carcinologique						nonEnumerated	Date	C12	
+Antécédent carcinologique personnel ou familial	Code Localisation	Code Localisation	Code international de la localisation de l'antécédent carcinologique			CIM-O-3 Topo		CIM-O-3 Topo	Enumerated	String	C13	
+Antécédent carcinologique personnel ou familial	Code Morphologie / Lésion	Code Morphologie / Lésion	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique			CIM-O-3 Morpho		CIM-O-3 Morpho	Enumerated	String	C14	
+Evénement tumoral	Type	Type	Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	UMLS:C2939419	Secondary Neoplasm	UMLS			Enumerated	String	C15	
+Evénement tumoral	Type	Type	Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	UMLS:C0521158	Recurrent tumor	UMLS			Enumerated	String	C15	
+Evénement tumoral	Type	Type	Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	UMLS:C0677930	primary tumor	UMLS			Enumerated	String	C15	
+Evénement tumoral	Date de début de l'évènement	Date de début de l'évènement	Date de début de l'événement tumoral ou de la maladie						nonEnumerated	Date	C16	
+Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	0	activité normale sans restriction	OMS		OMS	Enumerated	String	C17	
+Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	1	restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger	OMS			Enumerated	String	C17	
+Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	2	ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps	OMS			Enumerated	String	C17	
+Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	3	capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise.	OMS			Enumerated	String	C17	
+Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	4	complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise.	OMS			Enumerated	String	C17	
+Evénement tumoral		Outil de dépistage G8	outil d'évaluation de l'état général des patients âgés ayant un cancer						nonEnumerated	Integer	C18	
+Evénement tumoral		T	Taille de la tumeur, propagation sur le site de la tumeur primitive						Enumerated	String	C19	
+Evénement tumoral		N	Propagation au niveau ganglionnaire						Enumerated	String	C20	
+Evénement tumoral		M	Propagation à distance, présence de métastases						Enumerated	String	C21	
+Evénement tumoral		Version du TNM	Version de la classification TNM						Enumerated	String	C22	
+Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)	c	Clinique				Enumerated	String	C23	
+Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)	p	Pathologique				Enumerated	String	C23	
+Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)	y	Après traitement neoadjuvant				Enumerated	String	C23	
+Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)	u	Radiologique				Enumerated	String	C23	
+Evénement tumoral		Date du diagnostic	Date du diagnostic de l'événement tumoral						nonEnumerated	Date	C24	
+Evénement tumoral		Code Localisation	Code international de la localisation de l'événement tumoral			CIM-O-3 Topo		CIM-O-3 Topo	Enumerated	String	C25	
+Evénement tumoral		Code Morphologie / Lésion	Code international de la lésion / type histologique / morphologie de l'événement tumoral			CIM-O-3 Morpho		CIM-O-3 Morpho	Enumerated	String	C26	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C0238767	Bilateral	UMLS			Enumerated	String	C27	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C0205091	Left	UMLS			Enumerated	String	C27	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C2939193	Median (qualifier value)	UMLS			Enumerated	String	C27	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C1272460	Not Applicable	UMLS			Enumerated	String	C27	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C0205090	Right	UMLS			Enumerated	String	C27	
+Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)	UMLS:C0439673	Unknown	UMLS			Enumerated	String	C27	
+Traitement		Acte	Code CCAM de l'acte			CCAM		CCAM	Enumerated	String	C28	
+Traitement		Type	Type de traitement	UMLS:C3665472	Chemotherapy	UMLS			Enumerated	String	C29	
+Traitement		Type	Type de traitement	UMLS:C0279025	Hormone Therapy	UMLS			Enumerated	String	C29	
+Traitement		Type	Type de traitement	UMLS:C1522449	Therapeutic radiology procedure	UMLS			Enumerated	String	C29	
+Traitement		Type	Type de traitement	UMLS:C0728940	Excision	UMLS			Enumerated	String	C29	
+Traitement		Date de début	Date de début du traitement						nonEnumerated	Date	C30	
+Traitement		Date de fin	Date de fin du traitement						nonEnumerated	Date	C31	
+Traitement		Clinical trial (Yes | No)	Traitement effectué dans un contexte d'étude clinique						Enumerated	String	C32	
+Traitement (Chirurgie)		Qualité de la résection (anapath)	Qualité de la résection (anapath)	R0	Marges macroscopiquement et microscopiquement saines				Enumerated	String	C33	
+Traitement (Chirurgie)		Qualité de la résection (anapath)	Qualité de la résection (anapath)	R1	Marges macroscopiquement saines mais microscopiquement envahies				Enumerated	String	C33	
+Traitement (Chirurgie)		Qualité de la résection (anapath)	Qualité de la résection (anapath)	R2	Marges macroscopiquement et microscopiquement envahies				Enumerated	String	C33	
+Evénement indésirable		Date	Date de l'évenement indésirable						nonEnumerated	Date	C34	
+Evénement indésirable		Date de fin	Date de fin de l'évenement indésirable						nonEnumerated	Date	C35	
+Molécule Administrée		Code molécule	Code de la classification thérapeutique			ATC 5e niveau		ATC 5e niveau	Enumerated	String	C36	
+Echantillon biologique		Id du prélèvement	Identifiant du prélèvement (père) dans le centre			MIABIS-40		MIABIS-40	nonEnumerated	String	C37	
+Echantillon biologique		Id de l'échantillon	Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...)			MIABIS-39		MIABIS-39	nonEnumerated	String	C38	
+Echantillon biologique		Date du prélèvement	Date du prélèvement			MIABIS-43		MIABIS-43	nonEnumerated	Date	C39	
+Echantillon biologique		Code Localisation	Code de la localisation tumorale			CIM-O-3 Topo		CIM-O-3 Topo	Enumerated	String	C40	
+Echantillon biologique		Nature de l'échantillon	La nature du contenu			MIABIS-41/MIABIS-2.0-14			Enumerated	String	C41	
+Echantillon biologique		Type de dérivé (si dérivé)	Le type de dérivé			MIABIS-41/MIABIS-2.0-14			Enumerated	String	C42	
+Echantillon biologique		Mode de conservation	Le mode de conservation			MIABIS-43/MIABIS-2.0-15			Enumerated	String	C43	
+Echantillon biologique		% de cellules tumorales	Le pourcentage de cellules tumorales quantifié dans l'échantillon						nonEnumerated	Integer	C44	
