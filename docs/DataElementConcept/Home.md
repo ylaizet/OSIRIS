@@ -12,7 +12,7 @@
 * [Analysis](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#analysis)
 * [Biomarker](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#biomarker)
 * [Treatment](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#treatment)
-* [Treatment (Type=Surgery)](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#treatment-(type=surgery))
+* [Treatment (Type=Surgery)](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#treatment-typesurgery)
 * [AdverseEvent](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#adverseevent)
 * [Drug](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#drug)
 * [BiologicalSample](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#biologicalsample)

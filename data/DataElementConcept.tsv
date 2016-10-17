@@ -18,7 +18,7 @@ CancerHistory	DiagnosisDate	Date de diagnostic	C16		Date de diagnostic de l'ant�
 CancerHistory	TopographyCode	Code Localisation	C17	CIM-O-3 Topo	Code international de la localisation de l'antécédent carcinologique	
 CancerHistory	MorphologyCode	Code Morphologie / Lésion	C18	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique	
 CancerHistory	Type	Type	C19		Personnel / Familial	
-TumorPathologyEvent	Type	Type d'événement	C20		Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	
+TumorPathologyEvent	Type	Type d'événement	C20		Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	
 TumorPathologyEvent	StartDate	Date de début de l'évènement	C21		Date de début de l'événement tumoral ou de la maladie	
 TumorPathologyEvent	PerformanceStatus	Echelle d'autonomie / Performance status	C22	OMS	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	
 TumorPathologyEvent	G8	Outil de dépistage G8	C23		outil d'évaluation de l'état général des patients âgés ayant un cancer	
@@ -105,8 +105,8 @@ Segment copy number	SegmentIntensity	SegmentIntensity	O47			Intensity of the mea
 Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	O49			Copy number status
 Segment copy number	CopyNumber	CopyNumber	O50			Estimated DNA copy number
 Segment LOH	LossOfHeterozygosity	LossOfHeterozygosity	O51			Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information
-Reference variant	ReferenceAllele	ReferenceAllele	O53	FHIR:Sequence.referenceAllele		Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion.
-Reference variant	AlternativeAllele	AlternativeAllele	O54	FHIR:Sequence.observedAllele		Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion.
+Reference variant	ReferenceAllele	ReferenceAllele	O53	FHIR:Sequence.referenceAllele		Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion.
+Reference variant	AlternativeAllele	AlternativeAllele	O54	FHIR:Sequence.observedAllele		Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion.
 Reference variant	DNASequenceVariationType	DNASequenceVariationType	O55	LOINC:48019-4		Codified type of the DNA sequence variation
 Reference variant	VariationDatabase	VariationDatabase	O56			Name of the variation database
 Reference variant	VariationId	VariationId	O57			Identifier for variant in the variation database
