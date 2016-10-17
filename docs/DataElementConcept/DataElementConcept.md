@@ -11,7 +11,7 @@
 | Patient | BirthDate | Date de naissance | C4 |  | Date de naissance du patient |  |
 | Patient | DeathDate | Date de décès | C5 |  | Date de décès du patient |  |
 | Patient | CenterId | Id du Centre | C6 |  | Identifiant du centre transmetteur de l'information |  |
-| Patient | CauseOfDeath | Cause du décès | C7 | [UMLS:C0007465](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#umls--c0007465) | Descriptif de la cause de décès du patient |  |
+| Patient | CauseOfDeath | Cause du décès | C7 | [UMLS:C0007465](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#umls-c0007465) | Descriptif de la cause de décès du patient |  |
 | Patient | LastNewsDate | Date de dernières nouvelles | C8 |  | Date de dernières nouvelles du patient (= date de dernière venue du patient si aucune autre information disponible) |  |
 | Patient | LastNewsStatus | Etat aux dernières nouvelles | C9 |  | Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé) |  |
 
@@ -117,9 +117,9 @@
 | BiologicalSample | ParentSampleRef | Référence du prélèvement | C55 |  | Numéro de référence du prélèvement (numéro utilisé généralement à la réception d'un ensemble d'échantillons au laboratoire correspondant à un même acte de prélèvement) |  |
 | BiologicalSample | CollectDate | Date du prélèvement | C56 | [MIABIS-43](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43) | Date du prélèvement |  |
 | BiologicalSample | TopographyCode | Code Localisation | C57 | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-topo) | Code de la localisation tumorale |  |
-| BiologicalSample | SampleNature | Nature de l'échantillon | C58 | [MIABIS-41/MIABIS-2.0-14](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-41__miabis-2.0-14) | La nature de l'échantillon |  |
+| BiologicalSample | SampleNature | Nature de l'échantillon | C58 | [MIABIS-41/MIABIS-2.0-14](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-41__miabis-2-0-14) | La nature de l'échantillon |  |
 | BiologicalSample | SampleOrigin | Nature du prélèvement (tumoral / sain) | C59 |  | Nature du prélèvement d'origine (Sain ou Tumoral) |  |
-| BiologicalSample | StorageTemperature | Mode de conservation | C60 | [MIABIS-43/MIABIS-2.0-15](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43__miabis-2.0-15) | Le mode de conservation |  |
+| BiologicalSample | StorageTemperature | Mode de conservation | C60 | [MIABIS-43/MIABIS-2.0-15](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43__miabis-2-0-15) | Le mode de conservation |  |
 | BiologicalSample | TumorCellularity | % de cellules tumorales | C61 |  | Le pourcentage de cellules tumorales quantifié dans l'échantillon |  |
 
 # OMIC
@@ -169,7 +169,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Alteration in specimen | AlterationType | AlterationType | O15 | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiris--alterationtype) |  | General type of the detected genetic alteration (high level type) |
+| Alteration in specimen | AlterationType | AlterationType | O15 | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiris-alterationtype) |  | General type of the detected genetic alteration (high level type) |
 
 ## Validation
 
@@ -183,10 +183,10 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Alteration | Chromosome | Chromosome | O19 | [LOINC:LL2938-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--ll2938-0) |  | Chromosome containing the genetic finding |
-| Alteration | GenomicStart | GenomicStart | O20 | [FHIR:extension-geneticsgenomicstart](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-geneticsgenomicstart) |  | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
-| Alteration | GenomicStop | GenomicStop | O21 | [FHIR:extension-geneticsgenomicstop](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-geneticsgenomicstop) |  | Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
-| Alteration | GenomeBuild | GenomeBuild | O22 | [FHIR:extension-geneticsgenomebuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-geneticsgenomebuild) |  | Genome Build used for reference |
+| Alteration | Chromosome | Chromosome | O19 | [LOINC:LL2938-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-ll2938-0) |  | Chromosome containing the genetic finding |
+| Alteration | GenomicStart | GenomicStart | O20 | [FHIR:extension-geneticsgenomicstart](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-geneticsgenomicstart) |  | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
+| Alteration | GenomicStop | GenomicStop | O21 | [FHIR:extension-geneticsgenomicstop](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-geneticsgenomicstop) |  | Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
+| Alteration | GenomeBuild | GenomeBuild | O22 | [FHIR:extension-geneticsgenomebuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-geneticsgenomebuild) |  | Genome Build used for reference |
 | Alteration | Cytoband | Cytoband | O23 |  |  | Cytogenetic location |
 
 ## Genome entity
@@ -196,7 +196,7 @@
 | Genome entity | GenomeEntityType | GenomeEntityType | O24 |  |  | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | O25 |  |  | Database of the genome entity |
 | Genome entity | GenomeEntityId | GenomeEntityId | O26 | [extension-observation-geneticsgene](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#extension-observation-geneticsgene) |  | Identifier of the genome entity in the genome entity database |
-| Genome entity | GeneSymbol | GeneSymbol | O27 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--48018-6) |  | Hugo gene symbol |
+| Genome entity | GeneSymbol | GeneSymbol | O27 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-48018-6) |  | Hugo gene symbol |
 
 ## Fusion
 
@@ -205,14 +205,14 @@
 | Fusion | FusionType | FusionType | O28 |  |  | Type of the fusion event. For eg: translocation, readthrough |
 | Fusion | FusionTranscript | FusionTranscript | O29 |  |  | Have been found from a fusion transcript ? |
 | Fusion | FusionTranscriptReference | FusionTranscriptReference | O30 |  |  | Accession number of observed fusion |
-| Fusion | GeneSymbol | FusionGeneSymbol5prime | O31 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
+| Fusion | GeneSymbol | FusionGeneSymbol5prime | O31 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
 | Fusion | FusionRegionName5prime | FusionRegionName5prime | O32 | [extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#extension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron |
-| Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId5prime | O33 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
+| Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId5prime | O33 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 | Fusion | FusionStrand5prime | FusionStrand5prime | O34 |  |  | Strand of the 5 prime fusion partner |
 | Fusion | FusionPoint5prime | FusionPoint5prime | O35 |  |  | Position of the fusion point on the 5 prime partner |
-| Fusion | GeneSymbol | FusionGeneSymbol3prime | O36 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
+| Fusion | GeneSymbol | FusionGeneSymbol3prime | O36 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
 | Fusion | FusionRegionName3prime | FusionRegionName3prime | O37 | [extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#extension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
-| Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId3prime | O38 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
+| Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId3prime | O38 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 | Fusion | FusionStrand3prime | FusionStrand3prime | O39 |  |  | Strand of the 3 prime fusion partner |
 | Fusion | FusionPoint3prime | FusionPoint3prime | O40 |  |  | Position of the fusion point on the 3 prime partner |
 | Fusion | FusionInFrame | FusionInFrame | O41 |  |  | Specify whether the fusion is in frame |
@@ -249,9 +249,9 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Reference variant | ReferenceAllele | ReferenceAllele | O53 | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--sequence.referenceallele) |  | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion. |
-| Reference variant | AlternativeAllele | AlternativeAllele | O54 | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--sequence.observedallele) |  | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion. |
-| Reference variant | DNASequenceVariationType | DNASequenceVariationType | O55 | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--48019-4) |  | Codified type of the DNA sequence variation |
+| Reference variant | ReferenceAllele | ReferenceAllele | O53 | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-sequence-referenceallele) |  | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion. |
+| Reference variant | AlternativeAllele | AlternativeAllele | O54 | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-sequence-observedallele) |  | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion. |
+| Reference variant | DNASequenceVariationType | DNASequenceVariationType | O55 | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-48019-4) |  | Codified type of the DNA sequence variation |
 | Reference variant | VariationDatabase | VariationDatabase | O56 |  |  | Name of the variation database |
 | Reference variant | VariationId | VariationId | O57 |  |  | Identifier for variant in the variation database |
 | Reference variant | PfamDomain | PfamDomain | O58 |  |  | Pfams domains related to alteration position |
@@ -259,26 +259,26 @@
 | Reference variant | MutationPredictionAlgorithm | MutationPredictionAlgorithm | O63 |  |  | Algorithm to predict the variation effect over the protein |
 | Reference variant | MutationPredictionValue | MutationPredictionValue | O64 |  |  | Prediction of the variation effect over the protein |
 | Reference variant | MutationPredictionScore | MutationPredictionScore | O65 |  |  | Level of confidence of the prediction of the variation effect over the protein |
-| Reference variant | DNARegionName | DNARegionName | O66 | [FHIR:extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
+| Reference variant | DNARegionName | DNARegionName | O66 | [FHIR:extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
 
 ## Protein
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | O67 |  |  | Name of the protein reference database |
-| Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | O68 | [FHIR:extension-observation-geneticsproteinreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticsproteinreferencesequenceid) |  | Reference identifier of the protein transcript |
+| Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | O68 | [FHIR:extension-observation-geneticsproteinreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticsproteinreferencesequenceid) |  | Reference identifier of the protein transcript |
 
 ## Exonic variant
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Exonic variant | TranscriptReferenceDatabase | TranscriptReferenceDatabase | O69 |  |  | Name of the sequence reference database |
-| Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | O70 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier of the transcript |
-| Exonic variant | DNASequenceVariation | DNASequenceVariation | O71 | [FHIR:extension-observation-geneticsdnasequencevariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticsdnasequencevariation) |  | HGVS nomenclature on the chosen transcript |
-| Exonic variant | AminoAcidChange | AminoAcidChange | O72 | [FHIR:extension-observation-geneticsaminoacidchange](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir--extension-observation-geneticsaminoacidchange) |  | HGVS nomenclature on the chosen protein transcript |
+| Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | O70 | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier of the transcript |
+| Exonic variant | DNASequenceVariation | DNASequenceVariation | O71 | [FHIR:extension-observation-geneticsdnasequencevariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticsdnasequencevariation) |  | HGVS nomenclature on the chosen transcript |
+| Exonic variant | AminoAcidChange | AminoAcidChange | O72 | [FHIR:extension-observation-geneticsaminoacidchange](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhir-extension-observation-geneticsaminoacidchange) |  | HGVS nomenclature on the chosen protein transcript |
 | Exonic variant | GenomicSequenceVariation | GenomicSequenceVariation | O73 |  |  | HGVS nomenclature on the given GenomeReferenceSequenceId. |
 | Exonic variant | RNASequenceVariation | RNASequenceVariation | O74 |  |  | HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA. |
-| Exonic variant | AminoAcidChangeType | AminoAcidChangeType | O75 | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc--48006-1) |  | HGVS nomenclature of changes at protein-level |
+| Exonic variant | AminoAcidChangeType | AminoAcidChangeType | O75 | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc-48006-1) |  | HGVS nomenclature of changes at protein-level |
 
 ## Variant in specimen
 
