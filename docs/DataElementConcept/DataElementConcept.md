@@ -1,7 +1,7 @@
 # CLINICAL
 ---
 
-# Patient
+## Patient
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -15,7 +15,7 @@
 | Patient | LastNewsDate | Date de dernières nouvelles | C8 |  | Date de dernières nouvelles du patient (= date de dernière venue du patient si aucune autre information disponible) |  |
 | Patient | LastNewsStatus | Etat aux dernières nouvelles | C9 |  | Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé) |  |
 
-# Consent
+## Consent
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -23,7 +23,7 @@
 | Consent | IntrinsicAnalysisAuth | Autorisation pour analyses en constitutionnelle | C11 |  | Autorisation pour analyses en constitutionnel |  |
 | Consent | SomaticAnalysisAuth | Autorisation pour analyses en somatique | C12 |  | Autorisation pour analyses en somatique |  |
 
-# RelatedPathology
+## RelatedPathology
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -31,7 +31,7 @@
 | RelatedPathology | DiagnosisDate | Date | C14 |  | Date du diagnostic de la pathologie associée |  |
 | RelatedPathology | PathologyEndDate | Date de fin | C15 |  | Date de fin de la pathologie associée (si elle existe et est connue). |  |
 
-# CancerHistory
+## CancerHistory
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -40,7 +40,7 @@
 | CancerHistory | MorphologyCode | Code Morphologie / Lésion | C18 | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Morpho.md#CIM-O-3 Morpho) | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |  |
 | CancerHistory | Type | Type | C19 |  | Personnel / Familial |  |
 
-# TumorPathologyEvent
+## TumorPathologyEvent
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -62,21 +62,21 @@
 | TumorPathologyEvent | MorphologyCode | Code Morphologie / Lésion | C35 | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Morpho.md#CIM-O-3 Morpho) | Code international de la lésion / type histologique / morphologie de l'événement tumoral |  |
 | TumorPathologyEvent | Laterality | Latéralité | C36 |  | Latéralité de la localisation (si elle existe) |  |
 
-# Analysis
+## Analysis
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Analysis | Type | Type d'examen | C37 |  | Type de l'examen |  |
 | Analysis | AnalysisDate | Date d'examen | C38 |  | Date de l'examen |  |
 
-# Biomarker
+## Biomarker
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Biomarker | BiomarkerCode | Code du marqueur | C39 |  | Nom du marqueur |  |
 | Biomarker | BiomarkerStatus | Statut du marqueur | C40 |  | Statut de marqueur |  |
 
-# Treatment
+## Treatment
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -86,14 +86,14 @@
 | Treatment | EndDate | Date de fin | C44 |  | Date de fin du traitement |  |
 | Treatment | ClinicalTrialContext | Clinical trial (Yes &#124; No) | C45 |  | Traitement effectué dans un contexte d'étude clinique |  |
 
-# Treatment (Type=Surgery)
+## Treatment (Type=Surgery)
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Treatment (Type=Surgery) | ResectionQuality | Qualité de la résection (anapath) | C46 |  | Qualité de la résection (anapath) |  |
 | Treatment (Type=Surgery) | Nature | Nature de la chirurgie | C47 |  | Nature de la chirurgie |  |
 
-# AdverseEvent
+## AdverseEvent
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -101,14 +101,14 @@
 | AdverseEvent | Date | Date de l'événement indésirable | C49 |  | Date du diagnostic de l'événement indésirable |  |
 | AdverseEvent | EndDate | Date de fin | C50 |  | Date de fin de l'événement indésirable (si elle est connue) |  |
 
-# Drug
+## Drug
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Drug | Code | Code molécule | C51 | [ATC 5e niveau](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ATC 5e niveau.md#ATC 5e niveau) | Code de la classification thérapeutique |  |
 | Drug | DrugName | Nom de la molécule | C52 | [ATC 5e niveau](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ATC 5e niveau.md#ATC 5e niveau) | Nom de la molécule |  |
 
-# BiologicalSample
+## BiologicalSample
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -125,13 +125,13 @@
 # OMIC
 ---
 
-# Specimen
+## Specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Specimen | SpecimenId | SpecimenId | O3 |  |  | Genetic sample or derived product identifier |
 
-# Technology
+## Technology
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -140,38 +140,38 @@
 | Technology | PlatformAccession | PlatformAccession | O8 |  |  | GEO Identifier of the platform |
 | Technology | DateOfExperiment | DateOfExperiment | O9 |  |  | Date when the experiment was performed |
 
-# Panel
+## Panel
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Panel | PanelName | PanelName | O10 |  |  | Name of the panel targeted by the experimental analysis (provider + name) |
 
-# Analysis
+## Analysis
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Analysis | AnalyticPipelineCode | AnalyticPipelineCode | O11 |  |  | Identifier of the pipeline used into the analysis (unique in the center) |
 
-# Experiment on specimen
+## Experiment on specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Experiment on specimen | AlgorithmicCellularity | AlgorithmicCellularity | O12 |  |  | Calculated percentage of tumor cells in sample |
 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | O13 |  |  | Calculated number of sets of chromosomes in a cell of the sample |
 
-# Experiment on specimen CpyNb Quality filter
+## Experiment on specimen CpyNb Quality filter
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Experiment on specimen CpyNb Quality filter | NumberOfBreakPoints | NumberOfBreakPoints | O14 |  |  | Calculated number of break points in genomic profile |
 
-# Alteration in specimen
+## Alteration in specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Alteration in specimen | AlterationType | AlterationType | O15 | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/OSIRIS--AlterationType.md#OSIRIS:AlterationType) |  | General type of the detected genetic alteration (high level type) |
 
-# Validation
+## Validation
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -179,7 +179,7 @@
 | Validation | ValidationMethod | ValidationMethod | O17 |  |  | Validation method depending on the type of validation |
 | Validation | ValidationStatus | ValidationStatus | O18 |  |  | Validation status of the detected alteration |
 
-# Alteration
+## Alteration
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -189,7 +189,7 @@
 | Alteration | GenomeBuild | GenomeBuild | O22 | [FHIR:extension-geneticsgenomebuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-geneticsgenomebuild.md#FHIR:extension-geneticsgenomebuild) |  | Genome Build used for reference |
 | Alteration | Cytoband | Cytoband | O23 |  |  | Cytogenetic location |
 
-# Genome entity
+## Genome entity
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -198,7 +198,7 @@
 | Genome entity | GenomeEntityId | GenomeEntityId | O26 | [extension-observation-geneticsgene](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/extension-observation-geneticsgene.md#extension-observation-geneticsgene) |  | Identifier of the genome entity in the genome entity database |
 | Genome entity | GeneSymbol | GeneSymbol | O27 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48018-6.md#LOINC:48018-6) |  | Hugo gene symbol |
 
-# Fusion
+## Fusion
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -217,21 +217,21 @@
 | Fusion | FusionPoint3prime | FusionPoint3prime | O40 |  |  | Position of the fusion point on the 3 prime partner |
 | Fusion | FusionInFrame | FusionInFrame | O41 |  |  | Specify whether the fusion is in frame |
 
-# Fusion Analysis
+## Fusion Analysis
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | O42 |  |  | Reference database to annotate the fusion |
 | Fusion Analysis | FusionAnnotationValue | FusionAnnotationValue | O43 |  |  | Annotation of the fusion |
 
-# Fusion QualityFilter
+## Fusion QualityFilter
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Fusion QualityFilter | FusionNbSpanningPair | FusionNbSpanningPair | O44 |  |  | Number of reads pairs spanning the fusion |
 | Fusion QualityFilter | FusionNbSplitReads | FusionNbSplitReads | O46 |  |  | Number of reads containing the fusion point |
 
-# Segment copy number
+## Segment copy number
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -239,13 +239,13 @@
 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | O49 |  |  | Copy number status |
 | Segment copy number | CopyNumber | CopyNumber | O50 |  |  | Estimated DNA copy number |
 
-# Segment LOH
+## Segment LOH
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Segment LOH | LossOfHeterozygosity | LossOfHeterozygosity | O51 |  |  | Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information |
 
-# Reference variant
+## Reference variant
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -261,14 +261,14 @@
 | Reference variant | MutationPredictionScore | MutationPredictionScore | O65 |  |  | Level of confidence of the prediction of the variation effect over the protein |
 | Reference variant | DNARegionName | DNARegionName | O66 | [FHIR:extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsdnaregionname.md#FHIR:extension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
 
-# Protein
+## Protein
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | O67 |  |  | Name of the protein reference database |
 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | O68 | [FHIR:extension-observation-geneticsproteinreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsproteinreferencesequenceid.md#FHIR:extension-observation-geneticsproteinreferencesequenceid) |  | Reference identifier of the protein transcript |
 
-# Exonic variant
+## Exonic variant
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -280,7 +280,7 @@
 | Exonic variant | RNASequenceVariation | RNASequenceVariation | O74 |  |  | HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA. |
 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | O75 | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48006-1.md#LOINC:48006-1) |  | HGVS nomenclature of changes at protein-level |
 
-# Variant in specimen
+## Variant in specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
@@ -293,7 +293,7 @@
 | Variant in specimen | ClinicalTumorBoardConclusion | ClinicalTumorBoardConclusion | O82 |  |  | Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board |
 | Variant in specimen | ProposedForOrientation | ProposedForOrientation | O83 |  |  | Is the ClinicalTumorBoardConclusion used to orient the treatment decision ? |
 
-# Gene expression
+## Gene expression
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |

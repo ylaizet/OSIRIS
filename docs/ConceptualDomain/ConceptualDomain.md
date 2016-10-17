@@ -1,7 +1,7 @@
 # OMIC
 ---
 
-# OSIRIS:AlterationType
+## OSIRIS:AlterationType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -16,7 +16,7 @@
 | Transcript isoform | Transcript isoform | OSIRIS |  | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/OSIRIS--AlterationType.md#OSIRIS:AlterationType) | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
 | Viral insertion site | Viral insertion site | OSIRIS |  | [OSIRIS:AlterationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/OSIRIS--AlterationType.md#OSIRIS:AlterationType) | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
 
-# LOINC:LL2938-0
+## LOINC:LL2938-0
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -45,92 +45,92 @@
 | LA21276-3 | chrX | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | [LOINC:LL2938-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--LL2938-0.md#LOINC:LL2938-0) | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 | LA21277-1 | chrY | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | [LOINC:LL2938-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--LL2938-0.md#LOINC:LL2938-0) | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 
-# FHIR:extension-geneticsgenomicstart
+## FHIR:extension-geneticsgenomicstart
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstart.html | [FHIR:extension-geneticsgenomicstart](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-geneticsgenomicstart.md#FHIR:extension-geneticsgenomicstart) | nonEnumerated | Integer | O20 | Alteration | GenomicStart | GenomicStart | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
 
-# FHIR:extension-geneticsgenomicstop
+## FHIR:extension-geneticsgenomicstop
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstop.html | [FHIR:extension-geneticsgenomicstop](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-geneticsgenomicstop.md#FHIR:extension-geneticsgenomicstop) | nonEnumerated | Integer | O21 | Alteration | GenomicStop | GenomicStop | Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
 
-# FHIR:extension-geneticsgenomebuild
+## FHIR:extension-geneticsgenomebuild
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | GRCh37 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | [FHIR:extension-geneticsgenomebuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-geneticsgenomebuild.md#FHIR:extension-geneticsgenomebuild) | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 | GRCh38 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | [FHIR:extension-geneticsgenomebuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-geneticsgenomebuild.md#FHIR:extension-geneticsgenomebuild) | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 
-# extension-observation-geneticsgene
+## extension-observation-geneticsgene
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html | [extension-observation-geneticsgene](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/extension-observation-geneticsgene.md#extension-observation-geneticsgene) | nonEnumerated | String | O26 | Genome entity | GenomeEntityId | GenomeEntityId | Identifier of the genome entity in the genome entity database |
 
-# LOINC:48018-6
+## LOINC:48018-6
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48018-6.md#LOINC:48018-6) | nonEnumerated | String | O27 | Genome entity | GeneSymbol | GeneSymbol | Hugo gene symbol |
 
-# LOINC:81289-1
+## LOINC:81289-1
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | LA26331-1 | translocation | LOINC | http://r.details.loinc.org/LOINC/81289-1.html | [LOINC:81289-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--81289-1.md#LOINC:81289-1) | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
 
-# LOINC:48018-6
+## LOINC:48018-6
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48018-6.md#LOINC:48018-6) | nonEnumerated | String | O31 | Fusion | FusionGeneSymbol5prime | FusionGeneSymbol5prime | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
 
-# extension-observation-geneticsdnaregionname
+## extension-observation-geneticsdnaregionname
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | [extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/extension-observation-geneticsdnaregionname.md#extension-observation-geneticsdnaregionname) | nonEnumerated | String | O32 | Fusion | FusionRegionName5prime | FusionRegionName5prime | Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron |
 
-# FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticstranscriptreferencesequenceid
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticstranscriptreferencesequenceid.md#FHIR:extension-observation-geneticstranscriptreferencesequenceid) | nonEnumerated | String | O33 | Fusion | FusionTranscriptReferenceSequenceId5prime | FusionTranscriptReferenceSequenceId5prime | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
-# LOINC:48018-6
+## LOINC:48018-6
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48018-6.md#LOINC:48018-6) | nonEnumerated | String | O36 | Fusion | FusionGeneSymbol3prime | FusionGeneSymbol3prime | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
 
-# extension-observation-geneticsdnaregionname
+## extension-observation-geneticsdnaregionname
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | [extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/extension-observation-geneticsdnaregionname.md#extension-observation-geneticsdnaregionname) | nonEnumerated | String | O37 | Fusion | FusionRegionName3prime | FusionRegionName3prime | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
 
-# FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticstranscriptreferencesequenceid
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticstranscriptreferencesequenceid.md#FHIR:extension-observation-geneticstranscriptreferencesequenceid) | nonEnumerated | String | O38 | Fusion | FusionTranscriptReferenceSequenceId3prime | FusionTranscriptReferenceSequenceId3prime | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
-# FHIR:Sequence.referenceAllele
+## FHIR:Sequence.referenceAllele
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--Sequence.referenceAllele.md#FHIR:Sequence.referenceAllele) | nonEnumerated | String | O53 | Reference variant | ReferenceAllele | ReferenceAllele | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion. |
 
-# FHIR:Sequence.observedAllele
+## FHIR:Sequence.observedAllele
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--Sequence.observedAllele.md#FHIR:Sequence.observedAllele) | nonEnumerated | String | O54 | Reference variant | AlternativeAllele | AlternativeAllele | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion. |
 
-# LOINC:48019-4
+## LOINC:48019-4
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -140,37 +140,37 @@
 | LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48019-4.md#LOINC:48019-4) | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 | LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48019-4.md#LOINC:48019-4) | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 
-# FHIR:extension-observation-geneticsdnaregionname
+## FHIR:extension-observation-geneticsdnaregionname
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | [FHIR:extension-observation-geneticsdnaregionname](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsdnaregionname.md#FHIR:extension-observation-geneticsdnaregionname) | nonEnumerated | String | O66 | Reference variant | DNARegionName | DNARegionName | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
 
-# FHIR:extension-observation-geneticsproteinreferencesequenceid
+## FHIR:extension-observation-geneticsproteinreferencesequenceid
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html | [FHIR:extension-observation-geneticsproteinreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsproteinreferencesequenceid.md#FHIR:extension-observation-geneticsproteinreferencesequenceid) | nonEnumerated | String | O68 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | Reference identifier of the protein transcript |
 
-# FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticstranscriptreferencesequenceid
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | [FHIR:extension-observation-geneticstranscriptreferencesequenceid](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticstranscriptreferencesequenceid.md#FHIR:extension-observation-geneticstranscriptreferencesequenceid) | nonEnumerated | String | O70 | Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | Reference identifier of the transcript |
 
-# FHIR:extension-observation-geneticsdnasequencevariation
+## FHIR:extension-observation-geneticsdnasequencevariation
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html | [FHIR:extension-observation-geneticsdnasequencevariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsdnasequencevariation.md#FHIR:extension-observation-geneticsdnasequencevariation) | nonEnumerated | String | O71 | Exonic variant | DNASequenceVariation | DNASequenceVariation | HGVS nomenclature on the chosen transcript |
 
-# FHIR:extension-observation-geneticsaminoacidchange
+## FHIR:extension-observation-geneticsaminoacidchange
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html | [FHIR:extension-observation-geneticsaminoacidchange](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/FHIR--extension-observation-geneticsaminoacidchange.md#FHIR:extension-observation-geneticsaminoacidchange) | nonEnumerated | String | O72 | Exonic variant | AminoAcidChange | AminoAcidChange | HGVS nomenclature on the chosen protein transcript |
 
-# LOINC:48006-1
+## LOINC:48006-1
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -185,55 +185,55 @@
 | Silent | LA6700-4 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48006-1.md#LOINC:48006-1) | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
 | Stop Codon Mutation | LA6701-2 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LOINC--48006-1.md#LOINC:48006-1) | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
 
-# LA6683-2
+## LA6683-2
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Germline | Germline | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | [LA6683-2](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6683-2.md#LA6683-2) | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
 
-# LA6684-0
+## LA6684-0
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Somatic | Somatic | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | [LA6684-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6684-0.md#LA6684-0) | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
 
-# LA10429-1
+## LA10429-1
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Prenatal | Prenatal | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | [LA10429-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA10429-1.md#LA10429-1) | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
 
-# LA18197-6
+## LA18197-6
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Unknown genomic origin | Unknown genomic origin | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | [LA18197-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA18197-6.md#LA18197-6) | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
 
-# LA6703-8
+## LA6703-8
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Heteroplasmic | Heteroplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | [LA6703-8](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6703-8.md#LA6703-8) | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 
-# LA6704-6
+## LA6704-6
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Homoplasmic | Homoplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | [LA6704-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6704-6.md#LA6704-6) | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 
-# LA6705-3
+## LA6705-3
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Homozygous | Homozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | [LA6705-3](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6705-3.md#LA6705-3) | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 
-# LA6706-1
+## LA6706-1
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | Heterozygous | Heterozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | [LA6706-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/LA6706-1.md#LA6706-1) | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 
-# LA6707-9
+## LA6707-9
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -242,7 +242,7 @@
 # CLINICAL
 ---
 
-# v3 Code System AdministrativeGender
+## v3 Code System AdministrativeGender
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -250,7 +250,7 @@
 | F | Female | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | [v3 Code System AdministrativeGender](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/v3 Code System AdministrativeGender.md#v3 Code System AdministrativeGender) | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
 | UN | Undifferentiated | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | [v3 Code System AdministrativeGender](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/v3 Code System AdministrativeGender.md#v3 Code System AdministrativeGender) | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
 
-# UMLS:C0007465
+## UMLS:C0007465
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
@@ -260,73 +260,73 @@
 | UMLS:C0679861 | Complications of treatment | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | [UMLS:C0007465](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/UMLS--C0007465.md#UMLS:C0007465) | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
 | UMLS:C0027651 | Neoplasm | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | [UMLS:C0007465](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/UMLS--C0007465.md#UMLS:C0007465) | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
 
-# ICD-10
+## ICD-10
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | ICD-10 | http://apps.who.int/classifications/icd10/browse/2016/en | [ICD-10](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ICD-10.md#ICD-10) | Enumerated | String | C9 | Pathologie associée | Code | Code | Code international de la pathologie associée (hors autre cancer). |
 
-# CIM-O-3 Topo
+## CIM-O-3 Topo
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Topo |  | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Topo.md#CIM-O-3 Topo) | Enumerated | String | C13 | Antécédent carcinologique personnel ou familial | Code Localisation | Code Localisation | Code international de la localisation de l'antécédent carcinologique |
 
-# CIM-O-3 Morpho
+## CIM-O-3 Morpho
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Morpho |  | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Morpho.md#CIM-O-3 Morpho) | Enumerated | String | C14 | Antécédent carcinologique personnel ou familial | Code Morphologie / Lésion | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
 
-# OMS
+## OMS
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | 0 | activité normale sans restriction | OMS |  | [OMS](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/OMS.md#OMS) | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
 
-# CIM-O-3 Topo
+## CIM-O-3 Topo
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Topo |  | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Topo.md#CIM-O-3 Topo) | Enumerated | String | C25 | Evénement tumoral |  | Code Localisation | Code international de la localisation de l'événement tumoral |
 
-# CIM-O-3 Morpho
+## CIM-O-3 Morpho
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Morpho |  | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CIM-O-3 Morpho.md#CIM-O-3 Morpho) | Enumerated | String | C26 | Evénement tumoral |  | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'événement tumoral |
 
-# CCAM
+## CCAM
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CCAM |  | [CCAM](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/CCAM.md#CCAM) | Enumerated | String | C28 | Traitement |  | Acte | Code CCAM de l'acte |
 
-# ATC 5e niveau
+## ATC 5e niveau
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | ATC 5e niveau |  | [ATC 5e niveau](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ATC 5e niveau.md#ATC 5e niveau) | Enumerated | String | C36 | Molécule Administrée |  | Code molécule | Code de la classification thérapeutique |
 
-# MIABIS-40
+## MIABIS-40
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | MIABIS-40 |  | [MIABIS-40](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/MIABIS-40.md#MIABIS-40) | nonEnumerated | String | C37 | Echantillon biologique |  | Id du prélèvement | Identifiant du prélèvement (père) dans le centre |
 
-# MIABIS-39
+## MIABIS-39
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | MIABIS-39 |  | [MIABIS-39](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/MIABIS-39.md#MIABIS-39) | nonEnumerated | String | C38 | Echantillon biologique |  | Id de l'échantillon | Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...) |
 
-# MIABIS-43
+## MIABIS-43
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | MIABIS-43 |  | [MIABIS-43](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/MIABIS-43.md#MIABIS-43) | nonEnumerated | Date | C39 | Echantillon biologique |  | Date du prélèvement | Date du prélèvement |
 
-# CIM-O-3 Topo
+## CIM-O-3 Topo
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
