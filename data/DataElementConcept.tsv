@@ -19,8 +19,8 @@ CancerHistory	TopographyCode	Code Localisation	C17	CIM-O-3 Topo	Code internation
 CancerHistory	MorphologyCode	Code Morphologie / Lésion	C18	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique	
 CancerHistory	Type	Type	C19		Personnel / Familial	
 TumorPathologyEvent	Type	Type d'événement	C20		Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	
-TumorPathologyEvent	StartDate	Date de début de l'évènement	C21	OMS	Date de début de l'événement tumoral ou de la maladie	
-TumorPathologyEvent	PerformanceStatus	Echelle d'autonomie / Performance status	C22		Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	
+TumorPathologyEvent	StartDate	Date de début de l'évènement	C21		Date de début de l'événement tumoral ou de la maladie	
+TumorPathologyEvent	PerformanceStatus	Echelle d'autonomie / Performance status	C22	OMS	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	
 TumorPathologyEvent	G8	Outil de dépistage G8	C23		outil d'évaluation de l'état général des patients âgés ayant un cancer	
 TumorPathologyEvent	T	T	C24		Taille de la tumeur, propagation sur le site de la tumeur primitive	
 TumorPathologyEvent	N	N	C25		Propagation au niveau ganglionnaire	
@@ -31,16 +31,16 @@ TumorPathologyEvent	HistologicalGradeType	HistologicalGradeType	C29		Liste des �
 TumorPathologyEvent	HistologicalGradeValue	HistologicalGradeValue	C30		Valeur du grade histologique	
 TumorPathologyEvent	StadeType	StadeType	C31		Liste des échelles de stade	
 TumorPathologyEvent	StadeValue	StadeValue	C32		Valeur du stade	
-TumorPathologyEvent	DiagnosisDate	Date du diagnostic	C33	CIM-O-3 Topo	Date du diagnostic de l'événement tumoral	
-TumorPathologyEvent	TopographyCode	Code Localisation	C34	CIM-O-3 Morpho	Code international de la localisation de l'événement tumoral	
-TumorPathologyEvent	MorphologyCode	Code Morphologie / Lésion	C35		Code international de la lésion / type histologique / morphologie de l'événement tumoral	
-TumorPathologyEvent	Laterality	Latéralité	C36	CCAM	Latéralité de la localisation (si elle existe)	
+TumorPathologyEvent	DiagnosisDate	Date du diagnostic	C33		Date du diagnostic de l'événement tumoral	
+TumorPathologyEvent	TopographyCode	Code Localisation	C34	CIM-O-3 Topo	Code international de la localisation de l'événement tumoral	
+TumorPathologyEvent	MorphologyCode	Code Morphologie / Lésion	C35	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'événement tumoral	
+TumorPathologyEvent	Laterality	Latéralité	C36		Latéralité de la localisation (si elle existe)	
 Analysis	Type	Type d'examen	C37		Type de l'examen	
 Analysis	AnalysisDate	Date d'examen	C38		Date de l'examen	
 Biomarker	BiomarkerCode	Code du marqueur	C39		Nom du marqueur	
 Biomarker	BiomarkerStatus	Statut du marqueur	C40		Statut de marqueur	
 Treatment	Type	Type de traitement	C41		Type de traitement	
-Treatment	ActivityCode	Codification de l'acte	C42		Code CCAM de l'acte	
+Treatment	ActivityCode	Codification de l'acte	C42	CCAM	Code CCAM de l'acte	
 Treatment	StartDate	Date de début	C43		Date de début du traitement	
 Treatment	EndDate	Date de fin	C44		Date de fin du traitement	
 Treatment	ClinicalTrialContext	Clinical trial (Yes | No)	C45		Traitement effectué dans un contexte d'étude clinique	
@@ -60,50 +60,6 @@ BiologicalSample	SampleNature	Nature de l'échantillon	C58	MIABIS-41/MIABIS-2.0-
 BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	C59		Nature du prélèvement d'origine (Sain ou Tumoral)	
 BiologicalSample	StorageTemperature	Mode de conservation	C60	MIABIS-43/MIABIS-2.0-15	Le mode de conservation	
 BiologicalSample	TumorCellularity	% de cellules tumorales	C61		Le pourcentage de cellules tumorales quantifié dans l'échantillon	
-						
-						
-Primary tumor	Date de début 	Date de début (primary)				
-Primary tumor	Echelle d'autonomie / Performance status	Echelle d'autonomie / Performance status (primary)				
-Primary tumor	Outil de dépistage G8	Outil de dépistage G8 (primary)				
-Primary tumor	T	T (primary)				
-Primary tumor	N	N (primary)				
-Primary tumor	M	M (primary)				
-Primary tumor	Version du TNM	Version du TNM (primary)				
-Primary tumor	Type de TNM	Type de TNM (primary)				
-Primary tumor	Date du diagnostic	Date du diagnostic (primary)				
-Primary tumor	Code Localisation	Code Localisation (primary)				
-Primary tumor	Code Morphologie / Lésion	Code Morphologie / Lésion (primary)				
-Primary tumor	Latéralité	Latéralité (primary)				
-Local recurence	Date de début 	Date de début (local recurence)				
-Local recurence	Echelle d'autonomie / Performance status	Echelle d'autonomie / Performance status (local recurence)				
-Local recurence	Outil de dépistage G8	Outil de dépistage G8 (local recurence)				
-Local recurence	T	T (local recurence)				
-Local recurence	N	N (local recurence)				
-Local recurence	M	M (local recurence)				
-Local recurence	Version du TNM	Version du TNM (local recurence)				
-Local recurence	Type de TNM	Type de TNM (local recurence)				
-Local recurence	Date du diagnostic	Date du diagnostic (local recurence)				
-Local recurence	Code Localisation	Code Localisation (local recurence)				
-Local recurence	Code Morphologie / Lésion	Code Morphologie / Lésion (local recurence)				
-Local recurence	Latéralité	Latéralité (local recurence)				
-Metastasis	Date de début 	Date de début (metastasis)				
-Metastasis	Echelle d'autonomie / Performance status	Echelle d'autonomie / Performance status (metastasis)				
-Metastasis	Outil de dépistage G8	Outil de dépistage G8 (metastasis)				
-Metastasis	T	T (metastasis)				
-Metastasis	N	N (metastasis)				
-Metastasis	M	M (metastasis)				
-Metastasis	Version du TNM	Version du TNM (metastasis)				
-Metastasis	Type de TNM	Type de TNM (metastasis)				
-Metastasis	Date du diagnostic	Date du diagnostic (metastasis)				
-Metastasis	Code Localisation	Code Localisation (metastasis)				
-Metastasis	Code Morphologie / Lésion	Code Morphologie / Lésion (metastasis)				
-Metastasis	Latéralité	Latéralité (metastasis)				
-						
-						
-						
-						
-						
-						
 Specimen	SpecimenId	SpecimenId	O3			Genetic sample or derived product identifier
 Technology	TechnicalProtocol	TechnicalProtocol	O6			Protocol used for the experiment
 Technology	PlatformName	PlatformName	O7			Technological platform name (provider followed by the platform name)
