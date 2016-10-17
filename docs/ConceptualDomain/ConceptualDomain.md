@@ -45,30 +45,30 @@
 | LA21276-3 | chrX | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 | LA21277-1 | chrY | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 
-## FHIR:extension-geneticsgenomicstart
+## FHIR:extension-geneticsGenomicStart
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstart.html | FHIR:extension-geneticsgenomicstart | nonEnumerated | Integer | O20 | Alteration | GenomicStart | GenomicStart | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
+|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstart.html | FHIR:extension-geneticsGenomicStart | nonEnumerated | Integer | O20 | Alteration | GenomicStart | GenomicStart | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
 
-## FHIR:extension-geneticsgenomicstop
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstop.html | FHIR:extension-geneticsgenomicstop | nonEnumerated | Integer | O21 | Alteration | GenomicStop | GenomicStop | Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
-
-## FHIR:extension-geneticsgenomebuild
+## FHIR:extension-geneticsGenomicStop
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| GRCh37 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsgenomebuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
-| GRCh38 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsgenomebuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstop.html | FHIR:extension-geneticsGenomicStop | nonEnumerated | Integer | O21 | Alteration | GenomicStop | GenomicStop | Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
 
-## extension-observation-geneticsgene
+## FHIR:extension-geneticsGenomeBuild
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html | extension-observation-geneticsgene | nonEnumerated | String | O26 | Genome entity | GenomeEntityId | GenomeEntityId | Identifier of the genome entity in the genome entity database |
+| GRCh37 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+| GRCh38 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+
+## FHIR:extension-observation-geneticsGene
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html | FHIR:extension-observation-geneticsGene | nonEnumerated | String | O26 | Genome entity | GenomeEntityId | GenomeEntityId | Identifier of the genome entity in the genome entity database |
 
 ## LOINC:48018-6
 
@@ -88,17 +88,17 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O31 | Fusion | FusionGeneSymbol5prime | FusionGeneSymbol5prime | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
 
-## extension-observation-geneticsdnaregionname
+## FHIR:extension-observation-geneticsDNARegionName
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | extension-observation-geneticsdnaregionname | nonEnumerated | String | O32 | Fusion | FusionRegionName5prime | FusionRegionName5prime | Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsDNARegionName | nonEnumerated | String | O32 | Fusion | FusionRegionName5prime | FusionRegionName5prime | Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron |
 
-## FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticsTranscriptReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticstranscriptreferencesequenceid | nonEnumerated | String | O33 | Fusion | FusionTranscriptReferenceSequenceId5prime | FusionTranscriptReferenceSequenceId5prime | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O33 | Fusion | FusionTranscriptReferenceSequenceId5prime | FusionTranscriptReferenceSequenceId5prime | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
 ## LOINC:48018-6
 
@@ -106,17 +106,17 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O36 | Fusion | FusionGeneSymbol3prime | FusionGeneSymbol3prime | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
 
-## extension-observation-geneticsdnaregionname
+## FHIR:extension-observation-geneticsDNARegionName
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | extension-observation-geneticsdnaregionname | nonEnumerated | String | O37 | Fusion | FusionRegionName3prime | FusionRegionName3prime | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsDNARegionName | nonEnumerated | String | O37 | Fusion | FusionRegionName3prime | FusionRegionName3prime | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
 
-## FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticsTranscriptReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticstranscriptreferencesequenceid | nonEnumerated | String | O38 | Fusion | FusionTranscriptReferenceSequenceId3prime | FusionTranscriptReferenceSequenceId3prime | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O38 | Fusion | FusionTranscriptReferenceSequenceId3prime | FusionTranscriptReferenceSequenceId3prime | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
 ## FHIR:Sequence.referenceAllele
 
@@ -140,35 +140,35 @@
 | LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 | LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 
-## FHIR:extension-observation-geneticsdnaregionname
+## FHIR:extension-observation-geneticsDNARegionName
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsdnaregionname | nonEnumerated | String | O66 | Reference variant | DNARegionName | DNARegionName | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsDNARegionName | nonEnumerated | String | O66 | Reference variant | DNARegionName | DNARegionName | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
 
-## FHIR:extension-observation-geneticsproteinreferencesequenceid
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html | FHIR:extension-observation-geneticsproteinreferencesequenceid | nonEnumerated | String | O68 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | Reference identifier of the protein transcript |
-
-## FHIR:extension-observation-geneticstranscriptreferencesequenceid
+## FHIR:extension-observation-geneticsProteinReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticstranscriptreferencesequenceid | nonEnumerated | String | O70 | Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | Reference identifier of the transcript |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html | FHIR:extension-observation-geneticsProteinReferenceSequenceId | nonEnumerated | String | O68 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | Reference identifier of the protein transcript |
 
-## FHIR:extension-observation-geneticsdnasequencevariation
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html | FHIR:extension-observation-geneticsdnasequencevariation | nonEnumerated | String | O71 | Exonic variant | DNASequenceVariation | DNASequenceVariation | HGVS nomenclature on the chosen transcript |
-
-## FHIR:extension-observation-geneticsaminoacidchange
+## FHIR:extension-observation-geneticsTranscriptReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html | FHIR:extension-observation-geneticsaminoacidchange | nonEnumerated | String | O72 | Exonic variant | AminoAcidChange | AminoAcidChange | HGVS nomenclature on the chosen protein transcript |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O70 | Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | Reference identifier of the transcript |
+
+## FHIR:extension-observation-geneticsDNASequenceVariation
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html | FHIR:extension-observation-geneticsDNASequenceVariation | nonEnumerated | String | O71 | Exonic variant | DNASequenceVariation | DNASequenceVariation | HGVS nomenclature on the chosen transcript |
+
+## FHIR:extension-observation-geneticsAminoAcidChange
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html | FHIR:extension-observation-geneticsAminoAcidChange | nonEnumerated | String | O72 | Exonic variant | AminoAcidChange | AminoAcidChange | HGVS nomenclature on the chosen protein transcript |
 
 ## LOINC:48006-1
 
