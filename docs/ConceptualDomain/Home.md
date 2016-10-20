@@ -27,15 +27,8 @@
 * [FHIR:extension-observation-geneticsDNASequenceVariation](ConceptualDomain.md#fhirextension-observation-geneticsdnasequencevariation)
 * [FHIR:extension-observation-geneticsAminoAcidChange](ConceptualDomain.md#fhirextension-observation-geneticsaminoacidchange)
 * [LOINC:48006-1](ConceptualDomain.md#loinc48006-1)
-* [LA6683-2](ConceptualDomain.md#la6683-2)
-* [LA6684-0](ConceptualDomain.md#la6684-0)
-* [LA10429-1](ConceptualDomain.md#la10429-1)
-* [LA18197-6](ConceptualDomain.md#la18197-6)
-* [LA6703-8](ConceptualDomain.md#la6703-8)
-* [LA6704-6](ConceptualDomain.md#la6704-6)
-* [LA6705-3](ConceptualDomain.md#la6705-3)
-* [LA6706-1](ConceptualDomain.md#la6706-1)
-* [LA6707-9](ConceptualDomain.md#la6707-9)
+* [LOINC:LL378-1](ConceptualDomain.md#loincll378-1)
+* [LOINC:LL381-5](ConceptualDomain.md#loincll381-5)
 
 ## CLINICAL
 ---

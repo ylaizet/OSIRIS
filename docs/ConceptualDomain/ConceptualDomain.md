@@ -122,23 +122,23 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele | FHIR:Sequence.referenceAllele | nonEnumerated | String | O53 | Reference variant | ReferenceAllele | ReferenceAllele | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion. |
+|  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele | FHIR:Sequence.referenceAllele | nonEnumerated | String | O53 | Reference variant | ReferenceAllele | ReferenceAllele | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion. |
 
 ## FHIR:Sequence.observedAllele
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele | FHIR:Sequence.observedAllele | nonEnumerated | String | O54 | Reference variant | AlternativeAllele | AlternativeAllele | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion. |
+|  |  | FHIR | https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele | FHIR:Sequence.observedAllele | nonEnumerated | String | O54 | Reference variant | AlternativeAllele | AlternativeAllele | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion. |
 
 ## LOINC:48019-4
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| LA6692-3 | Deletion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
-| LA6686-5 | Duplication | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
-| LA6687-3 | Insertion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
-| LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
-| LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | codelist | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
+| LA6692-3 | Deletion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
+| LA6686-5 | Duplication | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
+| LA6687-3 | Insertion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
+| LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
+| LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 
 ## FHIR:extension-observation-geneticsDNARegionName
 
@@ -174,70 +174,35 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Deletion | LA6692-3 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Duplication | LA6686-5 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Frameshift | LA6694-9 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Initiating Methionine | LA6695-6 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Insertion | LA6687-3 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Insertion and Deletion | LA9659-9 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Missense | LA6698-0 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Nonsense | LA6699-8 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Silent | LA6700-4 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| Stop Codon Mutation | LA6701-2 | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6692-3 | Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6686-5 | Duplication | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6694-9 | Frameshift | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6695-6 | Initiating Methionine | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6687-3 | Insertion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA9659-9 | Insertion and Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6698-0 | Missense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6699-8 | Nonsense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6700-4 | Silent | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6701-2 | Stop Codon Mutation | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
 
-## LA6683-2
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Germline | Germline | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LA6683-2 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
-
-## LA6684-0
+## LOINC:LL378-1
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Somatic | Somatic | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LA6684-0 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
+| LA6683-2 | Germline | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LOINC:LL378-1 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
+| LA6684-0 | Somatic | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LOINC:LL378-1 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
+| LA10429-1 | Prenatal | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LOINC:LL378-1 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
+| LA18197-6 | Unknown genomic origin | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LOINC:LL378-1 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
 
-## LA10429-1
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Prenatal | Prenatal | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LA10429-1 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
-
-## LA18197-6
+## LOINC:LL381-5
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Unknown genomic origin | Unknown genomic origin | LOINC | http://s.details.loinc.org/LOINC/48002-0.html | LA18197-6 | Enumerated | String | O79 | Variant in specimen | GenomicSourceClass | GenomicSourceClass | Genomic class of the variant (eg: germline, somatic, and prenatal) |
-
-## LA6703-8
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Heteroplasmic | Heteroplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LA6703-8 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
-
-## LA6704-6
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Homoplasmic | Homoplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LA6704-6 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
-
-## LA6705-3
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Homozygous | Homozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LA6705-3 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
-
-## LA6706-1
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Heterozygous | Heterozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LA6706-1 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
-
-## LA6707-9
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Hemizygous | Hemizygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LA6707-9 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+| LA6703-8 | Heteroplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+| LA6704-6 | Homoplasmic | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+| LA6705-3 | Homozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+| LA6706-1 | Heterozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+| LA6707-9 | Hemizygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 
 # CLINICAL
 ---
@@ -283,6 +248,10 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | 0 | activité normale sans restriction | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 1 | restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 2 | ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 3 | capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 4 | complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
 
 ## CIM-O-3 Topo
 

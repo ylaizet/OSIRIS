@@ -44,7 +44,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| TumorPathologyEvent | Type | Type d'événement | C20 |  | Le champ "Type" permet de décrire à la fois l'événement "Cancer" en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |  |
+| TumorPathologyEvent | Type | Type d'événement | C20 |  | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |  |
 | TumorPathologyEvent | StartDate | Date de début de l'évènement | C21 |  | Date de début de l'événement tumoral ou de la maladie |  |
 | TumorPathologyEvent | PerformanceStatus | Echelle d'autonomie / Performance status | C22 | [OMS](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#oms) | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |  |
 | TumorPathologyEvent | G8 | Outil de dépistage G8 | C23 |  | outil d'évaluation de l'état général des patients âgés ayant un cancer |  |
@@ -249,8 +249,8 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Reference variant | ReferenceAllele | ReferenceAllele | O53 | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequencereferenceallele) |  | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or "-" for an insertion. |
-| Reference variant | AlternativeAllele | AlternativeAllele | O54 | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequenceobservedallele) |  | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or "-" for a deletion. |
+| Reference variant | ReferenceAllele | ReferenceAllele | O53 | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequencereferenceallele) |  | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion. |
+| Reference variant | AlternativeAllele | AlternativeAllele | O54 | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequenceobservedallele) |  | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion. |
 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | O55 | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48019-4) |  | Codified type of the DNA sequence variation |
 | Reference variant | VariationDatabase | VariationDatabase | O56 |  |  | Name of the variation database |
 | Reference variant | VariationId | VariationId | O57 |  |  | Identifier for variant in the variation database |
