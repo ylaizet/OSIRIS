@@ -7,7 +7,7 @@
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Patient | Id | Id du patient | C1 |  | Identifiant du patient dans le centre transmetteur de l'information |  |
 | Patient | Gender | Sexe | C2 | [v3 Code System AdministrativeGender](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#v3-code-system-administrativegender) | Sexe du patient |  |
-| Patient | Ethnicity | Ethnicité | C3 |  | Origine ethnique du patient |  |
+| Patient | Ethnicity | Ethnicité | C3 | [http://www.1000genomes.org/category/population/](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#http____www1000genomesorg__category__population__) | Origine ethnique du patient |  |
 | Patient | BirthDate | Date de naissance | C4 |  | Date de naissance du patient |  |
 | Patient | DeathDate | Date de décès | C5 |  | Date de décès du patient |  |
 | Patient | CenterId | Id du Centre | C6 |  | Identifiant du centre transmetteur de l'information |  |
@@ -44,15 +44,15 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| TumorPathologyEvent | Type | Type d'événement | C20 |  | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |  |
+| TumorPathologyEvent | Type | Type d'événement | C20 | [EventType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#eventtype) | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |  |
 | TumorPathologyEvent | StartDate | Date de début de l'évènement | C21 |  | Date de début de l'événement tumoral ou de la maladie |  |
 | TumorPathologyEvent | PerformanceStatus | Echelle d'autonomie / Performance status | C22 | [OMS](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#oms) | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |  |
-| TumorPathologyEvent | G8 | Outil de dépistage G8 | C23 |  | outil d'évaluation de l'état général des patients âgés ayant un cancer |  |
+| TumorPathologyEvent | G8 | Outil de dépistage G8 | C23 | [G8](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#g8) | outil d'évaluation de l'état général des patients âgés ayant un cancer |  |
 | TumorPathologyEvent | T | T | C24 |  | Taille de la tumeur, propagation sur le site de la tumeur primitive |  |
 | TumorPathologyEvent | N | N | C25 |  | Propagation au niveau ganglionnaire |  |
 | TumorPathologyEvent | M | M | C26 |  | Propagation à distance, présence de métastases |  |
 | TumorPathologyEvent | TNMVersion | Version du TNM | C27 |  | Version de la classification TNM |  |
-| TumorPathologyEvent | TNMType | Type de TNM | C28 |  | c, p, r,... |  |
+| TumorPathologyEvent | TNMType | Type de TNM | C28 | [TNMType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#tnmtype) | c, p, r,... |  |
 | TumorPathologyEvent | HistologicalGradeType | HistologicalGradeType | C29 |  | Liste des échelles de grading histologique |  |
 | TumorPathologyEvent | HistologicalGradeValue | HistologicalGradeValue | C30 |  | Valeur du grade histologique |  |
 | TumorPathologyEvent | StadeType | StadeType | C31 |  | Liste des échelles de stade |  |
@@ -60,7 +60,7 @@
 | TumorPathologyEvent | DiagnosisDate | Date du diagnostic | C33 |  | Date du diagnostic de l'événement tumoral |  |
 | TumorPathologyEvent | TopographyCode | Code Localisation | C34 | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-topo) | Code international de la localisation de l'événement tumoral |  |
 | TumorPathologyEvent | MorphologyCode | Code Morphologie / Lésion | C35 | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-morpho) | Code international de la lésion / type histologique / morphologie de l'événement tumoral |  |
-| TumorPathologyEvent | Laterality | Latéralité | C36 |  | Latéralité de la localisation (si elle existe) |  |
+| TumorPathologyEvent | Laterality | Latéralité | C36 | [laterality](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#laterality) | Latéralité de la localisation (si elle existe) |  |
 
 ## Analysis
 
@@ -175,15 +175,15 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Validation | ValidationType | ValidationType | O16 |  |  | Type of validation of the detected alteration |
+| Validation | ValidationType | ValidationType | O16 | [OSIRIS:ValidationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvalidationtype) |  | Type of validation of the detected alteration |
 | Validation | ValidationMethod | ValidationMethod | O17 |  |  | Validation method depending on the type of validation |
-| Validation | ValidationStatus | ValidationStatus | O18 |  |  | Validation status of the detected alteration |
+| Validation | ValidationStatus | ValidationStatus | O18 | [OSIRIS:ValidationStatus](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvalidationstatus) |  | Validation status of the detected alteration |
 
 ## Alteration
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Alteration | Chromosome | Chromosome | O19 | [LOINC:LL2938-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loincll2938-0) |  | Chromosome containing the genetic finding |
+| Alteration | Chromosome | Chromosome | O19 | [OSIRIS:Chromosome](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirischromosome) |  | Chromosome containing the genetic finding |
 | Alteration | GenomicStart | GenomicStart | O20 | [FHIR:extension-geneticsGenomicStart](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomicstart) |  | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
 | Alteration | GenomicStop | GenomicStop | O21 | [FHIR:extension-geneticsGenomicStop](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomicstop) |  | Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
 | Alteration | GenomeBuild | GenomeBuild | O22 | [FHIR:extension-geneticsGenomeBuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomebuild) |  | Genome Build used for reference |
@@ -193,8 +193,8 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Genome entity | GenomeEntityType | GenomeEntityType | O24 |  |  | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | O25 |  |  | Database of the genome entity |
+| Genome entity | GenomeEntityType | GenomeEntityType | O24 | [OSIRIS:GenomeEntityType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisgenomeentitytype) |  | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | O25 | [OSIRIS:GenomeEntityDatabase](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisgenomeentitydatabase) |  | Database of the genome entity |
 | Genome entity | GenomeEntityId | GenomeEntityId | O26 | [FHIR:extension-observation-geneticsGene](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsgene) |  | Identifier of the genome entity in the genome entity database |
 | Genome entity | GeneSymbol | GeneSymbol | O27 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48018-6) |  | Hugo gene symbol |
 
@@ -202,7 +202,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Fusion | FusionType | FusionType | O28 |  |  | Type of the fusion event. For eg: translocation, readthrough |
+| Fusion | FusionType | FusionType | O28 | [OSIRIS:FusionType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusiontype) |  | Type of the fusion event. For eg: translocation, readthrough |
 | Fusion | FusionTranscript | FusionTranscript | O29 |  |  | Have been found from a fusion transcript ? |
 | Fusion | FusionTranscriptReference | FusionTranscriptReference | O30 |  |  | Accession number of observed fusion |
 | Fusion | GeneSymbol | FusionGeneSymbol5prime | O31 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
@@ -221,7 +221,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | O42 |  |  | Reference database to annotate the fusion |
+| Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | O42 | [OSIRIS:FusionAnnotationReferentiel](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionannotationreferentiel) |  | Reference database to annotate the fusion |
 | Fusion Analysis | FusionAnnotationValue | FusionAnnotationValue | O43 |  |  | Annotation of the fusion |
 
 ## Fusion QualityFilter

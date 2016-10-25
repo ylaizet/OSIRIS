@@ -23,57 +23,57 @@ Transcription factor	Transcription factor	OSIRIS		OSIRIS:AlterationType	Enumerat
 Histone marks	Histone marks	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15		Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)
 Transcript isoform	Transcript isoform	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15		Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)
 Viral insertion site	Viral insertion site	OSIRIS		OSIRIS:AlterationType	Enumerated	String	O15		Alteration	AlterationType	AlterationType	General type of the detected genetic alteration (high level type)
-Experimental	Experimental	OSIRIS			Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
-By biologist	By biologist	OSIRIS			Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
-In silico	In silico	OSIRIS			Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
+Experimental	Experimental	OSIRIS		OSIRIS:ValidationType	Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
+By biologist	By biologist	OSIRIS		OSIRIS:ValidationType	Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
+In silico	In silico	OSIRIS		OSIRIS:ValidationType	Enumerated	String	O16		Alteration	ValidationType	ValidationType	Type of validation of the detected alteration
 		OSIRIS			nonEnumerated	String	O17		Validation	ValidationMethod	ValidationMethod	Validation method depending on the type of validation
-Not Validated	Not Validated	OSIRIS			Enumerated	String	O18		Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration
-Validated	Validated	OSIRIS			Enumerated	String	O18		Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration
-LA21254-0	chr1	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21255-7	chr2	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21256-5	chr3	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21257-3	chr4	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21258-1	chr5	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21259-9	chr6	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21260-7	chr7	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21261-5	chr8	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21262-3	chr9	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21263-1	chr10	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21264-9	chr11	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21265-6	chr12	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21266-4	chr13	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21267-2	chr14	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21268-0	chr15	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21269-8	chr16	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21270-6	chr17	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21271-4	chr18	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21272-2	chr19	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21273-0	chr20	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21274-8	chr21	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21275-5	chr22	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21276-3	chrX	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-LA21277-1	chrY	LOINC	http://r.details.loinc.org/AnswerList/LL2938-0.html	LOINC:LL2938-0	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-MT	MT	OSIRIS			Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-viral	viral	OSIRIS			Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
-bacterial	bacterial	OSIRIS			Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+Not Validated	Not Validated	OSIRIS		OSIRIS:ValidationStatus	Enumerated	String	O18		Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration
+Validated	Validated	OSIRIS		OSIRIS:ValidationStatus	Enumerated	String	O18		Validation	ValidationStatus	ValidationStatus	Validation status of the detected alteration
+LA21254-0	chr1	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21255-7	chr2	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21256-5	chr3	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21257-3	chr4	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21258-1	chr5	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21259-9	chr6	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21260-7	chr7	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21261-5	chr8	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21262-3	chr9	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21263-1	chr10	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21264-9	chr11	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21265-6	chr12	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21266-4	chr13	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21267-2	chr14	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21268-0	chr15	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21269-8	chr16	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21270-6	chr17	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21271-4	chr18	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21272-2	chr19	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21273-0	chr20	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21274-8	chr21	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21275-5	chr22	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21276-3	chrX	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+LA21277-1	chrY	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+MT	MT	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+viral	viral	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
+bacterial	bacterial	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
 		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstart.html	FHIR:extension-geneticsGenomicStart	nonEnumerated	Integer	O20		Alteration	GenomicStart	GenomicStart	Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based
 		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	FHIR:extension-geneticsGenomicStop	nonEnumerated	Integer	O21	Pb 0/1 based	Alteration	GenomicStop	GenomicStop	Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based
 GRCh37	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsGenomeBuild	Enumerated	String	O22	pb custom enum vs FHIR	Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference
 GRCh38	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsGenomeBuild	Enumerated	String	O22		Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference
 		OSIRIS	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz		nonEnumerated	String	O23		Alteration	Cytoband	Cytoband	Cytogenetic location
-gene	gene	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-miRNA	miRNA	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-piRNA	piRNA	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-mRNA	mRNA	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-ncRNA	ncRNA	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-ORF	ORF	OSIRIS			Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
-HGNC	HGNC	OSIRIS			Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
-miRDB	miRDB	OSIRIS			Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
-Entrez	Entrez	OSIRIS			Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
+gene	gene	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+miRNA	miRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+piRNA	piRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+mRNA	mRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+ncRNA	ncRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+ORF	ORF	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
+HGNC	HGNC	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
+miRDB	miRDB	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
+Entrez	Entrez	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
 		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html	FHIR:extension-observation-geneticsGene	nonEnumerated	String	O26	FHIR defini les deux: symbol et id dans le meme item	Genome entity	GenomeEntityId	GenomeEntityId	Identifier of the genome entity in the genome entity database
 		LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O27	liste existe mais fait on explicitement la liste? Vianney que vas tu faire pour tes grosses listes de valeurs? label in loinc: Gene studied OK lien HUGO	Genome entity	GeneSymbol	GeneSymbol	Hugo gene symbol
-LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	LOINC:81289-1	Enumerated	String	O28	prendre ou laisser OSIRIS?	Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
-readthrough	readthrough	OSIRIS			Enumerated	String	O28		Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
+LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	OSIRIS:FusionType	Enumerated	String	O28	prendre ou laisser OSIRIS?	Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
+readthrough	readthrough	OSIRIS		OSIRIS:FusionType	Enumerated	String	O28		Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
 		OSIRIS			nonEnumerated	Boolean	O29		Fusion	FusionTranscript	FusionTranscript	Have been found from a fusion transcript ?
 		OSIRIS			nonEnumerated	String	O30	Reprendre element meme si c'est pour une fusion? OUI	Fusion	FusionTranscriptReference	FusionTranscriptReference	Accession number of observed fusion
 		LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O31		Fusion	FusionGeneSymbol5prime	FusionGeneSymbol5prime	Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end
@@ -87,9 +87,9 @@ readthrough	readthrough	OSIRIS			Enumerated	String	O28		Fusion	FusionType	Fusion
 		OSIRIS			nonEnumerated	String	O39	+/- ?	Fusion	FusionStrand3prime	FusionStrand3prime	Strand of the 3 prime fusion partner
 					nonEnumerated	Integer	O40		Fusion	FusionPoint3prime	FusionPoint3prime	Position of the fusion point on the 3 prime partner
 		OSIRIS			nonEnumerated	Boolean	O41		Fusion	FusionInFrame	FusionInFrame	Specify whether the fusion is in frame
-ChimerDb	ChimerDb	OSIRIS			Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
-Oncofuse	Oncofuse	OSIRIS			Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
-Mittelman DB	Mittelman DB	OSIRIS			Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
+ChimerDb	ChimerDb	OSIRIS		OSIRIS:FusionAnnotationReferentiel	Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
+Oncofuse	Oncofuse	OSIRIS		OSIRIS:FusionAnnotationReferentiel	Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
+Mittelman DB	Mittelman DB	OSIRIS		OSIRIS:FusionAnnotationReferentiel	Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
 		OSIRIS			nonEnumerated	String	O43		Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	Annotation of the fusion
 		OSIRIS			nonEnumerated	Integer	O44		Fusion/QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	Number of reads pairs spanning the fusion
 		OSIRIS			nonEnumerated	Integer	O45		Fusion/QualityFilter	FusionNbSpanningReads	FusionNbSpanningReads	Number of reads spanning the fusion
@@ -143,7 +143,7 @@ LA6698-0	Missense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:4800
 LA6699-8	Nonsense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75		Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level
 LA6700-4	Silent	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75		Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level
 LA6701-2	Stop Codon Mutation	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	LOINC:48006-1	Enumerated	String	O75		Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level
-In frame	OSIRIS				Enumerated	String	O75	certaines valeurs à vérifier pour concordance entre loinc et OSIRIS	Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level
+osiris:xxxx	In frame				Enumerated	String	O75	certaines valeurs à vérifier pour concordance entre loinc et OSIRIS	Exonic variant	AminoAcidChangeType	AminoAcidChangeType	HGVS nomenclature of changes at protein-level
 		OSIRIS			nonEnumerated	Integer	O76		Variant in specimen	PositionCoverage	PositionCoverage	Total coverage at the variant position observed in the specimen
 		OSIRIS			nonEnumerated	Integer	O77		Variant in specimen	VariantCoverage	VariantCoverage	Coverage of the alternative allele at the variant position observed in the specimen
 		OSIRIS			nonEnumerated	Boolean	O78		Variant in specimen	StrandBias	StrandBias	Indication of the existence of strand bias at the variant position
@@ -199,33 +199,33 @@ ULMS:C1546956	Patient Outcome - Died	UMLS			Enumerated	String	C8		Patient	Etat a
 					nonEnumerated	Date	C12		Antécédent carcinologique personnel ou familial	Date de diagnostic	Date de diagnostic	Date de diagnostic de l'antécédent carcinologique
 		CIM-O-3 Topo		CIM-O-3 Topo	Enumerated	String	C13		Antécédent carcinologique personnel ou familial	Code Localisation	Code Localisation	Code international de la localisation de l'antécédent carcinologique
 		CIM-O-3 Morpho		CIM-O-3 Morpho	Enumerated	String	C14		Antécédent carcinologique personnel ou familial	Code Morphologie / Lésion	Code Morphologie / Lésion	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique
-UMLS:C2939419	Secondary Neoplasm	UMLS			Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
-UMLS:C0521158	Recurrent tumor	UMLS			Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
-UMLS:C0677930	primary tumor	UMLS			Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
+UMLS:C2939419	Secondary Neoplasm	UMLS		EventType	Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
+UMLS:C0521158	Recurrent tumor	UMLS		EventType	Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
+UMLS:C0677930	primary tumor	UMLS		EventType	Enumerated	String	C15		Evénement tumoral	Type	Type	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).
 					nonEnumerated	Date	C16		Evénement tumoral	Date de début de l'évènement	Date de début de l'évènement	Date de début de l'événement tumoral ou de la maladie
 0	activité normale sans restriction	OMS		OMS	Enumerated	String	C17		Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)
 1	restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger	OMS		OMS	Enumerated	String	C17		Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)
 2	ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps	OMS		OMS	Enumerated	String	C17		Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)
 3	capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise.	OMS		OMS	Enumerated	String	C17		Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)
 4	complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise.	OMS		OMS	Enumerated	String	C17		Evénement tumoral		Echelle d'autonomie / Performance status	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)
-					nonEnumerated	Integer	C18		Evénement tumoral		Outil de dépistage G8	outil d'évaluation de l'état général des patients âgés ayant un cancer
+				G8	nonEnumerated	Integer	C18		Evénement tumoral		Outil de dépistage G8	outil d'évaluation de l'état général des patients âgés ayant un cancer
 					Enumerated	String	C19		Evénement tumoral		T	Taille de la tumeur, propagation sur le site de la tumeur primitive
 					Enumerated	String	C20		Evénement tumoral		N	Propagation au niveau ganglionnaire
 					Enumerated	String	C21		Evénement tumoral		M	Propagation à distance, présence de métastases
 					Enumerated	String	C22		Evénement tumoral		Version du TNM	Version de la classification TNM
-c	Clinique				Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
-p	Pathologique				Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
-y	Après traitement neoadjuvant				Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
-u	Radiologique				Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
+c	Clinique			TNMType	Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
+p	Pathologique			TNMType	Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
+y	Après traitement neoadjuvant			TNMType	Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
+u	Radiologique			TNMType	Enumerated	String	C23		Evénement tumoral		Type de TNM	Type de TNM (clinique, Pathologique, etc…)
 					nonEnumerated	Date	C24		Evénement tumoral		Date du diagnostic	Date du diagnostic de l'événement tumoral
 		CIM-O-3 Topo		CIM-O-3 Topo	Enumerated	String	C25		Evénement tumoral		Code Localisation	Code international de la localisation de l'événement tumoral
 		CIM-O-3 Morpho		CIM-O-3 Morpho	Enumerated	String	C26		Evénement tumoral		Code Morphologie / Lésion	Code international de la lésion / type histologique / morphologie de l'événement tumoral
-UMLS:C0238767	Bilateral	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
-UMLS:C0205091	Left	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
-UMLS:C2939193	Median (qualifier value)	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
-UMLS:C1272460	Not Applicable	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
-UMLS:C0205090	Right	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
-UMLS:C0439673	Unknown	UMLS			Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C0238767	Bilateral	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C0205091	Left	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C2939193	Median (qualifier value)	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C1272460	Not Applicable	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C0205090	Right	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
+UMLS:C0439673	Unknown	UMLS		laterality	Enumerated	String	C27		Evénement tumoral		Latéralité	Latéralité de la localisation (si elle existe)
 		CCAM		CCAM	Enumerated	String	C28		Traitement		Acte	Code CCAM de l'acte
 UMLS:C3665472	Chemotherapy	UMLS			Enumerated	String	C29		Traitement		Type	Type de traitement
 UMLS:C0279025	Hormone Therapy	UMLS			Enumerated	String	C29		Traitement		Type	Type de traitement
@@ -248,3 +248,8 @@ R2	Marges macroscopiquement et microscopiquement envahies				Enumerated	String	C
 		MIABIS-41/MIABIS-2.0-14			Enumerated	String	C42		Echantillon biologique		Type de dérivé (si dérivé)	Le type de dérivé
 		MIABIS-43/MIABIS-2.0-15			Enumerated	String	C43		Echantillon biologique		Mode de conservation	Le mode de conservation
 					nonEnumerated	Integer	C44		Echantillon biologique		% de cellules tumorales	Le pourcentage de cellules tumorales quantifié dans l'échantillon
+EAS	East Asian	1000Genome		http://www.1000genomes.org/category/population/	Enumerated	String	C3		Patient	Ethnicity	Ethnicité	Origine ethnique du patient
+EUR	European	1000Genome		http://www.1000genomes.org/category/population/	Enumerated	String	C3		Patient	Ethnicity	Ethnicité	Origine ethnique du patient
+AFR 	African	1000Genome		http://www.1000genomes.org/category/population/	Enumerated	String	C3		Patient	Ethnicity	Ethnicité	Origine ethnique du patient
+AMR	Ad Mixed American	1000Genome		http://www.1000genomes.org/category/population/	Enumerated	String	C3		Patient	Ethnicity	Ethnicité	Origine ethnique du patient
+SAS	South Asian	1000Genome		http://www.1000genomes.org/category/population/	Enumerated	String	C3		Patient	Ethnicity	Ethnicité	Origine ethnique du patient

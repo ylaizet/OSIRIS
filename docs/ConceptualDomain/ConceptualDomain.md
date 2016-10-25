@@ -16,34 +16,52 @@
 | Transcript isoform | Transcript isoform | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
 | Viral insertion site | Viral insertion site | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
 
-## LOINC:LL2938-0
+## OSIRIS:ValidationType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| LA21254-0 | chr1 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21255-7 | chr2 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21256-5 | chr3 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21257-3 | chr4 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21258-1 | chr5 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21259-9 | chr6 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21260-7 | chr7 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21261-5 | chr8 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21262-3 | chr9 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21263-1 | chr10 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21264-9 | chr11 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21265-6 | chr12 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21266-4 | chr13 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21267-2 | chr14 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21268-0 | chr15 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21269-8 | chr16 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21270-6 | chr17 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21271-4 | chr18 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21272-2 | chr19 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21273-0 | chr20 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21274-8 | chr21 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21275-5 | chr22 | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21276-3 | chrX | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| LA21277-1 | chrY | LOINC | http://r.details.loinc.org/AnswerList/LL2938-0.html | LOINC:LL2938-0 | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| Experimental | Experimental | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+| By biologist | By biologist | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+| In silico | In silico | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+
+## OSIRIS:ValidationStatus
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| Not Validated | Not Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
+| Validated | Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
+
+## OSIRIS:Chromosome
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| LA21254-0 | chr1 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21255-7 | chr2 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21256-5 | chr3 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21257-3 | chr4 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21258-1 | chr5 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21259-9 | chr6 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21260-7 | chr7 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21261-5 | chr8 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21262-3 | chr9 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21263-1 | chr10 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21264-9 | chr11 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21265-6 | chr12 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21266-4 | chr13 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21267-2 | chr14 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21268-0 | chr15 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21269-8 | chr16 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21270-6 | chr17 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21271-4 | chr18 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21272-2 | chr19 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21273-0 | chr20 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21274-8 | chr21 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21275-5 | chr22 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21276-3 | chrX | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| LA21277-1 | chrY | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| MT | MT | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| viral | viral | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| bacterial | bacterial | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 
 ## FHIR:extension-geneticsGenomicStart
 
@@ -64,6 +82,25 @@
 | GRCh37 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 | GRCh38 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 
+## OSIRIS:GenomeEntityType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| gene | gene | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| miRNA | miRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| piRNA | piRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| mRNA | mRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| ncRNA | ncRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| ORF | ORF | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+
+## OSIRIS:GenomeEntityDatabase
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| HGNC | HGNC | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+| miRDB | miRDB | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+| Entrez | Entrez | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+
 ## FHIR:extension-observation-geneticsGene
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
@@ -76,11 +113,12 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O27 | Genome entity | GeneSymbol | GeneSymbol | Hugo gene symbol |
 
-## LOINC:81289-1
+## OSIRIS:FusionType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| LA26331-1 | translocation | LOINC | http://r.details.loinc.org/LOINC/81289-1.html | LOINC:81289-1 | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
+| LA26331-1 | translocation | LOINC | http://r.details.loinc.org/LOINC/81289-1.html | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
+| readthrough | readthrough | OSIRIS |  | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
 
 ## LOINC:48018-6
 
@@ -117,6 +155,14 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O38 | Fusion | FusionTranscriptReferenceSequenceId3prime | FusionTranscriptReferenceSequenceId3prime | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
+
+## OSIRIS:FusionAnnotationReferentiel
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| ChimerDb | ChimerDb | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+| Oncofuse | Oncofuse | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+| Mittelman DB | Mittelman DB | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
 
 ## FHIR:Sequence.referenceAllele
 
@@ -243,6 +289,14 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C14 | Antécédent carcinologique personnel ou familial | Code Morphologie / Lésion | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
 
+## EventType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UMLS:C2939419 | Secondary Neoplasm | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+| UMLS:C0521158 | Recurrent tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+| UMLS:C0677930 | primary tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+
 ## OMS
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
@@ -252,6 +306,21 @@
 | 2 | ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
 | 3 | capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
 | 4 | complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+
+## G8
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  |  |  | G8 | nonEnumerated | Integer | C18 | Evénement tumoral |  | Outil de dépistage G8 | outil d'évaluation de l'état général des patients âgés ayant un cancer |
+
+## TNMType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| c | Clinique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| p | Pathologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| y | Après traitement neoadjuvant |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| u | Radiologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
 
 ## CIM-O-3 Topo
 
@@ -264,6 +333,17 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C26 | Evénement tumoral |  | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'événement tumoral |
+
+## laterality
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UMLS:C0238767 | Bilateral | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0205091 | Left | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C2939193 | Median (qualifier value) | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C1272460 | Not Applicable | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0205090 | Right | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0439673 | Unknown | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
 
 ## CCAM
 
@@ -300,3 +380,13 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C40 | Echantillon biologique |  | Code Localisation | Code de la localisation tumorale |
+
+## http://www.1000genomes.org/category/population/
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| EAS | East Asian | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| EUR | European | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| AFR  | African | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| AMR | Ad Mixed American | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| SAS | South Asian | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
