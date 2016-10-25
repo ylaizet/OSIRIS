@@ -1,6 +1,29 @@
 # Conceptual Domains
 
 
+## CLINICAL
+---
+
+* [v3 Code System AdministrativeGender](ConceptualDomain.md#v3-code-system-administrativegender)
+* [UMLS:C0007465](ConceptualDomain.md#umlsc0007465)
+* [ICD-10](ConceptualDomain.md#icd-10)
+* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
+* [CIM-O-3 Morpho](ConceptualDomain.md#cim-o-3-morpho)
+* [EventType](ConceptualDomain.md#eventtype)
+* [OMS](ConceptualDomain.md#oms)
+* [G8](ConceptualDomain.md#g8)
+* [TNMType](ConceptualDomain.md#tnmtype)
+* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
+* [CIM-O-3 Morpho](ConceptualDomain.md#cim-o-3-morpho)
+* [laterality](ConceptualDomain.md#laterality)
+* [CCAM](ConceptualDomain.md#ccam)
+* [ATC 5e niveau](ConceptualDomain.md#atc-5e-niveau)
+* [MIABIS-40](ConceptualDomain.md#miabis-40)
+* [MIABIS-39](ConceptualDomain.md#miabis-39)
+* [MIABIS-43](ConceptualDomain.md#miabis-43)
+* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
+* [1000Genome](ConceptualDomain.md#1000genome)
+
 ## OMIC
 ---
 
@@ -34,26 +57,3 @@
 * [LOINC:48006-1](ConceptualDomain.md#loinc48006-1)
 * [LOINC:LL378-1](ConceptualDomain.md#loincll378-1)
 * [LOINC:LL381-5](ConceptualDomain.md#loincll381-5)
-
-## CLINICAL
----
-
-* [v3 Code System AdministrativeGender](ConceptualDomain.md#v3-code-system-administrativegender)
-* [UMLS:C0007465](ConceptualDomain.md#umlsc0007465)
-* [ICD-10](ConceptualDomain.md#icd-10)
-* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
-* [CIM-O-3 Morpho](ConceptualDomain.md#cim-o-3-morpho)
-* [EventType](ConceptualDomain.md#eventtype)
-* [OMS](ConceptualDomain.md#oms)
-* [G8](ConceptualDomain.md#g8)
-* [TNMType](ConceptualDomain.md#tnmtype)
-* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
-* [CIM-O-3 Morpho](ConceptualDomain.md#cim-o-3-morpho)
-* [laterality](ConceptualDomain.md#laterality)
-* [CCAM](ConceptualDomain.md#ccam)
-* [ATC 5e niveau](ConceptualDomain.md#atc-5e-niveau)
-* [MIABIS-40](ConceptualDomain.md#miabis-40)
-* [MIABIS-39](ConceptualDomain.md#miabis-39)
-* [MIABIS-43](ConceptualDomain.md#miabis-43)
-* [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
-* [http://www.1000genomes.org/category/population/](ConceptualDomain.md#http____www1000genomesorg__category__population__)

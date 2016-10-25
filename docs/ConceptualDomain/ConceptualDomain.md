@@ -1,3 +1,144 @@
+# CLINICAL
+---
+
+## v3 Code System AdministrativeGender
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| M | Male | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
+| F | Female | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
+| UN | Undifferentiated | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
+
+## UMLS:C0007465
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UMLS:C0277589 | Death of unknown cause | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
+| UMLS:C1707251 | Other cancer | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
+| UMLS:C3262234 | Other cause | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
+| UMLS:C0679861 | Complications of treatment | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
+| UMLS:C0027651 | Neoplasm | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
+
+## ICD-10
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | ICD-10 | http://apps.who.int/classifications/icd10/browse/2016/en | ICD-10 | Enumerated | String | C9 | Pathologie associée | Code | Code | Code international de la pathologie associée (hors autre cancer). |
+
+## CIM-O-3 Topo
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C13 | Antécédent carcinologique personnel ou familial | Code Localisation | Code Localisation | Code international de la localisation de l'antécédent carcinologique |
+
+## CIM-O-3 Morpho
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C14 | Antécédent carcinologique personnel ou familial | Code Morphologie / Lésion | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
+
+## EventType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UMLS:C2939419 | Secondary Neoplasm | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+| UMLS:C0521158 | Recurrent tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+| UMLS:C0677930 | primary tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+
+## OMS
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| 0 | activité normale sans restriction | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 1 | restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 2 | ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 3 | capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+| 4 | complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
+
+## G8
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  |  |  | G8 | nonEnumerated | Integer | C18 | Evénement tumoral |  | Outil de dépistage G8 | outil d'évaluation de l'état général des patients âgés ayant un cancer |
+
+## TNMType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| c | Clinique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| p | Pathologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| y | Après traitement neoadjuvant |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+| u | Radiologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
+
+## CIM-O-3 Topo
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C25 | Evénement tumoral |  | Code Localisation | Code international de la localisation de l'événement tumoral |
+
+## CIM-O-3 Morpho
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C26 | Evénement tumoral |  | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'événement tumoral |
+
+## laterality
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UMLS:C0238767 | Bilateral | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0205091 | Left | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C2939193 | Median (qualifier value) | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C1272460 | Not Applicable | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0205090 | Right | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+| UMLS:C0439673 | Unknown | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
+
+## CCAM
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CCAM |  | CCAM | Enumerated | String | C28 | Traitement |  | Acte | Code CCAM de l'acte |
+
+## ATC 5e niveau
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C36 | Molécule Administrée |  | Code molécule | Code de la classification thérapeutique |
+
+## MIABIS-40
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | MIABIS-40 |  | MIABIS-40 | nonEnumerated | String | C37 | Echantillon biologique |  | Id du prélèvement | Identifiant du prélèvement (père) dans le centre |
+
+## MIABIS-39
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | MIABIS-39 |  | MIABIS-39 | nonEnumerated | String | C38 | Echantillon biologique |  | Id de l'échantillon | Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...) |
+
+## MIABIS-43
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | MIABIS-43 |  | MIABIS-43 | nonEnumerated | Date | C39 | Echantillon biologique |  | Date du prélèvement | Date du prélèvement |
+
+## CIM-O-3 Topo
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C40 | Echantillon biologique |  | Code Localisation | Code de la localisation tumorale |
+
+## 1000Genome
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| EAS | East Asian | 1000Genome | http://www.1000genomes.org/category/population/ | 1000Genome | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| EUR | European | 1000Genome | http://www.1000genomes.org/category/population/ | 1000Genome | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| AFR  | African | 1000Genome | http://www.1000genomes.org/category/population/ | 1000Genome | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| AMR | Ad Mixed American | 1000Genome | http://www.1000genomes.org/category/population/ | 1000Genome | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+| SAS | South Asian | 1000Genome | http://www.1000genomes.org/category/population/ | 1000Genome | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
+
 # OMIC
 ---
 
@@ -249,144 +390,3 @@
 | LA6705-3 | Homozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 | LA6706-1 | Heterozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 | LA6707-9 | Hemizygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
-
-# CLINICAL
----
-
-## v3 Code System AdministrativeGender
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| M | Male | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
-| F | Female | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
-| UN | Undifferentiated | FHIR (HL7) v3 | http://hl7.org/fhir/v3/AdministrativeGender/index.html | v3 Code System AdministrativeGender | Enumerated | String | C2 | Patient | Sexe | Sexe | Sexe du patient |
-
-## UMLS:C0007465
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| UMLS:C0277589 | Death of unknown cause | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
-| UMLS:C1707251 | Other cancer | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
-| UMLS:C3262234 | Other cause | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
-| UMLS:C0679861 | Complications of treatment | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
-| UMLS:C0027651 | Neoplasm | UMLS | https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*; | UMLS:C0007465 | Enumerated | String | C6 | Patient | Cause du décès | Cause du décès | Descriptif de la cause de décès du patient |
-
-## ICD-10
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | ICD-10 | http://apps.who.int/classifications/icd10/browse/2016/en | ICD-10 | Enumerated | String | C9 | Pathologie associée | Code | Code | Code international de la pathologie associée (hors autre cancer). |
-
-## CIM-O-3 Topo
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C13 | Antécédent carcinologique personnel ou familial | Code Localisation | Code Localisation | Code international de la localisation de l'antécédent carcinologique |
-
-## CIM-O-3 Morpho
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C14 | Antécédent carcinologique personnel ou familial | Code Morphologie / Lésion | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
-
-## EventType
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| UMLS:C2939419 | Secondary Neoplasm | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
-| UMLS:C0521158 | Recurrent tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
-| UMLS:C0677930 | primary tumor | UMLS |  | EventType | Enumerated | String | C15 | Evénement tumoral | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
-
-## OMS
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| 0 | activité normale sans restriction | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
-| 1 | restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
-| 2 | ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
-| 3 | capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
-| 4 | complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise. | OMS |  | OMS | Enumerated | String | C17 | Evénement tumoral |  | Echelle d'autonomie / Performance status | Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS) |
-
-## G8
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  |  |  | G8 | nonEnumerated | Integer | C18 | Evénement tumoral |  | Outil de dépistage G8 | outil d'évaluation de l'état général des patients âgés ayant un cancer |
-
-## TNMType
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| c | Clinique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
-| p | Pathologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
-| y | Après traitement neoadjuvant |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
-| u | Radiologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
-
-## CIM-O-3 Topo
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C25 | Evénement tumoral |  | Code Localisation | Code international de la localisation de l'événement tumoral |
-
-## CIM-O-3 Morpho
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C26 | Evénement tumoral |  | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'événement tumoral |
-
-## laterality
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| UMLS:C0238767 | Bilateral | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-| UMLS:C0205091 | Left | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-| UMLS:C2939193 | Median (qualifier value) | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-| UMLS:C1272460 | Not Applicable | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-| UMLS:C0205090 | Right | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-| UMLS:C0439673 | Unknown | UMLS |  | laterality | Enumerated | String | C27 | Evénement tumoral |  | Latéralité | Latéralité de la localisation (si elle existe) |
-
-## CCAM
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CCAM |  | CCAM | Enumerated | String | C28 | Traitement |  | Acte | Code CCAM de l'acte |
-
-## ATC 5e niveau
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C36 | Molécule Administrée |  | Code molécule | Code de la classification thérapeutique |
-
-## MIABIS-40
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-40 |  | MIABIS-40 | nonEnumerated | String | C37 | Echantillon biologique |  | Id du prélèvement | Identifiant du prélèvement (père) dans le centre |
-
-## MIABIS-39
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-39 |  | MIABIS-39 | nonEnumerated | String | C38 | Echantillon biologique |  | Id de l'échantillon | Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...) |
-
-## MIABIS-43
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-43 |  | MIABIS-43 | nonEnumerated | Date | C39 | Echantillon biologique |  | Date du prélèvement | Date du prélèvement |
-
-## CIM-O-3 Topo
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C40 | Echantillon biologique |  | Code Localisation | Code de la localisation tumorale |
-
-## http://www.1000genomes.org/category/population/
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| EAS | East Asian | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
-| EUR | European | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
-| AFR  | African | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
-| AMR | Ad Mixed American | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |
-| SAS | South Asian | 1000Genome |  | http://www.1000genomes.org/category/population/ | Enumerated | String | C3 | Patient | Ethnicity | Ethnicité | Origine ethnique du patient |

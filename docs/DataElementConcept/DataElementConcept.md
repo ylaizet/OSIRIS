@@ -7,7 +7,7 @@
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Patient | Id | Id du patient | C1 |  | Identifiant du patient dans le centre transmetteur de l'information |  |
 | Patient | Gender | Sexe | C2 | [v3 Code System AdministrativeGender](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#v3-code-system-administrativegender) | Sexe du patient |  |
-| Patient | Ethnicity | Ethnicité | C3 | [http://www.1000genomes.org/category/population/](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#http____www1000genomesorg__category__population__) | Origine ethnique du patient |  |
+| Patient | Ethnicity | Ethnicité | C3 | [1000Genome](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#1000genome) | Origine ethnique du patient |  |
 | Patient | BirthDate | Date de naissance | C4 |  | Date de naissance du patient |  |
 | Patient | DeathDate | Date de décès | C5 |  | Date de décès du patient |  |
 | Patient | CenterId | Id du Centre | C6 |  | Identifiant du centre transmetteur de l'information |  |

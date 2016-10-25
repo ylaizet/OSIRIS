@@ -1,7 +1,7 @@
 ObjectClass	ObjectProperty	DataElementConcept	IdDataElementConcept	ConceptualDomain	DataElementConceptDefFR	DataElementConceptDefEN
 Patient	Id	Id du patient	C1		Identifiant du patient dans le centre transmetteur de l'information	
 Patient	Gender	Sexe	C2	v3 Code System AdministrativeGender	Sexe du patient	
-Patient	Ethnicity	Ethnicité	C3	http://www.1000genomes.org/category/population/	Origine ethnique du patient	
+Patient	Ethnicity	Ethnicité	C3	1000Genome	Origine ethnique du patient	
 Patient	BirthDate	Date de naissance	C4		Date de naissance du patient	
 Patient	DeathDate	Date de décès	C5		Date de décès du patient	
 Patient	CenterId	Id du Centre	C6		Identifiant du centre transmetteur de l'information	
