@@ -23,7 +23,6 @@
 * [Specimen](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#specimen)
 * [Technology](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#technology)
 * [Panel](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#panel)
-* [Analysis](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#analysis)
 * [Experiment on specimen](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#experiment-on-specimen)
 * [Experiment on specimen CpyNb Quality filter](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#experiment-on-specimen-cpynb-quality-filter)
 * [Alteration in specimen](https://github.com/ylaizet/OSIRIS/blob/master/docs/DataElementConcept/DataElementConcept.md#alteration-in-specimen)
