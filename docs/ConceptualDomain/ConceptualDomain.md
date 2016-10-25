@@ -70,18 +70,6 @@
 | y | Après traitement neoadjuvant |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
 | u | Radiologique |  |  | TNMType | Enumerated | String | C23 | Evénement tumoral |  | Type de TNM | Type de TNM (clinique, Pathologique, etc…) |
 
-## CIM-O-3 Topo
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C25 | Evénement tumoral |  | Code Localisation | Code international de la localisation de l'événement tumoral |
-
-## CIM-O-3 Morpho
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C26 | Evénement tumoral |  | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'événement tumoral |
-
 ## laterality
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
@@ -122,12 +110,6 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | MIABIS-43 |  | MIABIS-43 | nonEnumerated | Date | C39 | Echantillon biologique |  | Date du prélèvement | Date du prélèvement |
-
-## CIM-O-3 Topo
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C40 | Echantillon biologique |  | Code Localisation | Code de la localisation tumorale |
 
 ## 1000Genome
 
@@ -261,12 +243,6 @@
 | LA26331-1 | translocation | LOINC | http://r.details.loinc.org/LOINC/81289-1.html | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
 | readthrough | readthrough | OSIRIS |  | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
 
-## LOINC:48018-6
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O31 | Fusion | FusionGeneSymbol5prime | FusionGeneSymbol5prime | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
-
 ## FHIR:extension-observation-geneticsDNARegionName
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
@@ -278,24 +254,6 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O33 | Fusion | FusionTranscriptReferenceSequenceId5prime | FusionTranscriptReferenceSequenceId5prime | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
-
-## LOINC:48018-6
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O36 | Fusion | FusionGeneSymbol3prime | FusionGeneSymbol3prime | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
-
-## FHIR:extension-observation-geneticsDNARegionName
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsDNARegionName | nonEnumerated | String | O37 | Fusion | FusionRegionName3prime | FusionRegionName3prime | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
-
-## FHIR:extension-observation-geneticsTranscriptReferenceSequenceId
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O38 | Fusion | FusionTranscriptReferenceSequenceId3prime | FusionTranscriptReferenceSequenceId3prime | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
 ## OSIRIS:FusionAnnotationReferentiel
 
@@ -327,23 +285,11 @@
 | LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 | LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 
-## FHIR:extension-observation-geneticsDNARegionName
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html | FHIR:extension-observation-geneticsDNARegionName | nonEnumerated | String | O66 | Reference variant | DNARegionName | DNARegionName | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
-
 ## FHIR:extension-observation-geneticsProteinReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html | FHIR:extension-observation-geneticsProteinReferenceSequenceId | nonEnumerated | String | O68 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | Reference identifier of the protein transcript |
-
-## FHIR:extension-observation-geneticsTranscriptReferenceSequenceId
-
-| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
-| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O70 | Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | Reference identifier of the transcript |
 
 ## FHIR:extension-observation-geneticsDNASequenceVariation
 
