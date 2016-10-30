@@ -38,7 +38,7 @@
 | CancerHistory | DiagnosisDate | Date de diagnostic | C16 |  | Date de diagnostic de l'antécédent carcinologique |  |
 | CancerHistory | TopographyCode | Code Localisation | C17 | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-topo) | Code international de la localisation de l'antécédent carcinologique |  |
 | CancerHistory | MorphologyCode | Code Morphologie / Lésion | C18 | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-morpho) | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |  |
-| CancerHistory | Type | Type | C19 |  | Personnel / Familial |  |
+| CancerHistory | Type | Type | C19 | [CancerHistoryType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cancerhistorytype) | Type d'antécédent (Personnel ou Familial) |  |
 
 ## TumorPathologyEvent
 
@@ -51,7 +51,7 @@
 | TumorPathologyEvent | T | T | C24 |  | Taille de la tumeur, propagation sur le site de la tumeur primitive |  |
 | TumorPathologyEvent | N | N | C25 |  | Propagation au niveau ganglionnaire |  |
 | TumorPathologyEvent | M | M | C26 |  | Propagation à distance, présence de métastases |  |
-| TumorPathologyEvent | TNMVersion | Version du TNM | C27 |  | Version de la classification TNM |  |
+| TumorPathologyEvent | TNMVersion | Version du TNM | C27 | [TNMVersion](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#tnmversion) | Version de la classification TNM |  |
 | TumorPathologyEvent | TNMType | Type de TNM | C28 | [TNMType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#tnmtype) | c, p, r,... |  |
 | TumorPathologyEvent | HistologicalGradeType | HistologicalGradeType | C29 |  | Liste des échelles de grading histologique |  |
 | TumorPathologyEvent | HistologicalGradeValue | HistologicalGradeValue | C30 |  | Valeur du grade histologique |  |
@@ -60,7 +60,7 @@
 | TumorPathologyEvent | DiagnosisDate | Date du diagnostic | C33 |  | Date du diagnostic de l'événement tumoral |  |
 | TumorPathologyEvent | TopographyCode | Code Localisation | C34 | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-topo) | Code international de la localisation de l'événement tumoral |  |
 | TumorPathologyEvent | MorphologyCode | Code Morphologie / Lésion | C35 | [CIM-O-3 Morpho](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-morpho) | Code international de la lésion / type histologique / morphologie de l'événement tumoral |  |
-| TumorPathologyEvent | Laterality | Latéralité | C36 | [laterality](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#laterality) | Latéralité de la localisation (si elle existe) |  |
+| TumorPathologyEvent | Laterality | Latéralité | C36 | [Laterality](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#laterality) | Latéralité de la localisation (si elle existe) |  |
 
 ## Analysis
 
@@ -80,7 +80,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Treatment | Type | Type de traitement | C41 |  | Type de traitement |  |
+| Treatment | Type | Type de traitement | C41 | [TreatmentType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#treatmenttype) | Type de traitement |  |
 | Treatment | ActivityCode | Codification de l'acte | C42 | [CCAM](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#ccam) | Code CCAM de l'acte |  |
 | Treatment | StartDate | Date de début | C43 |  | Date de début du traitement |  |
 | Treatment | EndDate | Date de fin | C44 |  | Date de fin du traitement |  |
@@ -90,7 +90,7 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Treatment (Type=Surgery) | ResectionQuality | Qualité de la résection (anapath) | C46 |  | Qualité de la résection (anapath) |  |
+| Treatment (Type=Surgery) | ResectionQuality | Qualité de la résection (anapath) | C46 | [SurgeryResection](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#surgeryresection) | Qualité de la résection (anapath) |  |
 | Treatment (Type=Surgery) | Nature | Nature de la chirurgie | C47 |  | Nature de la chirurgie |  |
 
 ## AdverseEvent

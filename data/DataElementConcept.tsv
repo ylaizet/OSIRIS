@@ -17,7 +17,7 @@ RelatedPathology	PathologyEndDate	Date de fin	C15		Date de fin de la pathologie 
 CancerHistory	DiagnosisDate	Date de diagnostic	C16		Date de diagnostic de l'antécédent carcinologique	
 CancerHistory	TopographyCode	Code Localisation	C17	CIM-O-3 Topo	Code international de la localisation de l'antécédent carcinologique	
 CancerHistory	MorphologyCode	Code Morphologie / Lésion	C18	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique	
-CancerHistory	Type	Type	C19		Personnel / Familial	
+CancerHistory	Type	Type	C19	CancerHistoryType	Type d'antécédent (Personnel ou Familial)	
 TumorPathologyEvent	Type	Type d'événement	C20	EventType	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).	
 TumorPathologyEvent	StartDate	Date de début de l'évènement	C21		Date de début de l'événement tumoral ou de la maladie	
 TumorPathologyEvent	PerformanceStatus	Echelle d'autonomie / Performance status	C22	OMS	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)	
@@ -25,7 +25,7 @@ TumorPathologyEvent	G8	Outil de dépistage G8	C23	G8	outil d'évaluation de l'é
 TumorPathologyEvent	T	T	C24		Taille de la tumeur, propagation sur le site de la tumeur primitive	
 TumorPathologyEvent	N	N	C25		Propagation au niveau ganglionnaire	
 TumorPathologyEvent	M	M	C26		Propagation à distance, présence de métastases	
-TumorPathologyEvent	TNMVersion	Version du TNM	C27		Version de la classification TNM	
+TumorPathologyEvent	TNMVersion	Version du TNM	C27	TNMVersion	Version de la classification TNM	
 TumorPathologyEvent	TNMType	Type de TNM	C28	TNMType	c, p, r,...	
 TumorPathologyEvent	HistologicalGradeType	HistologicalGradeType	C29		Liste des échelles de grading histologique	
 TumorPathologyEvent	HistologicalGradeValue	HistologicalGradeValue	C30		Valeur du grade histologique	
@@ -34,17 +34,17 @@ TumorPathologyEvent	StadeValue	StadeValue	C32		Valeur du stade
 TumorPathologyEvent	DiagnosisDate	Date du diagnostic	C33		Date du diagnostic de l'événement tumoral	
 TumorPathologyEvent	TopographyCode	Code Localisation	C34	CIM-O-3 Topo	Code international de la localisation de l'événement tumoral	
 TumorPathologyEvent	MorphologyCode	Code Morphologie / Lésion	C35	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'événement tumoral	
-TumorPathologyEvent	Laterality	Latéralité	C36	laterality	Latéralité de la localisation (si elle existe)	
+TumorPathologyEvent	Laterality	Latéralité	C36	Laterality	Latéralité de la localisation (si elle existe)	
 Analysis	Type	Type d'examen	C37		Type de l'examen	
 Analysis	AnalysisDate	Date d'examen	C38		Date de l'examen	
 Biomarker	BiomarkerCode	Code du marqueur	C39		Nom du marqueur	
 Biomarker	BiomarkerStatus	Statut du marqueur	C40		Statut de marqueur	
-Treatment	Type	Type de traitement	C41		Type de traitement	
+Treatment	Type	Type de traitement	C41	TreatmentType	Type de traitement	
 Treatment	ActivityCode	Codification de l'acte	C42	CCAM	Code CCAM de l'acte	
 Treatment	StartDate	Date de début	C43		Date de début du traitement	
 Treatment	EndDate	Date de fin	C44		Date de fin du traitement	
 Treatment	ClinicalTrialContext	Clinical trial (Yes | No)	C45		Traitement effectué dans un contexte d'étude clinique	
-Treatment (Type=Surgery)	ResectionQuality	Qualité de la résection (anapath)	C46		Qualité de la résection (anapath)	
+Treatment (Type=Surgery)	ResectionQuality	Qualité de la résection (anapath)	C46	SurgeryResection	Qualité de la résection (anapath)	
 Treatment (Type=Surgery)	Nature	Nature de la chirurgie	C47		Nature de la chirurgie	
 AdverseEvent	Code	Code de l'événement indésirable	C48		Code international de l'événement indésirable survenu en cours de traitement (hors autre cancer).	
 AdverseEvent	Date	Date de l'événement indésirable	C49		Date du diagnostic de l'événement indésirable	

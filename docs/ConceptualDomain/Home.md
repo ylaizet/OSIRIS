@@ -4,22 +4,29 @@
 ## CLINICAL
 ---
 
-* [v3 Code System AdministrativeGender](ConceptualDomain.md#v3-code-system-administrativegender)
+* [HL7 v3 Code System AdministrativeGender](ConceptualDomain.md#hl7-v3-code-system-administrativegender)
+* [HL7 v3 Code System Race](ConceptualDomain.md#hl7-v3-code-system-race)
 * [UMLS:C0007465](ConceptualDomain.md#umlsc0007465)
 * [ICD-10](ConceptualDomain.md#icd-10)
 * [CIM-O-3 Topo](ConceptualDomain.md#cim-o-3-topo)
 * [CIM-O-3 Morpho](ConceptualDomain.md#cim-o-3-morpho)
-* [EventType](ConceptualDomain.md#eventtype)
+* [OSIRIS:CancerHistoryType](ConceptualDomain.md#osiriscancerhistorytype)
+* [OSIRIS:EventType](ConceptualDomain.md#osiriseventtype)
 * [OMS](ConceptualDomain.md#oms)
 * [G8](ConceptualDomain.md#g8)
-* [TNMType](ConceptualDomain.md#tnmtype)
-* [laterality](ConceptualDomain.md#laterality)
+* [OSIRIS:T_TNM](ConceptualDomain.md#osirist_tnm)
+* [OSIRIS:N_TNM](ConceptualDomain.md#osirisn_tnm)
+* [OSIRIS:M_TNM](ConceptualDomain.md#osirism_tnm)
+* [OSIRIS:TNMVersion](ConceptualDomain.md#osiristnmversion)
+* [OSIRIS:TNMType](ConceptualDomain.md#osiristnmtype)
+* [OSIRIS:Laterality](ConceptualDomain.md#osirislaterality)
+* [OSIRIS:TreatmentType](ConceptualDomain.md#osiristreatmenttype)
 * [CCAM](ConceptualDomain.md#ccam)
+* [OSIRIS:SurgeryResection](ConceptualDomain.md#osirissurgeryresection)
 * [ATC 5e niveau](ConceptualDomain.md#atc-5e-niveau)
-* [MIABIS-40](ConceptualDomain.md#miabis-40)
 * [MIABIS-39](ConceptualDomain.md#miabis-39)
+* [MIABIS-40](ConceptualDomain.md#miabis-40)
 * [MIABIS-43](ConceptualDomain.md#miabis-43)
-* [1000Genome](ConceptualDomain.md#1000genome)
 
 ## OMIC
 ---
