@@ -240,10 +240,10 @@ OSIRIS:O19-1	MT	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chro
 OSIRIS:O19-2	viral	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
 OSIRIS:O19-3	bacterial	OSIRIS		OSIRIS:Chromosome	Enumerated	String	O19		Alteration	Chromosome	Chromosome	Chromosome containing the genetic finding
 		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstart.html	FHIR:extension-geneticsGenomicStart	nonEnumerated	Integer	O20	Pb 0/1 based	Alteration	GenomicStart	GenomicStart	Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based
-		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	FHIR:extension-geneticsGenomicStop	nonEnumerated	Integer	O21	Pb 0/1 based	Alteration	GenomicStop	GenomicStop	Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based
+		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	FHIR:extension-geneticsGenomicStop	nonEnumerated	Integer	O21	Pb 0/1 based	Alteration	GenomicStop	GenomicStop	Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand. <===> Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based
 OSIRIS:O22-1	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsGenomeBuild	Enumerated	String	O22	pb custom enum vs FHIR	Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference
 OSIRIS:O22-2	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	FHIR:extension-geneticsGenomeBuild	Enumerated	String	O22		Alteration	GenomeBuild	GenomeBuild	Genome Build used for reference
-		OSIRIS	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz		nonEnumerated	String	O23		Alteration	Cytoband	Cytoband	Cytogenetic location
+UCSC cytoband	UCSC cytoband	UCSC	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz	UCSC	nonEnumerated	String	O23		Alteration	Cytoband	Cytoband	Cytogenetic location
 OSIRIS:O24-1	gene	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
 OSIRIS:O24-2	miRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
 OSIRIS:O24-3	piRNA	OSIRIS		OSIRIS:GenomeEntityType	Enumerated	String	O24		Genome entity	GenomeEntityType	GenomeEntityType	Type of the genome entity. For eg: gene, mRNA, ncRNA...
@@ -254,7 +254,7 @@ OSIRIS:O25-1	HGNC	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Gen
 OSIRIS:O25-2	miRDB	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
 OSIRIS:O25-3	Entrez	OSIRIS		OSIRIS:GenomeEntityDatabase	Enumerated	String	O25		Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	Database of the genome entity
 		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html	FHIR:extension-observation-geneticsGene	nonEnumerated	String	O26	FHIR defini les deux: symbol et id dans le meme item	Genome entity	GenomeEntityId	GenomeEntityId	Identifier of the genome entity in the genome entity database
-		LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O27	liste existe mais fait on explicitement la liste? Vianney que vas tu faire pour tes grosses listes de valeurs? label in loinc: Gene studied OK lien HUGO => voir cim-10	Genome entity	GeneSymbol	GeneSymbol	Hugo gene symbol
+HGNC ID	HGNC Approved Symbol	LOINC	http://www.genenames.org/	LOINC:48018-6	nonEnumerated	String	O27		Genome entity	GeneSymbol	GeneSymbol	Hugo gene symbol
 LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	OSIRIS:FusionType	Enumerated	String	O28		Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
 OSIRIS:O28-1	readthrough	OSIRIS		OSIRIS:FusionType	Enumerated	String	O28		Fusion	FusionType	FusionType	Type of the fusion event. For eg: translocation, readthrough
 		OSIRIS		OSIRIS:FusionTranscript	nonEnumerated	Boolean	O29		Fusion	FusionTranscript	FusionTranscript	Have been found from a fusion transcript ?
@@ -275,7 +275,7 @@ OSIRIS:O42-2	Oncofuse	OSIRIS		OSIRIS:FusionAnnotationReferentiel	Enumerated	Stri
 OSIRIS:O42-3	Mittelman DB	OSIRIS		OSIRIS:FusionAnnotationReferentiel	Enumerated	String	O42		Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	Reference database to annotate the fusion
 		OSIRIS		OSIRIS:FusionAnnotationValue	nonEnumerated	String	O43		Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	Annotation of the fusion
 		OSIRIS		OSIRIS:FusionNbSpanningPair	nonEnumerated	Integer	O44		Fusion/QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	Number of reads pairs spanning the fusion
-		OSIRIS		OSIRIS:FusionNbSpanningReads	nonEnumerated	Integer	O45		Fusion/QualityFilter	FusionNbSpanningReads	FusionNbSpanningReads	Number of reads spanning the fusion
+		OSIRIS		OSIRIS:FusionNbSplitReads	nonEnumerated	Integer	O46		Fusion/QualityFilter	FusionNbSplitReads	FusionNbSplitReads	Number of reads containing the fusion point
 		OSIRIS		OSIRIS:SegmentIntensity	nonEnumerated	Float	O47		Segment copy number	SegmentIntensity	SegmentIntensity	Intensity of the measured signal
 OSIRIS:O49-1	Amplification	OSIRIS		OSIRIS:SegmentGenomicStatus	Enumerated	String	O49		Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status
 OSIRIS:O49-2	Gain	OSIRIS		OSIRIS:SegmentGenomicStatus	Enumerated	String	O49		Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	Copy number status

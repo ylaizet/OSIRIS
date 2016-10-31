@@ -404,7 +404,7 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstop.html | FHIR:extension-geneticsGenomicStop | nonEnumerated | Integer | O21 | Alteration | GenomicStop | GenomicStop | Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand.!!!!!!!!=N======== ucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
+|  |  | FHIR (HL7) | http://hl7.org/fhir/extension-geneticsgenomicstop.html | FHIR:extension-geneticsGenomicStop | nonEnumerated | Integer | O21 | Alteration | GenomicStop | GenomicStop | Exclusive 0-based nucleotide position for end of genomic finding on the positive (+) genomic strand. <===> Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
 
 ## FHIR:extension-geneticsGenomeBuild
 
@@ -412,6 +412,12 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | OSIRIS:O22-1 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 | OSIRIS:O22-2 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+
+## UCSC
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| UCSC cytoband | UCSC cytoband | UCSC | http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz | UCSC | nonEnumerated | String | O23 | Alteration | Cytoband | Cytoband | Cytogenetic location |
 
 ## OSIRIS:GenomeEntityType
 
@@ -442,7 +448,7 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O27 | Genome entity | GeneSymbol | GeneSymbol | Hugo gene symbol |
+| HGNC ID | HGNC Approved Symbol | LOINC | http://www.genenames.org/ | LOINC:48018-6 | nonEnumerated | String | O27 | Genome entity | GeneSymbol | GeneSymbol | Hugo gene symbol |
 
 ## OSIRIS:FusionType
 
@@ -525,11 +531,11 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | OSIRIS |  | OSIRIS:FusionNbSpanningPair | nonEnumerated | Integer | O44 | Fusion/QualityFilter | FusionNbSpanningPair | FusionNbSpanningPair | Number of reads pairs spanning the fusion |
 
-## OSIRIS:FusionNbSpanningReads
+## OSIRIS:FusionNbSplitReads
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | OSIRIS |  | OSIRIS:FusionNbSpanningReads | nonEnumerated | Integer | O45 | Fusion/QualityFilter | FusionNbSpanningReads | FusionNbSpanningReads | Number of reads spanning the fusion |
+|  |  | OSIRIS |  | OSIRIS:FusionNbSplitReads | nonEnumerated | Integer | O46 | Fusion/QualityFilter | FusionNbSplitReads | FusionNbSplitReads | Number of reads containing the fusion point |
 
 ## OSIRIS:SegmentIntensity
 

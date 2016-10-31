@@ -61,79 +61,79 @@ BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	C59	MIABI
 BiologicalSample	StorageTemperature	Mode de conservation	C60	MIABIS-43	Le mode de conservation	
 BiologicalSample	TumorCellularity	% de cellules tumorales	C61		Le pourcentage de cellules tumorales quantifié dans l'échantillon	
 Specimen	SpecimenId	SpecimenId	O3			Genetic sample or derived product identifier
-Technology	TechnicalProtocol	TechnicalProtocol	O6			Protocol used for the experiment
-Technology	PlatformName	PlatformName	O7			Technological platform name (provider followed by the platform name)
-Technology	PlatformAccession	PlatformAccession	O8			GEO Identifier of the platform
-Technology	DateOfExperiment	DateOfExperiment	O9			Date when the experiment was performed
-Panel	PanelName	PanelName	O10			Name of the panel targeted by the experimental analysis (provider + name)
-Analysis	AnalyticPipelineCode	AnalyticPipelineCode	O11			Identifier of the pipeline used into the analysis (unique in the center)
-Experiment on specimen	AlgorithmicCellularity	AlgorithmicCellularity	O12			Calculated percentage of tumor cells in sample
-Experiment on specimen	AlgorithmicPloïdy	AlgorithmicPloïdy	O13			Calculated number of sets of chromosomes in a cell of the sample
-Experiment on specimen CpyNb Quality filter	NumberOfBreakPoints	NumberOfBreakPoints	O14			Calculated number of break points in genomic profile
+Technology	TechnicalProtocol	TechnicalProtocol	O6	OSIRIS:TechnicalProtocol		Protocol used for the experiment
+Technology	PlatformName	PlatformName	O7	OSIRIS:PlatformName		Technological platform name (provider followed by the platform name)
+Technology	PlatformAccession	PlatformAccession	O8	OSIRIS:PlatformAccession		GEO Identifier of the platform
+Technology	DateOfExperiment	DateOfExperiment	O9	OSIRIS:DateOfExperiment		Date when the experiment was performed
+Panel	PanelName	PanelName	O10	OSIRIS:PanelName		Name of the panel targeted by the experimental analysis (provider + name)
+Analysis	AnalyticPipelineCode	AnalyticPipelineCode	O11	OSIRIS:AnalyticPipelineCode		Identifier of the pipeline used into the analysis (unique in the center)
+Experiment on specimen	AlgorithmicCellularity	AlgorithmicCellularity	O12	OSIRIS:AlgorithmicCellularity		Calculated percentage of tumor cells in sample
+Experiment on specimen	AlgorithmicPloïdy	AlgorithmicPloïdy	O13	OSIRIS:AlgorithmicPloïdy		Calculated number of sets of chromosomes in a cell of the sample
+Experiment on specimen CpyNb Quality filter	NumberOfBreakPoints	NumberOfBreakPoints	O14	OSIRIS:NumberOfBreakPoints		Calculated number of break points in genomic profile
 Alteration in specimen	AlterationType	AlterationType	O15	OSIRIS:AlterationType		General type of the detected genetic alteration (high level type)
 Validation	ValidationType	ValidationType	O16	OSIRIS:ValidationType		Type of validation of the detected alteration
-Validation	ValidationMethod	ValidationMethod	O17			Validation method depending on the type of validation
+Validation	ValidationMethod	ValidationMethod	O17	OSIRIS:ValidationMethod		Validation method depending on the type of validation
 Validation	ValidationStatus	ValidationStatus	O18	OSIRIS:ValidationStatus		Validation status of the detected alteration
 Alteration	Chromosome	Chromosome	O19	OSIRIS:Chromosome		Chromosome containing the genetic finding
 Alteration	GenomicStart	GenomicStart	O20	FHIR:extension-geneticsGenomicStart		Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based
 Alteration	GenomicStop	GenomicStop	O21	FHIR:extension-geneticsGenomicStop		Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based
 Alteration	GenomeBuild	GenomeBuild	O22	FHIR:extension-geneticsGenomeBuild		Genome Build used for reference
-Alteration	Cytoband	Cytoband	O23			Cytogenetic location
+Alteration	Cytoband	Cytoband	O23	OSIRIS:Cytoband		Cytogenetic location
 Genome entity	GenomeEntityType	GenomeEntityType	O24	OSIRIS:GenomeEntityType		Type of the genome entity. For eg: gene, mRNA, ncRNA...
 Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	O25	OSIRIS:GenomeEntityDatabase		Database of the genome entity
 Genome entity	GenomeEntityId	GenomeEntityId	O26	FHIR:extension-observation-geneticsGene		Identifier of the genome entity in the genome entity database
 Genome entity	GeneSymbol	GeneSymbol	O27	LOINC:48018-6		Hugo gene symbol
 Fusion	FusionType	FusionType	O28	OSIRIS:FusionType		Type of the fusion event. For eg: translocation, readthrough
-Fusion	FusionTranscript	FusionTranscript	O29			Have been found from a fusion transcript ?
-Fusion	FusionTranscriptReference	FusionTranscriptReference	O30			Accession number of observed fusion
+Fusion	FusionTranscript	FusionTranscript	O29	OSIRIS:FusionTranscript		Have been found from a fusion transcript ?
+Fusion	FusionTranscriptReference	FusionTranscriptReference	O30	OSIRIS:FusionTranscriptReference		Accession number of observed fusion
 Fusion	GeneSymbol	FusionGeneSymbol5prime	O31	LOINC:48018-6		Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end
 Fusion	FusionRegionName5prime	FusionRegionName5prime	O32	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron
 Fusion	TranscriptReferenceSequenceId	FusionTranscriptReferenceSequenceId5prime	O33	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.
-Fusion	FusionStrand5prime	FusionStrand5prime	O34			Strand of the 5 prime fusion partner
-Fusion	FusionPoint5prime	FusionPoint5prime	O35			Position of the fusion point on the 5 prime partner
+Fusion	FusionStrand5prime	FusionStrand5prime	O34	OSIRIS:FusionStrand5prime		Strand of the 5 prime fusion partner
+Fusion	FusionPoint5prime	FusionPoint5prime	O35	OSIRIS:FusionPoint5prime		Position of the fusion point on the 5 prime partner
 Fusion	GeneSymbol	FusionGeneSymbol3prime	O36	LOINC:48018-6		Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end
 Fusion	FusionRegionName3prime	FusionRegionName3prime	O37	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron
 Fusion	TranscriptReferenceSequenceId	FusionTranscriptReferenceSequenceId3prime	O38	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.
-Fusion	FusionStrand3prime	FusionStrand3prime	O39			Strand of the 3 prime fusion partner
-Fusion	FusionPoint3prime	FusionPoint3prime	O40			Position of the fusion point on the 3 prime partner
-Fusion	FusionInFrame	FusionInFrame	O41			Specify whether the fusion is in frame
+Fusion	FusionStrand3prime	FusionStrand3prime	O39	OSIRIS:FusionStrand3prime		Strand of the 3 prime fusion partner
+Fusion	FusionPoint3prime	FusionPoint3prime	O40	OSIRIS:FusionPoint3prime		Position of the fusion point on the 3 prime partner
+Fusion	FusionInFrame	FusionInFrame	O41	OSIRIS:FusionInFrame		Specify whether the fusion is in frame
 Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	O42	OSIRIS:FusionAnnotationReferentiel		Reference database to annotate the fusion
-Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	O43			Annotation of the fusion
-Fusion QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	O44			Number of reads pairs spanning the fusion
-Fusion QualityFilter	FusionNbSplitReads	FusionNbSplitReads	O46			Number of reads containing the fusion point
-Segment copy number	SegmentIntensity	SegmentIntensity	O47			Intensity of the measured signal
-Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	O49			Copy number status
-Segment copy number	CopyNumber	CopyNumber	O50			Estimated DNA copy number
-Segment LOH	LossOfHeterozygosity	LossOfHeterozygosity	O51			Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information
+Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	O43	OSIRIS:FusionAnnotationValue		Annotation of the fusion
+Fusion QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	O44	OSIRIS:FusionNbSpanningPair		Number of reads pairs spanning the fusion
+Fusion QualityFilter	FusionNbSplitReads	FusionNbSplitReads	O46	OSIRIS:FusionNbSplitReads		Number of reads containing the fusion point
+Segment copy number	SegmentIntensity	SegmentIntensity	O47	OSIRIS:SegmentIntensity		Intensity of the measured signal
+Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	O49	OSIRIS:SegmentGenomicStatus		Copy number status
+Segment copy number	CopyNumber	CopyNumber	O50	OSIRIS:CopyNumber		Estimated DNA copy number
+Segment LOH	LossOfHeterozygosity	LossOfHeterozygosity	O51	OSIRIS:LossOfHeterozygosity		Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information
 Reference variant	ReferenceAllele	ReferenceAllele	O53	FHIR:Sequence.referenceAllele		Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion.
 Reference variant	AlternativeAllele	AlternativeAllele	O54	FHIR:Sequence.observedAllele		Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion.
 Reference variant	DNASequenceVariationType	DNASequenceVariationType	O55	LOINC:48019-4		Codified type of the DNA sequence variation
-Reference variant	VariationDatabase	VariationDatabase	O56			Name of the variation database
-Reference variant	VariationId	VariationId	O57			Identifier for variant in the variation database
-Reference variant	PfamDomain	PfamDomain	O58			Pfams domains related to alteration position
-Reference variant	PfamId	PfamId	O59			Identifier of Pfams domains related to alteration position
-Reference variant	MutationPredictionAlgorithm	MutationPredictionAlgorithm	O63			Algorithm to predict the variation effect over the protein
-Reference variant	MutationPredictionValue	MutationPredictionValue	O64			Prediction of the variation effect over the protein
-Reference variant	MutationPredictionScore	MutationPredictionScore	O65			Level of confidence of the prediction of the variation effect over the protein
+Reference variant	VariationDatabase	VariationDatabase	O56	OSIRIS:VariationDatabase		Name of the variation database
+Reference variant	VariationId	VariationId	O57	OSIRIS:VariationId		Identifier for variant in the variation database
+Reference variant	PfamDomain	PfamDomain	O58	OSIRIS:PfamDomain		Pfams domains related to alteration position
+Reference variant	PfamId	PfamId	O59	OSIRIS:PfamId		Identifier of Pfams domains related to alteration position
+Reference variant	MutationPredictionAlgorithm	MutationPredictionAlgorithm	O63	OSIRIS:MutationPredictionAlgorithm		Algorithm to predict the variation effect over the protein
+Reference variant	MutationPredictionValue	MutationPredictionValue	O64	OSIRIS:MutationPredictionValue		Prediction of the variation effect over the protein
+Reference variant	MutationPredictionScore	MutationPredictionScore	O65	OSIRIS:MutationPredictionScore		Level of confidence of the prediction of the variation effect over the protein
 Reference variant	DNARegionName	DNARegionName	O66	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3')
-Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	O67			Name of the protein reference database
+Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	O67	OSIRIS:ProteinReferenceDatabase		Name of the protein reference database
 Protein	ProteinReferenceSequenceId	ProteinReferenceSequenceId	O68	FHIR:extension-observation-geneticsProteinReferenceSequenceId		Reference identifier of the protein transcript
-Exonic variant	TranscriptReferenceDatabase	TranscriptReferenceDatabase	O69			Name of the sequence reference database
+Exonic variant	TranscriptReferenceDatabase	TranscriptReferenceDatabase	O69	OSIRIS:TranscriptReferenceDatabase		Name of the sequence reference database
 Exonic variant	TranscriptReferenceSequenceId	TranscriptReferenceSequenceId	O70	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier of the transcript
 Exonic variant	DNASequenceVariation	DNASequenceVariation	O71	FHIR:extension-observation-geneticsDNASequenceVariation		HGVS nomenclature on the chosen transcript
 Exonic variant	AminoAcidChange	AminoAcidChange	O72	FHIR:extension-observation-geneticsAminoAcidChange		HGVS nomenclature on the chosen protein transcript
-Exonic variant	GenomicSequenceVariation	GenomicSequenceVariation	O73			HGVS nomenclature on the given GenomeReferenceSequenceId.
-Exonic variant	RNASequenceVariation	RNASequenceVariation	O74			HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.
-Exonic variant	AminoAcidChangeType	AminoAcidChangeType	O75	LOINC:48006-1		HGVS nomenclature of changes at protein-level
-Variant in specimen	PositionCoverage	PositionCoverage	O76			Total coverage at the variant position observed in the specimen
-Variant in specimen	VariantCoverage	VariantCoverage	O77			Coverage of the alternative allele at the variant position observed in the specimen
-Variant in specimen	StrandBias	StrandBias	O78			Indication of the existence of strand bias at the variant position
-Variant in specimen	GenomicSourceClass	GenomicSourceClass	O79	LA6684-0		Genomic class of the variant (eg: germline, somatic, and prenatal)
-Variant in specimen	AllelicState	AllelicState	O80	LA6706-1		Level of allelic occurrence of a DNA Sequence Variation
-Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	O81			Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board
-Variant in specimen	ClinicalTumorBoardConclusion	ClinicalTumorBoardConclusion	O82			Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board
-Variant in specimen	ProposedForOrientation	ProposedForOrientation	O83			Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?
-Gene expression	ExpressionDataType	ExpressionDataType	O84			Type of the expression value corresponding to the level of data processing
-Gene expression	ExpressionValue	ExpressionValue	O85			Numerical value for expression
-Gene expression	ExpressionPvalue	ExpressionPvalue	O86			p-value of the dataset comparison through a statistical method
-Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	O87			Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel
+Exonic variant	GenomicSequenceVariation	GenomicSequenceVariation	O73	OSIRIS:GenomicSequenceVariation		HGVS nomenclature on the given GenomeReferenceSequenceId.
+Exonic variant	RNASequenceVariation	RNASequenceVariation	O74	OSIRIS:RNASequenceVariation		HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.
+Exonic variant	AminoAcidChangeType	AminoAcidChangeType	O75	OSIRIS:AminoAcidChangeType		HGVS nomenclature of changes at protein-level
+Variant in specimen	PositionCoverage	PositionCoverage	O76	OSIRIS:PositionCoverage		Total coverage at the variant position observed in the specimen
+Variant in specimen	VariantCoverage	VariantCoverage	O77	OSIRIS:VariantCoverage		Coverage of the alternative allele at the variant position observed in the specimen
+Variant in specimen	StrandBias	StrandBias	O78	OSIRIS:StrandBias		Indication of the existence of strand bias at the variant position
+Variant in specimen	GenomicSourceClass	GenomicSourceClass	O79	LOINC:LL378-1		Genomic class of the variant (eg: germline, somatic, and prenatal)
+Variant in specimen	AllelicState	AllelicState	O80	LOINC:LL381-5		Level of allelic occurrence of a DNA Sequence Variation
+Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	O81	ACMG		Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board
+Variant in specimen	ClinicalTumorBoardConclusion	ClinicalTumorBoardConclusion	O82	OBI		Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board
+Variant in specimen	ProposedForOrientation	ProposedForOrientation	O83	OBI		Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?
+Gene expression	ExpressionDataType	ExpressionDataType	O84	OSIRIS:ExpressionDataType		Type of the expression value corresponding to the level of data processing
+Gene expression	ExpressionValue	ExpressionValue	O85	OSIRIS:ExpressionValue		Numerical value for expression
+Gene expression	ExpressionPvalue	ExpressionPvalue	O86	OSIRIS:ExpressionPvalueAdjustmentMethod		p-value of the dataset comparison through a statistical method
+Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	O87	OSIRIS:ExpressionPvalueAdjustmentMethod		Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel

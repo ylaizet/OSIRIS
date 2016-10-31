@@ -135,29 +135,29 @@
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Technology | TechnicalProtocol | TechnicalProtocol | O6 |  |  | Protocol used for the experiment |
-| Technology | PlatformName | PlatformName | O7 |  |  | Technological platform name (provider followed by the platform name) |
-| Technology | PlatformAccession | PlatformAccession | O8 |  |  | GEO Identifier of the platform |
-| Technology | DateOfExperiment | DateOfExperiment | O9 |  |  | Date when the experiment was performed |
+| Technology | TechnicalProtocol | TechnicalProtocol | O6 | [OSIRIS:TechnicalProtocol](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiristechnicalprotocol) |  | Protocol used for the experiment |
+| Technology | PlatformName | PlatformName | O7 | [OSIRIS:PlatformName](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisplatformname) |  | Technological platform name (provider followed by the platform name) |
+| Technology | PlatformAccession | PlatformAccession | O8 | [OSIRIS:PlatformAccession](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisplatformaccession) |  | GEO Identifier of the platform |
+| Technology | DateOfExperiment | DateOfExperiment | O9 | [OSIRIS:DateOfExperiment](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisdateofexperiment) |  | Date when the experiment was performed |
 
 ## Panel
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Panel | PanelName | PanelName | O10 |  |  | Name of the panel targeted by the experimental analysis (provider + name) |
+| Panel | PanelName | PanelName | O10 | [OSIRIS:PanelName](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirispanelname) |  | Name of the panel targeted by the experimental analysis (provider + name) |
 
 ## Experiment on specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Experiment on specimen | AlgorithmicCellularity | AlgorithmicCellularity | O12 |  |  | Calculated percentage of tumor cells in sample |
-| Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | O13 |  |  | Calculated number of sets of chromosomes in a cell of the sample |
+| Experiment on specimen | AlgorithmicCellularity | AlgorithmicCellularity | O12 | [OSIRIS:AlgorithmicCellularity](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisalgorithmiccellularity) |  | Calculated percentage of tumor cells in sample |
+| Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | O13 | [OSIRIS:AlgorithmicPloïdy](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisalgorithmicploïdy) |  | Calculated number of sets of chromosomes in a cell of the sample |
 
 ## Experiment on specimen CpyNb Quality filter
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Experiment on specimen CpyNb Quality filter | NumberOfBreakPoints | NumberOfBreakPoints | O14 |  |  | Calculated number of break points in genomic profile |
+| Experiment on specimen CpyNb Quality filter | NumberOfBreakPoints | NumberOfBreakPoints | O14 | [OSIRIS:NumberOfBreakPoints](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisnumberofbreakpoints) |  | Calculated number of break points in genomic profile |
 
 ## Alteration in specimen
 
@@ -170,7 +170,7 @@
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Validation | ValidationType | ValidationType | O16 | [OSIRIS:ValidationType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvalidationtype) |  | Type of validation of the detected alteration |
-| Validation | ValidationMethod | ValidationMethod | O17 |  |  | Validation method depending on the type of validation |
+| Validation | ValidationMethod | ValidationMethod | O17 | [OSIRIS:ValidationMethod](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvalidationmethod) |  | Validation method depending on the type of validation |
 | Validation | ValidationStatus | ValidationStatus | O18 | [OSIRIS:ValidationStatus](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvalidationstatus) |  | Validation status of the detected alteration |
 
 ## Alteration
@@ -181,7 +181,7 @@
 | Alteration | GenomicStart | GenomicStart | O20 | [FHIR:extension-geneticsGenomicStart](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomicstart) |  | Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based |
 | Alteration | GenomicStop | GenomicStop | O21 | [FHIR:extension-geneticsGenomicStop](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomicstop) |  | Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based |
 | Alteration | GenomeBuild | GenomeBuild | O22 | [FHIR:extension-geneticsGenomeBuild](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-geneticsgenomebuild) |  | Genome Build used for reference |
-| Alteration | Cytoband | Cytoband | O23 |  |  | Cytogenetic location |
+| Alteration | Cytoband | Cytoband | O23 | [OSIRIS:Cytoband](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiriscytoband) |  | Cytogenetic location |
 
 ## Genome entity
 
@@ -197,47 +197,47 @@
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Fusion | FusionType | FusionType | O28 | [OSIRIS:FusionType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusiontype) |  | Type of the fusion event. For eg: translocation, readthrough |
-| Fusion | FusionTranscript | FusionTranscript | O29 |  |  | Have been found from a fusion transcript ? |
-| Fusion | FusionTranscriptReference | FusionTranscriptReference | O30 |  |  | Accession number of observed fusion |
+| Fusion | FusionTranscript | FusionTranscript | O29 | [OSIRIS:FusionTranscript](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusiontranscript) |  | Have been found from a fusion transcript ? |
+| Fusion | FusionTranscriptReference | FusionTranscriptReference | O30 | [OSIRIS:FusionTranscriptReference](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusiontranscriptreference) |  | Accession number of observed fusion |
 | Fusion | GeneSymbol | FusionGeneSymbol5prime | O31 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end |
 | Fusion | FusionRegionName5prime | FusionRegionName5prime | O32 | [FHIR:extension-observation-geneticsDNARegionName](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron |
 | Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId5prime | O33 | [FHIR:extension-observation-geneticsTranscriptReferenceSequenceId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
-| Fusion | FusionStrand5prime | FusionStrand5prime | O34 |  |  | Strand of the 5 prime fusion partner |
-| Fusion | FusionPoint5prime | FusionPoint5prime | O35 |  |  | Position of the fusion point on the 5 prime partner |
+| Fusion | FusionStrand5prime | FusionStrand5prime | O34 | [OSIRIS:FusionStrand5prime](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionstrand5prime) |  | Strand of the 5 prime fusion partner |
+| Fusion | FusionPoint5prime | FusionPoint5prime | O35 | [OSIRIS:FusionPoint5prime](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionpoint5prime) |  | Position of the fusion point on the 5 prime partner |
 | Fusion | GeneSymbol | FusionGeneSymbol3prime | O36 | [LOINC:48018-6](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48018-6) |  | Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end |
 | Fusion | FusionRegionName3prime | FusionRegionName3prime | O37 | [FHIR:extension-observation-geneticsDNARegionName](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron |
 | Fusion | TranscriptReferenceSequenceId | FusionTranscriptReferenceSequenceId3prime | O38 | [FHIR:extension-observation-geneticsTranscriptReferenceSequenceId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
-| Fusion | FusionStrand3prime | FusionStrand3prime | O39 |  |  | Strand of the 3 prime fusion partner |
-| Fusion | FusionPoint3prime | FusionPoint3prime | O40 |  |  | Position of the fusion point on the 3 prime partner |
-| Fusion | FusionInFrame | FusionInFrame | O41 |  |  | Specify whether the fusion is in frame |
+| Fusion | FusionStrand3prime | FusionStrand3prime | O39 | [OSIRIS:FusionStrand3prime](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionstrand3prime) |  | Strand of the 3 prime fusion partner |
+| Fusion | FusionPoint3prime | FusionPoint3prime | O40 | [OSIRIS:FusionPoint3prime](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionpoint3prime) |  | Position of the fusion point on the 3 prime partner |
+| Fusion | FusionInFrame | FusionInFrame | O41 | [OSIRIS:FusionInFrame](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusioninframe) |  | Specify whether the fusion is in frame |
 
 ## Fusion Analysis
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | O42 | [OSIRIS:FusionAnnotationReferentiel](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionannotationreferentiel) |  | Reference database to annotate the fusion |
-| Fusion Analysis | FusionAnnotationValue | FusionAnnotationValue | O43 |  |  | Annotation of the fusion |
+| Fusion Analysis | FusionAnnotationValue | FusionAnnotationValue | O43 | [OSIRIS:FusionAnnotationValue](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionannotationvalue) |  | Annotation of the fusion |
 
 ## Fusion QualityFilter
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Fusion QualityFilter | FusionNbSpanningPair | FusionNbSpanningPair | O44 |  |  | Number of reads pairs spanning the fusion |
-| Fusion QualityFilter | FusionNbSplitReads | FusionNbSplitReads | O46 |  |  | Number of reads containing the fusion point |
+| Fusion QualityFilter | FusionNbSpanningPair | FusionNbSpanningPair | O44 | [OSIRIS:FusionNbSpanningPair](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionnbspanningpair) |  | Number of reads pairs spanning the fusion |
+| Fusion QualityFilter | FusionNbSplitReads | FusionNbSplitReads | O46 | [OSIRIS:FusionNbSplitReads](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisfusionnbsplitreads) |  | Number of reads containing the fusion point |
 
 ## Segment copy number
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Segment copy number | SegmentIntensity | SegmentIntensity | O47 |  |  | Intensity of the measured signal |
-| Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | O49 |  |  | Copy number status |
-| Segment copy number | CopyNumber | CopyNumber | O50 |  |  | Estimated DNA copy number |
+| Segment copy number | SegmentIntensity | SegmentIntensity | O47 | [OSIRIS:SegmentIntensity](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirissegmentintensity) |  | Intensity of the measured signal |
+| Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | O49 | [OSIRIS:SegmentGenomicStatus](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirissegmentgenomicstatus) |  | Copy number status |
+| Segment copy number | CopyNumber | CopyNumber | O50 | [OSIRIS:CopyNumber](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiriscopynumber) |  | Estimated DNA copy number |
 
 ## Segment LOH
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Segment LOH | LossOfHeterozygosity | LossOfHeterozygosity | O51 |  |  | Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information |
+| Segment LOH | LossOfHeterozygosity | LossOfHeterozygosity | O51 | [OSIRIS:LossOfHeterozygosity](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirislossofheterozygosity) |  | Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information |
 
 ## Reference variant
 
@@ -246,52 +246,52 @@
 | Reference variant | ReferenceAllele | ReferenceAllele | O53 | [FHIR:Sequence.referenceAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequencereferenceallele) |  | Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion. |
 | Reference variant | AlternativeAllele | AlternativeAllele | O54 | [FHIR:Sequence.observedAllele](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirsequenceobservedallele) |  | Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion. |
 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | O55 | [LOINC:48019-4](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48019-4) |  | Codified type of the DNA sequence variation |
-| Reference variant | VariationDatabase | VariationDatabase | O56 |  |  | Name of the variation database |
-| Reference variant | VariationId | VariationId | O57 |  |  | Identifier for variant in the variation database |
-| Reference variant | PfamDomain | PfamDomain | O58 |  |  | Pfams domains related to alteration position |
-| Reference variant | PfamId | PfamId | O59 |  |  | Identifier of Pfams domains related to alteration position |
-| Reference variant | MutationPredictionAlgorithm | MutationPredictionAlgorithm | O63 |  |  | Algorithm to predict the variation effect over the protein |
-| Reference variant | MutationPredictionValue | MutationPredictionValue | O64 |  |  | Prediction of the variation effect over the protein |
-| Reference variant | MutationPredictionScore | MutationPredictionScore | O65 |  |  | Level of confidence of the prediction of the variation effect over the protein |
+| Reference variant | VariationDatabase | VariationDatabase | O56 | [OSIRIS:VariationDatabase](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvariationdatabase) |  | Name of the variation database |
+| Reference variant | VariationId | VariationId | O57 | [OSIRIS:VariationId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvariationid) |  | Identifier for variant in the variation database |
+| Reference variant | PfamDomain | PfamDomain | O58 | [OSIRIS:PfamDomain](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirispfamdomain) |  | Pfams domains related to alteration position |
+| Reference variant | PfamId | PfamId | O59 | [OSIRIS:PfamId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirispfamid) |  | Identifier of Pfams domains related to alteration position |
+| Reference variant | MutationPredictionAlgorithm | MutationPredictionAlgorithm | O63 | [OSIRIS:MutationPredictionAlgorithm](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirismutationpredictionalgorithm) |  | Algorithm to predict the variation effect over the protein |
+| Reference variant | MutationPredictionValue | MutationPredictionValue | O64 | [OSIRIS:MutationPredictionValue](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirismutationpredictionvalue) |  | Prediction of the variation effect over the protein |
+| Reference variant | MutationPredictionScore | MutationPredictionScore | O65 | [OSIRIS:MutationPredictionScore](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirismutationpredictionscore) |  | Level of confidence of the prediction of the variation effect over the protein |
 | Reference variant | DNARegionName | DNARegionName | O66 | [FHIR:extension-observation-geneticsDNARegionName](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsdnaregionname) |  | Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3') |
 
 ## Protein
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | O67 |  |  | Name of the protein reference database |
+| Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | O67 | [OSIRIS:ProteinReferenceDatabase](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisproteinreferencedatabase) |  | Name of the protein reference database |
 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | O68 | [FHIR:extension-observation-geneticsProteinReferenceSequenceId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsproteinreferencesequenceid) |  | Reference identifier of the protein transcript |
 
 ## Exonic variant
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Exonic variant | TranscriptReferenceDatabase | TranscriptReferenceDatabase | O69 |  |  | Name of the sequence reference database |
+| Exonic variant | TranscriptReferenceDatabase | TranscriptReferenceDatabase | O69 | [OSIRIS:TranscriptReferenceDatabase](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osiristranscriptreferencedatabase) |  | Name of the sequence reference database |
 | Exonic variant | TranscriptReferenceSequenceId | TranscriptReferenceSequenceId | O70 | [FHIR:extension-observation-geneticsTranscriptReferenceSequenceId](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticstranscriptreferencesequenceid) |  | Reference identifier of the transcript |
 | Exonic variant | DNASequenceVariation | DNASequenceVariation | O71 | [FHIR:extension-observation-geneticsDNASequenceVariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsdnasequencevariation) |  | HGVS nomenclature on the chosen transcript |
 | Exonic variant | AminoAcidChange | AminoAcidChange | O72 | [FHIR:extension-observation-geneticsAminoAcidChange](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#fhirextension-observation-geneticsaminoacidchange) |  | HGVS nomenclature on the chosen protein transcript |
-| Exonic variant | GenomicSequenceVariation | GenomicSequenceVariation | O73 |  |  | HGVS nomenclature on the given GenomeReferenceSequenceId. |
-| Exonic variant | RNASequenceVariation | RNASequenceVariation | O74 |  |  | HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA. |
-| Exonic variant | AminoAcidChangeType | AminoAcidChangeType | O75 | [LOINC:48006-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loinc48006-1) |  | HGVS nomenclature of changes at protein-level |
+| Exonic variant | GenomicSequenceVariation | GenomicSequenceVariation | O73 | [OSIRIS:GenomicSequenceVariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisgenomicsequencevariation) |  | HGVS nomenclature on the given GenomeReferenceSequenceId. |
+| Exonic variant | RNASequenceVariation | RNASequenceVariation | O74 | [OSIRIS:RNASequenceVariation](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisrnasequencevariation) |  | HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA. |
+| Exonic variant | AminoAcidChangeType | AminoAcidChangeType | O75 | [OSIRIS:AminoAcidChangeType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisaminoacidchangetype) |  | HGVS nomenclature of changes at protein-level |
 
 ## Variant in specimen
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Variant in specimen | PositionCoverage | PositionCoverage | O76 |  |  | Total coverage at the variant position observed in the specimen |
-| Variant in specimen | VariantCoverage | VariantCoverage | O77 |  |  | Coverage of the alternative allele at the variant position observed in the specimen |
-| Variant in specimen | StrandBias | StrandBias | O78 |  |  | Indication of the existence of strand bias at the variant position |
-| Variant in specimen | GenomicSourceClass | GenomicSourceClass | O79 | [LA6684-0](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#la6684-0) |  | Genomic class of the variant (eg: germline, somatic, and prenatal) |
-| Variant in specimen | AllelicState | AllelicState | O80 | [LA6706-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#la6706-1) |  | Level of allelic occurrence of a DNA Sequence Variation |
-| Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | O81 |  |  | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
-| Variant in specimen | ClinicalTumorBoardConclusion | ClinicalTumorBoardConclusion | O82 |  |  | Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board |
-| Variant in specimen | ProposedForOrientation | ProposedForOrientation | O83 |  |  | Is the ClinicalTumorBoardConclusion used to orient the treatment decision ? |
+| Variant in specimen | PositionCoverage | PositionCoverage | O76 | [OSIRIS:PositionCoverage](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirispositioncoverage) |  | Total coverage at the variant position observed in the specimen |
+| Variant in specimen | VariantCoverage | VariantCoverage | O77 | [OSIRIS:VariantCoverage](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisvariantcoverage) |  | Coverage of the alternative allele at the variant position observed in the specimen |
+| Variant in specimen | StrandBias | StrandBias | O78 | [OSIRIS:StrandBias](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisstrandbias) |  | Indication of the existence of strand bias at the variant position |
+| Variant in specimen | GenomicSourceClass | GenomicSourceClass | O79 | [LOINC:LL378-1](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loincll378-1) |  | Genomic class of the variant (eg: germline, somatic, and prenatal) |
+| Variant in specimen | AllelicState | AllelicState | O80 | [LOINC:LL381-5](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#loincll381-5) |  | Level of allelic occurrence of a DNA Sequence Variation |
+| Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | O81 | [ACMG](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#acmg) |  | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+| Variant in specimen | ClinicalTumorBoardConclusion | ClinicalTumorBoardConclusion | O82 | [OBI](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#obi) |  | Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board |
+| Variant in specimen | ProposedForOrientation | ProposedForOrientation | O83 | [OBI](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#obi) |  | Is the ClinicalTumorBoardConclusion used to orient the treatment decision ? |
 
 ## Gene expression
 
 | ObjectClass | ObjectProperty | DataElementConcept | IdDataElementConcept | ConceptualDomain | DataElementConceptDefFR | DataElementConceptDefEN |
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
-| Gene expression | ExpressionDataType | ExpressionDataType | O84 |  |  | Type of the expression value corresponding to the level of data processing |
-| Gene expression | ExpressionValue | ExpressionValue | O85 |  |  | Numerical value for expression |
-| Gene expression | ExpressionPvalue | ExpressionPvalue | O86 |  |  | p-value of the dataset comparison through a statistical method |
-| Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | O87 |  |  | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| Gene expression | ExpressionDataType | ExpressionDataType | O84 | [OSIRIS:ExpressionDataType](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisexpressiondatatype) |  | Type of the expression value corresponding to the level of data processing |
+| Gene expression | ExpressionValue | ExpressionValue | O85 | [OSIRIS:ExpressionValue](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisexpressionvalue) |  | Numerical value for expression |
+| Gene expression | ExpressionPvalue | ExpressionPvalue | O86 | [OSIRIS:ExpressionPvalueAdjustmentMethod](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisexpressionpvalueadjustmentmethod) |  | p-value of the dataset comparison through a statistical method |
+| Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | O87 | [OSIRIS:ExpressionPvalueAdjustmentMethod](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#osirisexpressionpvalueadjustmentmethod) |  | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
