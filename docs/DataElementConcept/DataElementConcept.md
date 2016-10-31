@@ -7,7 +7,7 @@
 | ----------- | -------------- | ------------------ | -------------------- | ---------------- | ----------------------- | ----------------------- |
 | Patient | Id | Id du patient | C1 |  | Identifiant du patient dans le centre transmetteur de l'information |  |
 | Patient | Gender | Sexe | C2 | [v3 Code System AdministrativeGender](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#v3-code-system-administrativegender) | Sexe du patient |  |
-| Patient | Ethnicity | Ethnicité | C3 | [1000Genome](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#1000genome) | Origine ethnique du patient |  |
+| Patient | Ethnicity | Ethnicité | C3 | [HL7 v3 Code System Race](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#hl7-v3-code-system-race) | Origine ethnique du patient |  |
 | Patient | BirthDate | Date de naissance | C4 |  | Date de naissance du patient |  |
 | Patient | DeathDate | Date de décès | C5 |  | Date de décès du patient |  |
 | Patient | CenterId | Id du Centre | C6 |  | Identifiant du centre transmetteur de l'information |  |
@@ -117,9 +117,9 @@
 | BiologicalSample | ParentSampleRef | Référence du prélèvement | C55 |  | Numéro de référence du prélèvement (numéro utilisé généralement à la réception d'un ensemble d'échantillons au laboratoire correspondant à un même acte de prélèvement) |  |
 | BiologicalSample | CollectDate | Date du prélèvement | C56 | [MIABIS-43](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43) | Date du prélèvement |  |
 | BiologicalSample | TopographyCode | Code Localisation | C57 | [CIM-O-3 Topo](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#cim-o-3-topo) | Code de la localisation tumorale |  |
-| BiologicalSample | SampleNature | Nature de l'échantillon | C58 | [MIABIS-41/MIABIS-2.0-14](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-41__miabis-20-14) | La nature de l'échantillon |  |
-| BiologicalSample | SampleOrigin | Nature du prélèvement (tumoral / sain) | C59 |  | Nature du prélèvement d'origine (Sain ou Tumoral) |  |
-| BiologicalSample | StorageTemperature | Mode de conservation | C60 | [MIABIS-43/MIABIS-2.0-15](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43__miabis-20-15) | Le mode de conservation |  |
+| BiologicalSample | SampleNature | Nature de l'échantillon | C58 | [MIABIS-41](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-41) | La nature de l'échantillon |  |
+| BiologicalSample | SampleOrigin | Nature du prélèvement (tumoral / sain) | C59 | [MIABIS-41](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-41) | Nature du prélèvement d'origine (Sain ou Tumoral) |  |
+| BiologicalSample | StorageTemperature | Mode de conservation | C60 | [MIABIS-43](https://github.com/ylaizet/OSIRIS/blob/master/docs/ConceptualDomain/ConceptualDomain.md#miabis-43) | Le mode de conservation |  |
 | BiologicalSample | TumorCellularity | % de cellules tumorales | C61 |  | Le pourcentage de cellules tumorales quantifié dans l'échantillon |  |
 
 # OMIC

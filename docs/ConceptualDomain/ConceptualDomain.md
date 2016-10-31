@@ -83,13 +83,13 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| ICD-O-3-TOPO | cf. ICD-O-3-TOPO | CIM-O-3 Topo |  | CIM-O-3 Topo | Enumerated | String | C17 | CancerHistory | TopographyCode | Code Localisation | Code international de la localisation de l'antécédent carcinologique |
+| ICD-O-3-TOPO | cf. ICD-O-3-TOPO | CIM-O-3 Topo | http://codes.iarc.fr/topography | CIM-O-3 Topo | Enumerated | String | C17 | CancerHistory | TopographyCode | Code Localisation | Code international de la localisation de l'antécédent carcinologique |
 
 ## CIM-O-3 Morpho
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| ICD-O-3-MORPHO | cf. ICD-O-3-MORPHO | CIM-O-3 Morpho |  | CIM-O-3 Morpho | Enumerated | String | C18 | CancerHistory | MorphologyCode | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
+| ICD-O-3-MORPHO | cf. ICD-O-3-MORPHO | CIM-O-3 Morpho | http://codes.iarc.fr/codegroup/2 | CIM-O-3 Morpho | Enumerated | String | C18 | CancerHistory | MorphologyCode | Code Morphologie / Lésion | Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique |
 
 ## OSIRIS:CancerHistoryType
 
@@ -102,7 +102,7 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| ?? | Neoplasm | UMLS |  | OSIRIS:EventType | Enumerated | String | C20 | TumorPathologyEvent | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
+| UMLS:C1882062  | Neoplasm | UMLS |  | OSIRIS:EventType | Enumerated | String | C20 | TumorPathologyEvent | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
 | UMLS:C2939419 | Secondary Neoplasm | UMLS |  | OSIRIS:EventType | Enumerated | String | C20 | TumorPathologyEvent | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
 | UMLS:C0521158 | Recurrent tumor | UMLS |  | OSIRIS:EventType | Enumerated | String | C20 | TumorPathologyEvent | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
 | UMLS:C0677930 | primary tumor | UMLS |  | OSIRIS:EventType | Enumerated | String | C20 | TumorPathologyEvent | Type | Type | Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique). |
@@ -193,13 +193,13 @@
 | UMLS:C3665472 | Chemotherapy | UMLS |  | OSIRIS:TreatmentType | Enumerated | String | C41 | Treatment | Type | Type | Type de traitement |
 | UMLS:C0279025 | Hormone Therapy | UMLS |  | OSIRIS:TreatmentType | Enumerated | String | C41 | Treatment | Type | Type | Type de traitement |
 | UMLS:C1522449 | Therapeutic radiology procedure | UMLS |  | OSIRIS:TreatmentType | Enumerated | String | C41 | Treatment | Type | Type | Type de traitement |
-| UMLS:C0728940 | Excision | UMLS |  | OSIRIS:TreatmentType | Enumerated | String | C41 | Treatment | Type | Type | Type de traitement |
+| UMLS:C0728940 | Surgery | UMLS |  | OSIRIS:TreatmentType | Enumerated | String | C41 | Treatment | Type | Type | Type de traitement |
 
 ## CCAM
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | CCAM |  | CCAM | Enumerated | String | C42 | Treatment | ActivityCode | Acte | Code CCAM de l'acte |
+| CCAM | cf. CCAM | CCAM | http://www.ameli.fr/accueil-de-la-ccam/index.php | CCAM | Enumerated | String | C42 | Treatment | ActivityCode | Acte | Code CCAM de l'acte |
 
 ## OSIRIS:SurgeryResection
 
@@ -213,59 +213,154 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C51 | Drug | Code | Code molécule | Code de la classification thérapeutique |
-|  |  | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C52 | Drug | DrugName | Nom de la molécule | Nom de la molécule |
+| ATC | cf. ATC | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C51 | Drug | Code | Code molécule | Code de la classification thérapeutique |
+| ATC | cf. ATC | ATC 5e niveau |  | ATC 5e niveau | Enumerated | String | C52 | Drug | DrugName | Nom de la molécule | Nom de la molécule |
 
 ## MIABIS-39
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-40 |  | MIABIS-39 | nonEnumerated | String | C53 | BiologicalSample | SampleId | Id unique de l'échantillon | Identifiant du prélèvement (père) dans le centre |
+| MIABIS-39 | cf. MIABIS-39 | MIABIS-39 | https://github.com/MIABIS/miabis/wiki/Data-describing-Sample | MIABIS-39 | nonEnumerated | String | C53 | BiologicalSample | SampleId | Id unique de l'échantillon | Identifiant du prélèvement (père) dans le centre |
 
 ## MIABIS-40
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-39 |  | MIABIS-40 | nonEnumerated | String | C54 | BiologicalSample | ParentSampleId | Identifiant unique de l'échantillon parent | Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...) |
+| MIABIS-40 | cf. MIABIS-40 | MIABIS-40 | https://github.com/MIABIS/miabis/wiki/Data-describing-Sample | MIABIS-40 | nonEnumerated | String | C54 | BiologicalSample | ParentSampleId | Identifiant unique de l'échantillon parent | Identifiant de l'échantillon dérivé (ADN, ARN, protéine,...) |
 
 ## MIABIS-43
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-|  |  | MIABIS-43 |  | MIABIS-43 | nonEnumerated | Date | C56 | BiologicalSample | CollectDate | Date du prélèvement | Date du prélèvement |
+| MIABIS-43 | cf. MIABIS-43 | MIABIS-43 | https://github.com/MIABIS/miabis/wiki/Data-describing-Sample | MIABIS-43 | nonEnumerated | Date | C56 | BiologicalSample | CollectDate | Date du prélèvement | Date du prélèvement |
+
+## MIABIS-41
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| MIABIS-41 | cf. MIABIS-41 | MIABIS-41/MIABIS-2.0-14 | https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type | MIABIS-41 | Enumerated | String | C58 | BiologicalSample | SampleNature | Nature de l'échantillon | La nature du contenu |
+| MIABIS-41 | cf. MIABIS-41 | MIABIS-41/MIABIS-2.0-14 | https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type | MIABIS-41 | Enumerated | String | C59 | BiologicalSample | SampleOrigin | Nature du prélèvement (tumoral / sain) | Le type de dérivé |
 
 # OMIC
 ---
+
+## OSIRIS:TechnicalProtocol
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O6-1 | ChIP-on-Chip | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-2 | ChIP-seq | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-3 | DNA microarray | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-4 | DNA targeted panel sequencing | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-5 | Exome sequencing | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-6 | Mass spectrometry | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-7 | MeDIP-Chip | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-8 | MeDIP-seq | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-9 | Methylation microarray | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-10 | RNA microarray | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-11 | RNA targeted panel sequencing | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-12 | RNA-seq | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-13 | RPPA | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-14 | Whole genome bisulfite sequencing | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-15 | Whole genome sequencing | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+| OSIRIS:O6-16 | miRNA microarray | OSIRIS |  | OSIRIS:TechnicalProtocol | Enumerated | String | O6 | Technology | TechnicalProtocol | TechnicalProtocol | Protocol used for the experiment |
+
+## OSIRIS:PlatformName
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:PlatformName | Enumerated | String | O7 | Technology | PlatformName | PlatformName | Technological platform name (provider followed by the platform name) |
+
+## OSIRIS:PlatformAccession
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:PlatformAccession | nonEnumerated | String | O8 | Technology | PlatformAccession | PlatformAccession | GEO Identifier of the platform |
+
+## OSIRIS:DateOfExperiment
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:DateOfExperiment | nonEnumerated | Date | O9 | Technology | DateOfExperiment | DateOfExperiment | Date when the experiment was performed |
+
+## OSIRIS:PanelName
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O10-0 | Not applicable | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-1 | Ion AmpliSeq Cancer Hotspot Panel v2 | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-2 | Ion AmpliSeq Colon and Lung Cancer Research Panel v2 | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-3 | Ion AmpliSeq Comprehensive Cancer Panel | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-4 | Ion AmpliSeq Oncomine Comprehensive Assay | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-5 | Ion AmpliSeq Oncomine Focus Assay | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-6 | Ion AmpliSeq TP53 Research Panel | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-7 | Lyric: Ion AmpliSeq Profiler | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-8 | QIAGEN GeneRead DNAseq Targeted Panels V2 | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+| OSIRIS:O10-9 | SAFIR02 Panel | OSIRIS |  | OSIRIS:PanelName | Enumerated | String | O10 | Panel | PanelName | PanelName | Name of the panel targeted by the experimental analysis (provider + name) |
+
+## OSIRIS:AnalyticPipelineCode
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:AnalyticPipelineCode | nonEnumerated | String | O11 | Analysis | AnalyticPipelineCode | AnalyticPipelineCode | Identifier of the pipeline used into the analysis (unique in the center) |
+
+## OSIRIS:AlgorithmicCellularity
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:AlgorithmicCellularity | nonEnumerated | Integer | O12 | Experiment on specimen | AlgorithmicCellularity | AlgorithmicCellularity | Calculated percentage of tumor cells in sample |
+
+## OSIRIS:AlgorithmicPloïdy
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O13-1 | Haploid | OSIRIS |  | OSIRIS:AlgorithmicPloïdy | Enumerated | String | O13 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | Calculated number of sets of chromosomes in a cell of the sample |
+| OSIRIS:O13-2 | Diploid | OSIRIS |  | OSIRIS:AlgorithmicPloïdy | Enumerated | String | O13 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | Calculated number of sets of chromosomes in a cell of the sample |
+| OSIRIS:O13-3 | Triploid | OSIRIS |  | OSIRIS:AlgorithmicPloïdy | Enumerated | String | O13 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | Calculated number of sets of chromosomes in a cell of the sample |
+| OSIRIS:O13-4 | Tetraploid | OSIRIS |  | OSIRIS:AlgorithmicPloïdy | Enumerated | String | O13 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | Calculated number of sets of chromosomes in a cell of the sample |
+| OSIRIS:O13-0 | Not available | OSIRIS |  | OSIRIS:AlgorithmicPloïdy | Enumerated | String | O13 | Experiment on specimen | AlgorithmicPloïdy | AlgorithmicPloïdy | Calculated number of sets of chromosomes in a cell of the sample |
+
+## OSIRIS:NumberOfBreakPoints
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:NumberOfBreakPoints | nonEnumerated | Integer | O14 | Experiment on specimen/CpyNb Quality filter | NumberOfBreakPoints | NumberOfBreakPoints | Calculated number of break points in genomic profile |
 
 ## OSIRIS:AlterationType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Gene expression | Gene expression | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Protein expression | Protein expression | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Fusion | Fusion | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Copy number variation | Copy number variation | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Genetic variant | Genetic variant | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Structural alteration | Structural alteration | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Transcription factor | Transcription factor | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Histone marks | Histone marks | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Transcript isoform | Transcript isoform | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
-| Viral insertion site | Viral insertion site | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-1 | Gene expression | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-2 | Protein expression | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-3 | Fusion | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-4 | Copy number variation | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-5 | Genetic variant | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-6 | Structural alteration | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-7 | Transcription factor | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-8 | Histone marks | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-9 | Transcript isoform | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
+| OSIRIS:O15-10 | Viral insertion site | OSIRIS |  | OSIRIS:AlterationType | Enumerated | String | O15 | Alteration | AlterationType | AlterationType | General type of the detected genetic alteration (high level type) |
 
 ## OSIRIS:ValidationType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Experimental | Experimental | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
-| By biologist | By biologist | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
-| In silico | In silico | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+| OSIRIS:O15-11 | Experimental | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+| OSIRIS:O15-12 | By biologist | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+| OSIRIS:O15-13 | In silico | OSIRIS |  | OSIRIS:ValidationType | Enumerated | String | O16 | Alteration | ValidationType | ValidationType | Type of validation of the detected alteration |
+
+## OSIRIS:ValidationMethod
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:ValidationMethod | nonEnumerated | String | O17 | Validation | ValidationMethod | ValidationMethod | Validation method depending on the type of validation |
 
 ## OSIRIS:ValidationStatus
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| Not Validated | Not Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
-| Validated | Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
+| OSIRIS:O18-1 | Not Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
+| OSIRIS:O18-2 | Validated | OSIRIS |  | OSIRIS:ValidationStatus | Enumerated | String | O18 | Validation | ValidationStatus | ValidationStatus | Validation status of the detected alteration |
 
 ## OSIRIS:Chromosome
 
@@ -295,9 +390,9 @@
 | LA21275-5 | chr22 | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 | LA21276-3 | chrX | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 | LA21277-1 | chrY | OSIRIS | http://r.details.loinc.org/AnswerList/LL2938-0.html | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| MT | MT | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| viral | viral | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
-| bacterial | bacterial | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| OSIRIS:O19-1 | MT | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| OSIRIS:O19-2 | viral | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
+| OSIRIS:O19-3 | bacterial | OSIRIS |  | OSIRIS:Chromosome | Enumerated | String | O19 | Alteration | Chromosome | Chromosome | Chromosome containing the genetic finding |
 
 ## FHIR:extension-geneticsGenomicStart
 
@@ -315,27 +410,27 @@
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| GRCh37 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
-| GRCh38 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+| OSIRIS:O22-1 | GRCh37 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
+| OSIRIS:O22-2 | GRCh38 | FHIR (HL7) | https://www.hl7.org/fhir/extension-geneticsgenomebuild.html | FHIR:extension-geneticsGenomeBuild | Enumerated | String | O22 | Alteration | GenomeBuild | GenomeBuild | Genome Build used for reference |
 
 ## OSIRIS:GenomeEntityType
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| gene | gene | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| miRNA | miRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| piRNA | piRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| mRNA | mRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| ncRNA | ncRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
-| ORF | ORF | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-1 | gene | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-2 | miRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-3 | piRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-4 | mRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-5 | ncRNA | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
+| OSIRIS:O24-6 | ORF | OSIRIS |  | OSIRIS:GenomeEntityType | Enumerated | String | O24 | Genome entity | GenomeEntityType | GenomeEntityType | Type of the genome entity. For eg: gene, mRNA, ncRNA... |
 
 ## OSIRIS:GenomeEntityDatabase
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| HGNC | HGNC | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
-| miRDB | miRDB | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
-| Entrez | Entrez | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+| OSIRIS:O25-1 | HGNC | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+| OSIRIS:O25-2 | miRDB | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
+| OSIRIS:O25-3 | Entrez | OSIRIS |  | OSIRIS:GenomeEntityDatabase | Enumerated | String | O25 | Genome entity | GenomeEntityDatabase | GenomeEntityDatabase | Database of the genome entity |
 
 ## FHIR:extension-observation-geneticsGene
 
@@ -354,7 +449,19 @@
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 | LA26331-1 | translocation | LOINC | http://r.details.loinc.org/LOINC/81289-1.html | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
-| readthrough | readthrough | OSIRIS |  | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
+| OSIRIS:O28-1 | readthrough | OSIRIS |  | OSIRIS:FusionType | Enumerated | String | O28 | Fusion | FusionType | FusionType | Type of the fusion event. For eg: translocation, readthrough |
+
+## OSIRIS:FusionTranscript
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionTranscript | nonEnumerated | Boolean | O29 | Fusion | FusionTranscript | FusionTranscript | Have been found from a fusion transcript ? |
+
+## OSIRIS:FusionTranscriptReference
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionTranscriptReference | nonEnumerated | String | O30 | Fusion | FusionTranscriptReference | FusionTranscriptReference | Accession number of observed fusion |
 
 ## FHIR:extension-observation-geneticsDNARegionName
 
@@ -368,13 +475,91 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html | FHIR:extension-observation-geneticsTranscriptReferenceSequenceId | nonEnumerated | String | O33 | Fusion | FusionTranscriptReferenceSequenceId5prime | FusionTranscriptReferenceSequenceId5prime | Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL. |
 
+## OSIRIS:FusionStrand5prime
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionStrand5prime | nonEnumerated | String | O34 | Fusion | FusionStrand5prime | FusionStrand5prime | Strand of the 5 prime fusion partner |
+
+## OSIRIS:FusionPoint5prime
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionPoint5prime | nonEnumerated | String | O35 | Fusion | FusionPoint5prime | FusionPoint5prime | Position of the fusion point on the 5 prime partner |
+
+## OSIRIS:FusionStrand3prime
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionStrand3prime | nonEnumerated | String | O39 | Fusion | FusionStrand3prime | FusionStrand3prime | Strand of the 3 prime fusion partner |
+
+## OSIRIS:FusionPoint3prime
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionPoint3prime | nonEnumerated | Integer | O40 | Fusion | FusionPoint3prime | FusionPoint3prime | Position of the fusion point on the 3 prime partner |
+
+## OSIRIS:FusionInFrame
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionInFrame | nonEnumerated | Boolean | O41 | Fusion | FusionInFrame | FusionInFrame | Specify whether the fusion is in frame |
+
 ## OSIRIS:FusionAnnotationReferentiel
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| ChimerDb | ChimerDb | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
-| Oncofuse | Oncofuse | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
-| Mittelman DB | Mittelman DB | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+| OSIRIS:O42-1 | ChimerDb | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+| OSIRIS:O42-2 | Oncofuse | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+| OSIRIS:O42-3 | Mittelman DB | OSIRIS |  | OSIRIS:FusionAnnotationReferentiel | Enumerated | String | O42 | Fusion Analysis | FusionAnnotationReferentiel | FusionAnnotationReferentiel | Reference database to annotate the fusion |
+
+## OSIRIS:FusionAnnotationValue
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionAnnotationValue | nonEnumerated | String | O43 | Fusion Analysis | FusionAnnotationValue | FusionAnnotationValue | Annotation of the fusion |
+
+## OSIRIS:FusionNbSpanningPair
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionNbSpanningPair | nonEnumerated | Integer | O44 | Fusion/QualityFilter | FusionNbSpanningPair | FusionNbSpanningPair | Number of reads pairs spanning the fusion |
+
+## OSIRIS:FusionNbSpanningReads
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:FusionNbSpanningReads | nonEnumerated | Integer | O45 | Fusion/QualityFilter | FusionNbSpanningReads | FusionNbSpanningReads | Number of reads spanning the fusion |
+
+## OSIRIS:SegmentIntensity
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:SegmentIntensity | nonEnumerated | Float | O47 | Segment copy number | SegmentIntensity | SegmentIntensity | Intensity of the measured signal |
+
+## OSIRIS:SegmentGenomicStatus
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O49-1 | Amplification | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-2 | Gain | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-3 | Normal | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-4 | Heretozygous deletion | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-5 | Homozygous deletion | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-6 | Copy neutral | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+| OSIRIS:O49-7 | Isodisomy | OSIRIS |  | OSIRIS:SegmentGenomicStatus | Enumerated | String | O49 | Segment copy number | SegmentGenomicStatus | SegmentGenomicStatus | Copy number status |
+
+## OSIRIS:CopyNumber
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:CopyNumber | nonEnumerated | Integer | O50 | Segment copy number | CopyNumber | CopyNumber | Estimated DNA copy number |
+
+## OSIRIS:LossOfHeterozygosity
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:LossOfHeterozygosity | nonEnumerated | Boolean | O51 | Segment LOH | LossOfHeterozygosity | LossOfHeterozygosity | Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information |
 
 ## FHIR:Sequence.referenceAllele
 
@@ -398,11 +583,69 @@
 | LA6689-9 | Inversion | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 | LA6690-7 | Substitution | LOINC | http://r.details.loinc.org/LOINC/48019-4.html | LOINC:48019-4 | Enumerated | String | O55 | Reference variant | DNASequenceVariationType | DNASequenceVariationType | Codified type of the DNA sequence variation |
 
+## OSIRIS:VariationDatabase
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:VariationDatabase | Enumerated | String | O56 | Reference variant | VariationDatabase | VariationDatabase | Name of the variation database |
+
+## OSIRIS:VariationId
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:VariationId | nonEnumerated | String | O57 | Reference variant | VariationId | VariationId | Identifier for variant in the variation database |
+
+## OSIRIS:PfamDomain
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:PfamDomain | nonEnumerated | String | O58 | Reference variant | PfamDomain | PfamDomain | Pfams domains related to alteration position |
+
+## OSIRIS:PfamId
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:PfamId | nonEnumerated | String | O59 | Reference variant | PfamId | PfamId | Identifier of Pfams domains related to alteration position |
+
+## OSIRIS:MutationPredictionAlgorithm
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O63-1 | SIFT | OSIRIS |  | OSIRIS:MutationPredictionAlgorithm | Enumerated | String | O63 | Reference variant | MutationPredictionAlgorithm | MutationPredictionAlgorithm | Algorithm to predict the variation effect over the protein |
+| OSIRIS:O63-2 | POLYPHEN2_HDIV | OSIRIS |  | OSIRIS:MutationPredictionAlgorithm | Enumerated | String | O63 | Reference variant | MutationPredictionAlgorithm | MutationPredictionAlgorithm | Algorithm to predict the variation effect over the protein |
+
+## OSIRIS:MutationPredictionValue
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:MutationPredictionValue | nonEnumerated | String | O64 | Reference variant | MutationPredictionValue | MutationPredictionValue | Prediction of the variation effect over the protein |
+
+## OSIRIS:MutationPredictionScore
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:MutationPredictionScore | nonEnumerated | Float | O65 | Reference variant | MutationPredictionScore | MutationPredictionScore | Level of confidence of the prediction of the variation effect over the protein |
+
+## OSIRIS:ProteinReferenceDatabase
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O67-1 | RefSeq | OSIRIS |  | OSIRIS:ProteinReferenceDatabase | Enumerated | String | O67 | Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | Name of the protein reference database |
+| OSIRIS:O67-2 | SwissProt | OSIRIS |  | OSIRIS:ProteinReferenceDatabase | Enumerated | String | O67 | Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | Name of the protein reference database |
+| OSIRIS:O67-3 | UniProt | OSIRIS |  | OSIRIS:ProteinReferenceDatabase | Enumerated | String | O67 | Protein | ProteinReferenceDatabase | ProteinReferenceDatabase | Name of the protein reference database |
+
 ## FHIR:extension-observation-geneticsProteinReferenceSequenceId
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsproteinreferencesequenceid.html | FHIR:extension-observation-geneticsProteinReferenceSequenceId | nonEnumerated | String | O68 | Protein | ProteinReferenceSequenceId | ProteinReferenceSequenceId | Reference identifier of the protein transcript |
+
+## OSIRIS:TranscriptReferenceDatabase
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O69-1 | RefSeq | OSIRIS |  | OSIRIS:TranscriptReferenceDatabase | Enumerated | String | O69 | Exonic variant | TranscriptReferenceDatabase | TranscriptReferenceDatabase | Name of the sequence reference database |
+| OSIRIS:O69-2 | Ensembl | OSIRIS |  | OSIRIS:TranscriptReferenceDatabase | Enumerated | String | O69 | Exonic variant | TranscriptReferenceDatabase | TranscriptReferenceDatabase | Name of the sequence reference database |
 
 ## FHIR:extension-observation-geneticsDNASequenceVariation
 
@@ -416,20 +659,51 @@
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
 |  |  | FHIR | http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html | FHIR:extension-observation-geneticsAminoAcidChange | nonEnumerated | String | O72 | Exonic variant | AminoAcidChange | AminoAcidChange | HGVS nomenclature on the chosen protein transcript |
 
-## LOINC:48006-1
+## OSIRIS:GenomicSequenceVariation
 
 | ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
 | ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
-| LA6692-3 | Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6686-5 | Duplication | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6694-9 | Frameshift | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6695-6 | Initiating Methionine | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6687-3 | Insertion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA9659-9 | Insertion and Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6698-0 | Missense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6699-8 | Nonsense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6700-4 | Silent | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
-| LA6701-2 | Stop Codon Mutation | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | LOINC:48006-1 | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+|  |  | OSIRIS |  | OSIRIS:GenomicSequenceVariation | nonEnumerated | String | O73 | Exonic variant | GenomicSequenceVariation | GenomicSequenceVariation | HGVS nomenclature on the given GenomeReferenceSequenceId. |
+
+## OSIRIS:RNASequenceVariation
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:RNASequenceVariation | nonEnumerated | String | O74 | Exonic variant | RNASequenceVariation | RNASequenceVariation | HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA. |
+
+## OSIRIS:AminoAcidChangeType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| LA6692-3 | Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6686-5 | Duplication | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6694-9 | Frameshift | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6695-6 | Initiating Methionine | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6687-3 | Insertion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA9659-9 | Insertion and Deletion | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6698-0 | Missense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6699-8 | Nonsense | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6700-4 | Silent | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| LA6701-2 | Stop Codon Mutation | LOINC | http://r.details.loinc.org/LOINC/48006-1.html | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+| OSIRIS:O75-1 | In frame | OSIRIS |  | OSIRIS:AminoAcidChangeType | Enumerated | String | O75 | Exonic variant | AminoAcidChangeType | AminoAcidChangeType | HGVS nomenclature of changes at protein-level |
+
+## OSIRIS:PositionCoverage
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:PositionCoverage | nonEnumerated | Integer | O76 | Variant in specimen | PositionCoverage | PositionCoverage | Total coverage at the variant position observed in the specimen |
+
+## OSIRIS:VariantCoverage
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:VariantCoverage | nonEnumerated | Integer | O77 | Variant in specimen | VariantCoverage | VariantCoverage | Coverage of the alternative allele at the variant position observed in the specimen |
+
+## OSIRIS:StrandBias
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:StrandBias | nonEnumerated | Boolean | O78 | Variant in specimen | StrandBias | StrandBias | Indication of the existence of strand bias at the variant position |
 
 ## LOINC:LL378-1
 
@@ -449,3 +723,48 @@
 | LA6705-3 | Homozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 | LA6706-1 | Heterozygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
 | LA6707-9 | Hemizygous | LOINC | http://s.details.loinc.org/LOINC/53034-5.html | LOINC:LL381-5 | Enumerated | String | O80 | Variant in specimen | AllelicState | AllelicState | Level of allelic occurrence of a DNA Sequence Variation |
+
+## ACMG
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O81-1 | Pathogenic | ACMG |  | ACMG | Enumerated | String | O81 | Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+| OSIRIS:O81-2 | Likely pathogenic | ACMG |  | ACMG | Enumerated | String | O81 | Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+| OSIRIS:O81-3 | Benign | ACMG |  | ACMG | Enumerated | String | O81 | Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+| OSIRIS:O81-4 | Likely benign | ACMG |  | ACMG | Enumerated | String | O81 | Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+| OSIRIS:O81-5 | Uncertain significance | ACMG |  | ACMG | Enumerated | String | O81 | Variant in specimen | MolecularTumorBoardConclusion | MolecularTumorBoardConclusion | Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board |
+
+## OBI
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O82-1 | Actionable | OSIRIS |  | OBI | Enumerated | String | O82 | Variant in specimen | ClinicalTumorBoardConclusion | ClinicalTumorBoardConclusion | Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board |
+| OSIRIS:O82-2 | Non actionable | OSIRIS |  | OBI | Enumerated | String | O82 | Variant in specimen | ClinicalTumorBoardConclusion | ClinicalTumorBoardConclusion | Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board |
+|  |  | OSIRIS |  | OBI | nonEnumerated | Boolean | O83 | Variant in specimen | ProposedForOrientation | ProposedForOrientation | Is the ClinicalTumorBoardConclusion used to orient the treatment decision ? |
+
+## OSIRIS:ExpressionDataType
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+| OSIRIS:O84-1 | RawExpression | OSIRIS |  | OSIRIS:ExpressionDataType | Enumerated | String | O84 | Gene expression | ExpressionDataType | ExpressionDataType | Type of the expression value corresponding to the level of data processing |
+| OSIRIS:O84-2 | NormalizedExpression | OSIRIS |  | OSIRIS:ExpressionDataType | Enumerated | String | O84 | Gene expression | ExpressionDataType | ExpressionDataType | Type of the expression value corresponding to the level of data processing |
+
+## OSIRIS:ExpressionValue
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:ExpressionValue | nonEnumerated | Float | O85 | Gene expression | ExpressionValue | ExpressionValue | Numerical value for expression |
+
+## OSIRIS:ExpressionPvalueAdjustmentMethod
+
+| ValueMeaning | LabelValueMeaning | Referentiel | url | ConceptualDomain | TypeConceptualDomain | FormatConceptualDomain | IdDataElementConcept | ObjectClass | ObjectProperty | DataElementConcept | DefDataElementConcept |
+| ------------ | ----------------- | ----------- | --- | ---------------- | -------------------- | ---------------------- | -------------------- | ----------- | -------------- | ------------------ | --------------------- |
+|  |  | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | nonEnumerated | Float | O86 | Gene expression | ExpressionPvalue | ExpressionPvalue | p-value of the dataset comparison through a statistical method |
+| OSIRIS:O87-0 | no correction | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-1 | bonferroni | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-2 | holm | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-3 | hochberg | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-4 | hommel | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-5 | BY | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-6 | BH | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
+| OSIRIS:O87-7 | fdr | OSIRIS |  | OSIRIS:ExpressionPvalueAdjustmentMethod | Enumerated | String | O87 | Gene expression | ExpressionPvalueAdjustmentMethod | ExpressionPvalueAdjustmentMethod | Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel |
